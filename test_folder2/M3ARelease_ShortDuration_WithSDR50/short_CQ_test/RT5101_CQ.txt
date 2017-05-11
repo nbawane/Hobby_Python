@@ -1,0 +1,1217 @@
+13:00:31: Sata Disconnector Board found in COM1.
+13:00:35: ***************************************************** 
+
+13:00:35: *  SDR/USD Driver version '10.0.0.1 (0x a.0.0.1)'   * 
+
+13:00:35: *                                                   * 
+
+13:00:35: *  Compatibility with this version is not verified! * 
+
+13:00:35: ***************************************************** 
+
+13:00:37: [ DeviceSetupCompletion() , Command count = 7 ] 
+13:00:38: Testname Mapping: ScriptName=[RT5101_DVT_SD_chapter5_50_1_Random_tests] -> TestId=[RT5101]
+13:00:38: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 8 ] 
+13:00:38: [ GetPhysicalChipsInfo() , Command count = 9 ] 
+13:00:38: [ GetFileSize(0xEA) , Command count = 10 ] 
+13:00:38: [ ReadFile(<0xA00/0x200, Arb>, 0xEA, 0x1) , Command count = 11 ] 
+13:00:38: [ GetFileSize(0x16) , Command count = 12 ] 
+13:00:38: [ GetCardStatus() , Command count = 13 ] 
+13:00:38: [ GetFileSize(0x18) , Command count = 14 ] 
+13:00:38: [ ReadFile(<0x1000/0x200, Arb>, 0x18, 0x8) , Command count = 15 ] 
+13:00:38: [ GetFileSize(0x15) , Command count = 16 ] 
+13:00:38: [ ReadFile(<0x1000/0x200, Arb>, 0x15, 0x1) , Command count = 17 ] 
+13:00:40: Can not find revision of File 21 in file 'config.xml' or card is in the ROM mode
+13:00:40: [ GetFileSize(0xE) , Command count = 18 ] 
+13:00:40: [ ReadFile(<0x1000/0x200, Arb>, 0xE, 0x1) , Command count = 19 ] 
+13:00:40: [ GetFileSize(0x1E) , Command count = 20 ] 
+13:00:40: [ GetCardStatus() , Command count = 21 ] 
+13:00:40: [ GetFileSize(0x21) , Command count = 22 ] 
+13:00:40: [ GetCardStatus() , Command count = 23 ] 
+13:00:40: [ GetFileSize(0x33) , Command count = 24 ] 
+13:00:40: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x33, 0x1) , Command count = 25 ] 
+13:00:40: [ GetFileSize(0x1F) , Command count = 26 ] 
+13:00:40: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x1F, 0x1) , Command count = 27 ] 
+13:00:40: [ GetFileSize(0x2A) , Command count = 28 ] 
+13:00:40: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x2A, 0x1) , Command count = 29 ] 
+13:00:40: [ ReadCfgConf(<0x1000/0x200, Spc, pat:0x0>, 0x1) , Command count = 30 ] 
+13:00:40: [ ReadFirmwareParameter(<0x1000/0x200, Spc, pat:0x0>, 0x2) , Command count = 31 ] 
+13:00:40: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_BE) , Command count = 32 ] 
+13:00:40: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_PRODUCT) , Command count = 33 ] 
+13:00:40: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_FE_SD) , Command count = 34 ] 
+13:00:40: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, 0x0) , Command count = 35 ] 
+13:00:40: [ GetFileSize(0x33) , Command count = 36 ] 
+13:00:40: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 37 ] 
+13:00:40: [ GetFileSize(0x33) , Command count = 38 ] 
+13:00:40: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 39 ] 
+13:00:40: [ GetIpVersionInfo() , Command count = 40 ] 
+13:00:40: [ GetPhysicalChipsInfo() , Command count = 41 ] 
+13:00:40: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x061023C0>, <0x200/0x200, Arb>) , Command count = 42 ] 
+13:00:41: [ SendDiagnostic(<0x200/0x200, Spc, pat:0x0>, [0x9A, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], 0x0, 0x1) , Command count = 43 ] 
+
+<<<<<<<<<<<<<<<         TEST HEADER          >>>>>>>>>>>>>>>
+
+Application                :  TestRunner.py
+Application version        :  SD_DVT_CQ_Spec 6.0.0
+Application folder         :  C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT
+Command line               :  --protocol=sd --sdtestid=RT5101 --dbconnection=none --adapter=SD05412_9ADT --sdConfiguration=SDR50 --projectconfig=C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB --paramsfile=C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB\Colibri_SD_HC_I059_SDR104_Prem_C10_U1.txt --logfilename=C:\Results\RT5101_CQ.txt --CQ=1
+Protocol                   :  sd
+Serial number (CInfo)      :  sdin1091
+Adapter                    :  SDR Tester (S#: SD05412_9ADT): (Slot#:0)
+Adapter serial number      :  SD05412_9ADT
+Adapter type               :  USD
+Capacity                   :  32G
+Firmware revision          :  6RB C030
+Flashware revision         :  6RB C030
+IP Version Info            :  '' 01.04.00... ID 0x20
+                           :  '' 00.01.00... ID 0x10
+Memory ID                  :  453CA9A27A510B140000000000000000
+Controller                 :  81
+Trim settings              :  <Unavailable>
+Model revision             :  <Unavailable>
+Stream name                :  <Unavailable>
+FE IP                      :  1
+Romware revision           :  RRBZ1152
+Architecture               :  Gen 6
+Model                      :  SanDisk   COLIBRI
+Memory type                :  Unknown Device Type-2LC x 1
+ASIC id                    :  81
+Controller type            :  Unknown Controller   UMC-J
+Driver version (actual)    :  10.0.0.1 (0x a.0.0.1)
+Driver version (released)  :  7.1.4.3 (0x 7.1.4.3)
+Date and time              :  2016-11-29 13:00:40
+Host name                  :  SDDVT_Test2
+Host IP address            :  10.65.153.121
+Operating system           :  Microsoft Windows [Version 6.1.7601] Service Pack 1
+SanDisk Python version     :  1.17.5rc3
+CTF/PySFCL build number    :  1.3.217491.217491
+PySFCL version             :  1.3.217491
+CTF version                :  1.3
+Python version             :  2.4.2
+Project Name(Validation)   :  <None>
+
+
+<<<<<<<<<<<<<<<      SFCL CONFIGURATION      >>>>>>>>>>>>>>>
+
+[SD enumeration]
+cmdtiming=0
+useRelay=0
+autocompare=0
+relayPolarity=1
+relaySleep=500
+measureCmdLatency=1
+logicalChunkSize=0
+diagDisabled=0
+diagCmdTimeout=800
+useVddf=on
+nethostloglevel=
+nethostautoCompare=on
+CmdManShowProgress=off
+nethostsendtimeout=240000
+nethostreceivetimeout=240000
+countOfRetryCmdIfCrc=3
+enableOORPatch=
+lbaForSctpCommands=0x100
+subProtocol=0
+doDle=0
+diagnosticChunkSize=128
+logmsgformat=timeMessage
+logtimeformat=time
+relaySlot=0
+unloadDll=on
+hardTimeoutUnloadDll=on
+minDuration=7200
+remoteDevice=
+skipProduction=0
+ishighspeedmode=0
+highfreqinhz=500
+modeldelaytimeindiagnostic=0
+cqDataTransferPollingShortInterval=1000
+cqDataStatusPollingLongInterval=1800000
+sataPort0ToRelaySlot=0
+sataPort1ToRelaySlot=0
+sataPort2ToRelaySlot=0
+sataPort3ToRelaySlot=0
+relayToComportMapping=1
+sdbToComportMapping=1
+sataAdapterPort0=0
+sataAdapterPort1=0
+sataAdapterPort2=0
+sataAdapterPort3=0
+sataPort0ToMubIndx=1
+sataPort1ToMubIndx=1
+sataPort2ToMubIndx=1
+sataPort3ToMubIndx=1
+
+[Common]
+enableChunkTraces=off
+enablePythonTraceback=1
+sctpPhaseDelay=0
+printcommandcount=on
+debugfilepath=
+initXMLPath=\\regression.lab.sandisk.com\shared\configurations
+delayBeforePwrCycle=0
+delayAfterPwrCycle=0
+reportCountStatistics=1
+reportPackage=0
+sfclConfig=Common
+
+<<<<<<<<<<<<<<<          CARD INFO           >>>>>>>>>>>>>>>
+
+Number Of LBAs  :  0x3b72400
+Card Is Locked  :  No
+Secure Area     :  0x28000
+Card Secure     :  No
+WP map          :
+
+<<<<<<<<<<<<<<<           CID INFO           >>>>>>>>>>>>>>>
+
+Manufacturer Id  :  0x3
+Card/BGA         :  0
+Application Id   :  0x5344
+ProductName      :  AGGCD
+ProductRev       :  0x80
+SerialNumber     :  0x23482900
+Reserved         :  0x23482900
+Year             :  2000
+Month            :  11
+CRC Check Sum    :  0x5
+Not Used         :
+
+<<<<<<<<<<<<<<<           CSD INFO           >>>>>>>>>>>>>>>
+
+CSD Structure                     :  0x1
+reserv. 1                         :  0x0
+TAAC                              :  0xe
+NSAC*100                          :  0x0
+data transfer rate                :  0x32
+card command classes CCC          :  0x5b5
+max. read data Blk. length        :  0x9
+partial blocks for read allowed   :  0x0
+write block misalignment          :  0x0
+read block misalignment           :  0x0
+DSR implemented                   :  0x0
+reserved 2                        :  0x0
+device size                       :  0xedc8
+Reserv3                           :  0x0
+SD Erase Blk Len En               :  0x1
+SD Sec Size                       :  0x7f
+write protect group size          :  0x0
+write protect group enable        :  0x0
+Reserv4                           :  0x0
+write speed factor                :  0x2
+max. write data blk. length       :  0x9
+partial blocks for write allowed  :  0x0
+File Format Group                 :  0x0
+copy flag(OTP)                    :  0x1
+permanent write protection        :  0x0
+temporary write protection        :  0x0
+File Format                       :  0x0
+CRC                               :  0x0
+<<<<<<<<<<<<<<<         M-CONF INFO          >>>>>>>>>>>>>>>
+
+Max LBA                      :  0x3b9b000
+FW Revision                  :  0x20425236
+Internal Flashware Revision  :
+Romware revision             :  RRBZ1152
+Device Count                 :  0x0
+Device Type                  :  0x0
+Device Configuration         :  0x0
+ASIC id                      :  81
+ASIC Vendor                  :  0x2
+ASIC Revision                :  0x0
+Security                     :  0x0
+File Number                  :  0x0
+File Version                 :  0x0
+File Sign                    :  0x0
+Bot File Version             :  COLB1S5211C0f30r_11UHB05D.
+Param File Version           :  0x70a006a0
+Lot Number                   :  0x0
+Talisman Security Code       :  0x0
+Reserved                     :  0x0
+SNDK Version                 :  0x0
+CRYS Version                 :  0x0
+PDL Version                  :  0x0
+Talisman Security Code       :  0x0
+Memory ID                    :  453CA9A27A510B140000000000000000
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+Set1 Cpu Clock               :
+Set1 Cpu Divider             :
+Set1 Fim Write Clock         :
+Set1 Fim Write Divider       :
+Set1 Fim Read Clock          :
+Set1 Fim Read Divider        :
+Set1 Hs Cpu Clock            :  0
+Set1 Hs Cpu Divider          :  0
+Set1 Hs Ecc Clock            :  0
+Set1 Hs Ecc Divider          :  0
+Set1 Hs Fim Clock            :  0
+Set1 Hs Fim Divider          :  0
+Set1 System Divider          :  0
+Update Blocks                :  0x43
+Chaotic Blocks               :
+Die Interleave               :  0x2
+Lower Page                   :  0x0
+File 31 In User Area         :  0x0
+SSA Version                  :
+App Versions                 :  0x0L
+Top Level IPartNum           :
+Part Number                  :
+Set2 Cpu Clock               :
+Set2 Cpu Divider             :
+Set2 Fim Write Clock         :
+Set2 Fim Write Divider       :
+Set2 Fim Read Clock          :
+Set2 Fim Read Divider        :
+Set2 Hs Cpu Clock            :  0
+Set2 Hs Cpu Divider          :  0
+Set2 Hs Ecc Clock            :  0
+Set2 Hs Ecc Divider          :  0
+Set2 Hs Fim Clock            :  0
+Set2 Hs Fim Divider          :  0
+Set2 System Divider          :  0
+Set3 Cpu Clock               :
+Set3 Cpu Divider             :
+Set3 Fim Write Clock         :
+Set3 Fim Write Divider       :
+Set3 Fim Read Clock          :
+Set3 Fim Read Divider        :
+Set3 Hs Cpu Clock            :  0
+Set3 Hs Cpu Divider          :  0
+Set3 Hs Ecc Clock            :  0
+Set3 Hs Ecc Divider          :  0
+Set3 Hs Fim Clock            :  0
+Set3 Hs Fim Divider          :  0
+Set3 System Divider          :  0
+Set4 Cpu Clock               :
+Set4 Cpu Divider             :
+Set4 Fim Write Clock         :
+Set4 Fim Write Divider       :
+Set4 Fim Read Clock          :
+Set4 Fim Read Divider        :
+Set4 Hs Cpu Clock            :  0
+Set4 Hs Cpu Divider          :  0
+Set4 Hs Ecc Clock            :  0
+Set4 Hs Ecc Divider          :  0
+Set4 Hs Fim Clock            :  0
+Set4 Hs Fim Divider          :  0
+Set4 System Divider          :  0
+Set5 Cpu Clock               :
+Set5 Cpu Divider             :
+Set5 Fim Write Clock         :
+Set5 Fim Write Divider       :
+Set5 Fim Read Clock          :
+Set5 Fim Read Divider        :
+Set5 Hs Cpu Clock            :  0
+Set5 Hs Cpu Divider          :  0
+Set5 Hs Ecc Clock            :  0
+Set5 Hs Ecc Divider          :  0
+Set5 Hs Fim Clock            :  0
+Set5 Hs Fim Divider          :  0
+Set5 System Divider          :  0
+MetaBlockSize                :  32768
+Card Physical Size           :  0
+WORM Card Lock               :  0
+OTEC Version                 :  0
+Meta Page Size               :  192
+Worm Version                 :  0
+
+<<<<<<<<<<<<<<<    COMMAND LINE ARGUMENTS    >>>>>>>>>>>>>>>
+
+
+Processed command-line options:
+   --protocol                                       : sd
+   --adapterspecifier                               : ain:-1,desc:SD05412_9ADT
+   --extcmdset                                      : FBCC
+   --sdtestid                                       : RT5101
+   --sdconfiguration                                : SDR50
+   --cyclecount                                     : 1
+   --testduration                                   : 20h
+   --writereadpercent                               : 100
+   --paramsfile                                     : 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB\Colibri_SD_HC_I059_SDR104_Prem_C10_U1.txt'
+   --randomseed                                     : 105993824051
+   --projectconfig                                  : C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB
+   --logfiledir                                     : C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\DvtTestLogs
+   --hostlog                                        : 0
+   --cq                                             : 1
+   --dbconnection                                   : 'none'
+   --temperature                                    : 25
+   --voltage                                        : 0.00
+   --logfilename                                    : 'C:\Results\RT5101_CQ.txt'
+   --logtostdout                                    : Y
+   --overwriteexistinglogfile                       : Y
+   --logrotationspecifier                           : NoRotation
+   --loglevel                                       : <4, INFO>
+   --testcomment                                    : None
+   --dbproject                                      : CTFW_QA
+   --mdfwprojectid                                  : None
+   --mdconfigid                                     : None
+   --mdtestid                                       : None
+   --valid                                          : True
+   --waitTime                                       : None
+   --jitter                                         : F
+   --testlimits                                     : <None>-<None>
+   --LabID                                          : None
+   --DutID                                          : None
+   --LaunchId                                       : None
+   --TestQueueId                                    : None
+   --xfermode                                       : <N>
+   --networkperiod                                  : <N>
+   --networkpath                                    : <N>
+   --dumpfile                                       : 
+   --printcommandcount                              : N
+   --debugfilepath                                  : <N>
+   --chpfilename                                    : <N>
+   --enablecmdhistory                               : Y
+   --cmdhistextfilename                             : <N>
+   --cmdhistcsvfilename                             : <N>
+   --histdisplaysizes                               : 0,250
+   --stoponcommands                                 : <N>
+   --notifyemailid                                  : <N>
+   --spyoncommands                                  : <N>
+   --notifyoncommands                               : <N>
+   --CmdManShowProgress                             : 'off'
+   --enablePowerCycle                               : '1'
+   --measureCmdLatency                              : '1'
+   --useVddf                                        : 'on'
+   --gvi                                            : 'off'
+   --gviOnFly                                       : 'off'
+   --gviEncryption                                  : '0'
+   --remoteDevice                                   : ''
+   --skipProduction                                 : '0'
+   --forceMultipleMode                              : 'off'
+   --countOfRetryCmdIfCrc                           : '3'
+   --enableOORPatch                                 : 'on'
+   --connectonly                                    : 'off'
+   --nethostautocompare                             : 'on'
+   --nethostpowercycle                              : '0'
+   --nethostloglevel                                : '3'
+   --nethostlogconsole                              : '0'
+   --nethostsanitychecks                            : '0'
+   --nethostsendtimeout                             : '240000'
+   --nethostreceivetimeout                          : '240000'
+   --subProtocol                                    : '0'
+   --useVccq                                        : '3.3'
+   --maxprotocoloverhead                            : '0'
+   --maxprotocoltimingmode                          : '0'
+   --isHighSpeedMode                                : '0'
+   --highFreqInHz                                   : '500'
+   --doDle                                          : '0'
+   --lbaForSctpCommands                             : '0x100'
+   --cmdfilename                                    : ''
+   --cmdtofilewrites                                : '0'
+   --cmdtiming                                      : '0'
+   --cmdtocsv                                       : '0'
+   --logicalChunkSize                               : '0'
+   --diagnosticChunkSize                            : '128'
+   --readChunkSize                                  : '0'
+   --writeChunkSize                                 : '0'
+   --useRelay                                       : '0'
+   --sataPort0ToRelaySlot                           : '0'
+   --sataPort1ToRelaySlot                           : '0'
+   --sataPort2ToRelaySlot                           : '0'
+   --sataPort3ToRelaySlot                           : '0'
+   --relayToComportMapping                          : '1'
+   --useSDB                                         : '0'
+   --sdbToComportMapping                            : '1'
+   --sataAdapterPort0                               : '0'
+   --sataAdapterPort1                               : '0'
+   --sataAdapterPort2                               : '0'
+   --sataAdapterPort3                               : '0'
+   --relayPolarity                                  : '1'
+   --relaySleep                                     : '500'
+   --diagCmdTimeout                                 : '800'
+   --diagDisabled                                   : '0'
+   --hardTimeout                                    : '30000'
+   --commandscriptfolder                            : ''
+   --commandscriptstart                             : '0'
+   --logmsgformat                                   : 'timeMessage'
+   --logtimeformat                                  : 'time'
+   --relaySlot                                      : '0'
+   --atbuRelaySlot                                  : '3'
+   --diskCacheStore                                 : ''
+   --stopOnStart                                    : '0'
+   --notifyserver                                   : ''
+   --notifyretry                                    : '2'
+   --notifytimeout                                  : '60'
+   --failonnotifytimeout                            : '0'
+   --revertactions                                  : ''
+   --timechangedetection                            : '0'
+   --timechangecondition                            : '600'
+   --timechangecheckinterval                        : '1000'
+   --inputmonitor                                   : '1'
+   --logtimeprecision                               : '2'
+   --nonSndkDevEnumeration                          : '0'
+   --modelini                                       : 'C:\Program Files\SanDisk\CTF\Dlls\model.ini'
+   --sfclini                                        : 'C:\Program Files\SanDisk\CTF\Dlls\sfcl.ini'
+   --relayForceDownload                             : 'off'
+   --powercycleoninit                               : 'off'
+   --stopBgOperationOnFail                          : 'off'
+   --autocompare                                    : '0'
+   --autocompareRandomseed                          : '12345678'
+   --modeldelaytimeindiagnostic                     : '0'
+   --ForceDownloadMechanism                         : '0'
+   --EnableUARTDebugLog                             : '0'
+   --UARTBaudRate                                   : '230400'
+   --SerialUARTToCom                                : '0'
+   --UARTDebugFilePath                              : ''
+   --sataPort0ToMubIndx                             : '1'
+   --sataPort1ToMubIndx                             : '1'
+   --sataPort2ToMubIndx                             : '1'
+   --sataPort3ToMubIndx                             : '1'
+   --fclStep                                        : '0'
+   --fclCollectReads                                : '0'
+   --fclCollectWrites                               : '0'
+   --fclCollectErases                               : '0'
+   --fclCollectAOMReads                             : '0'
+   --fclAomBase                                     : '10'
+   --aomStep                                        : '0'
+   --aomMapFile                                     : '0'
+   --fclAomSaveFilesStep                            : '1000'
+   --gfa                                            : '0'
+   --atbuSoftwareLocation                           : ''
+   --atbuMemoryName                                 : ''
+   --atbuProfilesLocation                           : ''
+   --atbuThresholdValue                             : '0'
+   --atbuTransitionTime                             : '0'
+   --atbuDcCompensation                             : ''
+
+
+<<<<<<<<<<<<<<< RUNNING TEST: RT5101_DVT_SD_chapter5_50_1_Random_tests >>>>>>>>>>>>>>>
+
+
+
+13:00:41: ###### Running RT5101_DVT_SD_chapter5_50_1_Random_tests  ######
+13:00:47: FPGA Image Downloaded Is:C:\Program Files\SanDisk\CTF\FPGA\SD_CQ_SDR2_2-20-00-0002.bin
+13:00:47: MaxLba of the card: 0x3B72400 
+13:00:49: [GO7_globalPreTestingSettings]### Default Initialization Start
+13:00:49: [DVTCommonLib]###  SwitchHostVoltageRegion called
+13:00:49: [ SwitchHostVoltageRegion(False) , Command count = 44 ] 
+13:00:49: [DVTCommonLib]###  SwitchHostVoltageRegion Completed 
+
+13:00:49: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 45 ] 
+13:00:51: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <None>, 0x0, 0x0, 0x1, True, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 46 ] 
+13:00:51: [ CardInit() , Command count = 47 ] 
+13:00:51: [ SendDiagnostic(<0x200/0x200, Spc, pat:0x0>, [0x9A, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], 0x0, 0x1) , Command count = 48 ] 
+
+<<<<<<<<<<<<<<<         M-CONF INFO          >>>>>>>>>>>>>>>
+
+Max LBA                      :  0x3b9b000
+FW Revision                  :  0x20425236
+Internal Flashware Revision  :
+Romware revision             :  RRBZ1152
+Device Count                 :  0x0
+Device Type                  :  0x0
+Device Configuration         :  0x0
+ASIC id                      :  81
+ASIC Vendor                  :  0x2
+ASIC Revision                :  0x0
+Security                     :  0x0
+File Number                  :  0x0
+File Version                 :  0x0
+File Sign                    :  0x0
+Bot File Version             :  COLB1S5211C0f30r_11UHB05D.
+Param File Version           :  0x70a006a0
+Lot Number                   :  0x0
+Talisman Security Code       :  0x0
+Reserved                     :  0x0
+SNDK Version                 :  0x0
+CRYS Version                 :  0x0
+PDL Version                  :  0x0
+Talisman Security Code       :  0x0
+Memory ID                    :  453CA9A27A510B140000000000000000
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+Set1 Cpu Clock               :
+Set1 Cpu Divider             :
+Set1 Fim Write Clock         :
+Set1 Fim Write Divider       :
+Set1 Fim Read Clock          :
+Set1 Fim Read Divider        :
+Set1 Hs Cpu Clock            :  0
+Set1 Hs Cpu Divider          :  0
+Set1 Hs Ecc Clock            :  0
+Set1 Hs Ecc Divider          :  0
+Set1 Hs Fim Clock            :  0
+Set1 Hs Fim Divider          :  0
+Set1 System Divider          :  0
+Update Blocks                :  0x43
+Chaotic Blocks               :
+Die Interleave               :  0x2
+Lower Page                   :  0x0
+File 31 In User Area         :  0x0
+SSA Version                  :
+App Versions                 :  0x0L
+Top Level IPartNum           :
+Part Number                  :
+Set2 Cpu Clock               :
+Set2 Cpu Divider             :
+Set2 Fim Write Clock         :
+Set2 Fim Write Divider       :
+Set2 Fim Read Clock          :
+Set2 Fim Read Divider        :
+Set2 Hs Cpu Clock            :  0
+Set2 Hs Cpu Divider          :  0
+Set2 Hs Ecc Clock            :  0
+Set2 Hs Ecc Divider          :  0
+Set2 Hs Fim Clock            :  0
+Set2 Hs Fim Divider          :  0
+Set2 System Divider          :  0
+Set3 Cpu Clock               :
+Set3 Cpu Divider             :
+Set3 Fim Write Clock         :
+Set3 Fim Write Divider       :
+Set3 Fim Read Clock          :
+Set3 Fim Read Divider        :
+Set3 Hs Cpu Clock            :  0
+Set3 Hs Cpu Divider          :  0
+Set3 Hs Ecc Clock            :  0
+Set3 Hs Ecc Divider          :  0
+Set3 Hs Fim Clock            :  0
+Set3 Hs Fim Divider          :  0
+Set3 System Divider          :  0
+Set4 Cpu Clock               :
+Set4 Cpu Divider             :
+Set4 Fim Write Clock         :
+Set4 Fim Write Divider       :
+Set4 Fim Read Clock          :
+Set4 Fim Read Divider        :
+Set4 Hs Cpu Clock            :  0
+Set4 Hs Cpu Divider          :  0
+Set4 Hs Ecc Clock            :  0
+Set4 Hs Ecc Divider          :  0
+Set4 Hs Fim Clock            :  0
+Set4 Hs Fim Divider          :  0
+Set4 System Divider          :  0
+Set5 Cpu Clock               :
+Set5 Cpu Divider             :
+Set5 Fim Write Clock         :
+Set5 Fim Write Divider       :
+Set5 Fim Read Clock          :
+Set5 Fim Read Divider        :
+Set5 Hs Cpu Clock            :  0
+Set5 Hs Cpu Divider          :  0
+Set5 Hs Ecc Clock            :  0
+Set5 Hs Ecc Divider          :  0
+Set5 Hs Fim Clock            :  0
+Set5 Hs Fim Divider          :  0
+Set5 System Divider          :  0
+MetaBlockSize                :  32768
+Card Physical Size           :  0
+WORM Card Lock               :  0
+OTEC Version                 :  0
+Meta Page Size               :  192
+Worm Version                 :  0
+
+13:00:51: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:00:51: ####CSD Registe 2.0 Values####
+13:00:51: CSD_STRUCTURE                                 :0x1
+13:00:51: Reserv1                                       :0x0
+13:00:51: Time Access 1 TAAC                            :0xe
+13:00:51: Time Access 2 NSAC*100                        :0x0
+13:00:51: Data Transfer Rate TRAN_SPEED                 :0x32
+13:00:51: Card Command Classess CCC                     :0x5b5
+13:00:51: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:00:51: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:00:51: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:00:51: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:00:51: DSR(driver stage register)  DSR_IMP           :0x0
+13:00:51: Reserv2                                       :0x0
+13:00:51: Device Size C_SIZE                            :0xedc8
+13:00:51: Reserv3                                       :0x0
+13:00:51: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:00:51: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:00:51: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:00:51: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:00:51: Reserv4                                       :0x0
+13:00:51: Write Speed Factor R2W_FACTOR                 :0x2
+13:00:51: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:00:51: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:00:51: FILE_FORMAT_GRP                               :0x0
+13:00:51: COPY flag                                     :0x1
+13:00:51: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:00:51: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:00:51: File_Format                                   :0x0
+13:00:51: CRC                                           :0x0
+13:00:51: ####CSD Registe Values####  
+
+13:00:51: [DVTCommonLib]### CardInfo :###****CARD INFO****
+13:00:51: ProductSerialNumber = 0x23482900
+13:00:51: CardMaximumLBA      = 0x3b72400
+13:00:51: CardCapacity        = 32G
+13:00:51: Is card secure      = 0
+13:00:51: [DVTCommonLib]### CardInfo :###****CARD INFO**** 
+
+13:00:51: [GO7_globalPreTestingSettings]### Default Initialization Completed 
+
+
+13:00:51: [GO4_globalInitCard]### Switch to Specify Card Type
+13:00:53: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:00:54: Host Frequency set to 25000 KHz
+13:00:54: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:00:54: [GO18_globalSetVolt]### Set Host Voltage value.
+13:00:54: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+13:00:54: [ SetVolt(<py_sfcl.SDVoltage object at 0x06248780>, 0x0, True) , Command count = 49 ] 
+13:00:54: [GO18_globalSetVolt]### Host voltage value is set.
+13:00:54: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+13:00:54: [ SetVolt(<py_sfcl.SDVoltage object at 0x06248B10>, 0x0, False) , Command count = 50 ] 
+13:00:54: [GO18_globalSetVolt]### Host voltage value is set.
+13:00:54: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 51 ] 
+13:00:54: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+13:00:54: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x1, 0x0, 0x1, False, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 52 ] 
+13:00:54: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC1FF8000
+13:00:54: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+13:00:54: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+13:00:54: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+13:00:54: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 called 
+13:00:54: [ SwitchVolt_CMD11(True, 0x0, 0x5) , Command count = 53 ] 
+13:00:54: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 Completed
+13:00:54: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+13:00:54: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06248DE0>, <py_sfcl.CommandDataDefinition object at 0x06248750>) , Command count = 54 ] 
+13:00:54: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+13:00:54: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06248600>, <py_sfcl.CommandDataDefinition object at 0x062487E0>) , Command count = 55 ] 
+13:00:54: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 0, 12]
+13:00:54: [ SetCardRCA(0x1, 0xD555) , Command count = 56 ] 
+13:00:54: [DVTCommonLib]### Identification :Idenfication of card completed 
+
+13:00:54: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:00:54: Host Frequency set to 25000 KHz
+13:00:54: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:00:54: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:00:54: ####CSD Registe 2.0 Values####
+13:00:54: CSD_STRUCTURE                                 :0x1
+13:00:54: Reserv1                                       :0x0
+13:00:54: Time Access 1 TAAC                            :0xe
+13:00:54: Time Access 2 NSAC*100                        :0x0
+13:00:54: Data Transfer Rate TRAN_SPEED                 :0x32
+13:00:54: Card Command Classess CCC                     :0x5b5
+13:00:54: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:00:54: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:00:54: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:00:54: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:00:54: DSR(driver stage register)  DSR_IMP           :0x0
+13:00:54: Reserv2                                       :0x0
+13:00:54: Device Size C_SIZE                            :0xedc8
+13:00:54: Reserv3                                       :0x0
+13:00:54: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:00:54: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:00:54: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:00:54: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:00:54: Reserv4                                       :0x0
+13:00:54: Write Speed Factor R2W_FACTOR                 :0x2
+13:00:54: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:00:54: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:00:54: FILE_FORMAT_GRP                               :0x0
+13:00:54: COPY flag                                     :0x1
+13:00:54: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:00:54: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:00:54: File_Format                                   :0x0
+13:00:54: CRC                                           :0x0
+13:00:54: ####CSD Registe Values####  
+
+13:00:54: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register#####
+13:00:54: [GetSCRRegisterEntry] Passed
+13:00:54: SCR_STRUCTURE Version             : SCR_VERSION_1.0
+13:00:54: SD Memory Card - Spec. Version    : SPEC VERSION 2.00 or 3.0X
+13:00:54: Data_Status_After Erases          : 0
+13:00:54: CPRM Security Support             : No Security
+13:00:54: DAT Bus widths supported          : 1 bit [DAT0] and 4 bit (DAT0-3)
+13:00:54: Spec. Version                     : Version 3.0X
+13:00:54: Extended Security Support         : Extended_Security_Not_Supported
+13:00:54: Command Support                   : COMMAND_SUPPORT
+13:00:54: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register##### 
+
+13:00:54: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06248EA0>, <py_sfcl.CommandDataDefinition object at 0x06248630>) , Command count = 57 ] 
+13:00:54: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Tran', 'READY_FOR_DATA', 'APP_CMD']
+13:00:54: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06248360>, <py_sfcl.CommandDataDefinition object at 0x06248D50>) , Command count = 58 ] 
+13:00:54: ACmd51[ SEND_SCR ] Passed with R1 type response:[51, 0, 0, 9, 32, 18]
+13:00:54: [ SetBusWidth(0x4) , Command count = 59 ] 
+13:00:54: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:00:54: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x06248E70>, <0x200/0x200, Spc, pat:0x0>) , Command count = 60 ] 
+13:00:54: Protected Area Size 0x28000
+13:00:54: Bus Width           2
+13:00:54: Secure Mode         0
+13:00:54: Speed  Class        4
+13:00:54: Perf Move           0
+13:00:54: Au Size             9
+13:00:54: Erase Size          15
+13:00:54: Erase Timeout       1
+13:00:54: Erase offset        1
+13:00:54: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:00:54: [G02_GlobalSetBusMode]### Bus width is set to Four and Verified
+13:00:54: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API called
+13:00:54: [ CardSwitchCmd(True, [0x2, 0xF, 0xF, 0x1, 0xF, 0xF], <0x40/0x200, Spc, pat:0x0>, 0x40) , Command count = 61 ] 
+13:00:54: [DVTCommonLib]### CardSwitchCommand[INFO]:['OperatingCurrent:250 mA', 'SDR50 SWITCHED', '400mA SWITCHED']
+13:00:54: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API completed 
+
+13:00:54: [GO17_globalSetVeryHSHostFreq.py]### Set the Very High Host Frequency (e.g. lightning)
+13:00:54: Host Frequency set to 100000 KHz
+13:00:54: [GO17_globalSetVeryHSHostFreq.py]###  globalRandom value is NONE
+13:00:54: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:00:54: ####CSD Registe 2.0 Values####
+13:00:54: CSD_STRUCTURE                                 :0x1
+13:00:54: Reserv1                                       :0x0
+13:00:54: Time Access 1 TAAC                            :0xe
+13:00:54: Time Access 2 NSAC*100                        :0x0
+13:00:54: Data Transfer Rate TRAN_SPEED                 :0xb
+13:00:54: Card Command Classess CCC                     :0x5b5
+13:00:54: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:00:54: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:00:54: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:00:54: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:00:54: DSR(driver stage register)  DSR_IMP           :0x0
+13:00:54: Reserv2                                       :0x0
+13:00:54: Device Size C_SIZE                            :0xedc8
+13:00:54: Reserv3                                       :0x0
+13:00:54: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:00:54: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:00:54: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:00:54: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:00:54: Reserv4                                       :0x0
+13:00:54: Write Speed Factor R2W_FACTOR                 :0x2
+13:00:54: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:00:54: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:00:54: FILE_FORMAT_GRP                               :0x0
+13:00:54: COPY flag                                     :0x1
+13:00:54: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:00:54: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:00:54: File_Format                                   :0x0
+13:00:54: CRC                                           :0x0
+13:00:54: ####CSD Registe Values####  
+
+13:00:54: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06248900>, <py_sfcl.CommandDataDefinition object at 0x06248B70>) , Command count = 62 ] 
+13:00:54: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Stby', 'READY_FOR_DATA']
+13:00:54: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06248120>, <py_sfcl.CommandDataDefinition object at 0x06248C00>) , Command count = 63 ] 
+13:00:54: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:00:54: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:00:54: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x06248990>, <0x200/0x200, Spc, pat:0x0>) , Command count = 64 ] 
+13:00:54: Protected Area Size 0x28000
+13:00:54: Bus Width           2
+13:00:54: Secure Mode         0
+13:00:54: Speed  Class        4
+13:00:54: Perf Move           0
+13:00:54: Au Size             9
+13:00:54: Erase Size          15
+13:00:54: Erase Timeout       1
+13:00:54: Erase offset        1
+13:00:54: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:00:54: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+13:00:54: ########################################
+13:00:54: Stated Running script RT5107_Flash_Div_RW_All_MULT 
+13:00:54: ########################################
+13:00:54: [RT5107_Flash_Div_RW_All_MULT]##### ###### Running RT5107_Flash_Div_RW_All_MULTI Test 
+13:00:54: [GO4_globalInitCard]### Switch to Specify Card Type
+13:00:56: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:00:56: Host Frequency set to 25000 KHz
+13:00:56: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:00:56: [GO18_globalSetVolt]### Set Host Voltage value.
+13:00:56: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+13:00:56: [ SetVolt(<py_sfcl.SDVoltage object at 0x062485D0>, 0x0, True) , Command count = 65 ] 
+13:00:56: [GO18_globalSetVolt]### Host voltage value is set.
+13:00:56: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+13:00:56: [ SetVolt(<py_sfcl.SDVoltage object at 0x062481B0>, 0x0, False) , Command count = 66 ] 
+13:00:56: [GO18_globalSetVolt]### Host voltage value is set.
+13:00:56: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 67 ] 
+13:00:56: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+13:00:57: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x1, 0x0, 0x1, False, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 68 ] 
+13:00:57: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC1FF8000
+13:00:57: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+13:00:57: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+13:00:57: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+13:00:57: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 called 
+13:00:57: [ SwitchVolt_CMD11(True, 0x0, 0x5) , Command count = 69 ] 
+13:00:57: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 Completed
+13:00:57: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+13:00:57: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062483C0>, <py_sfcl.CommandDataDefinition object at 0x06248AE0>) , Command count = 70 ] 
+13:00:57: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+13:00:57: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06248CC0>, <py_sfcl.CommandDataDefinition object at 0x06248E10>) , Command count = 71 ] 
+13:00:57: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 0, 12]
+13:00:57: [ SetCardRCA(0x1, 0xD555) , Command count = 72 ] 
+13:00:57: [DVTCommonLib]### Identification :Idenfication of card completed 
+
+13:00:57: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:00:57: Host Frequency set to 25000 KHz
+13:00:57: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:00:57: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:00:57: ####CSD Registe 2.0 Values####
+13:00:57: CSD_STRUCTURE                                 :0x1
+13:00:57: Reserv1                                       :0x0
+13:00:57: Time Access 1 TAAC                            :0xe
+13:00:57: Time Access 2 NSAC*100                        :0x0
+13:00:57: Data Transfer Rate TRAN_SPEED                 :0x32
+13:00:57: Card Command Classess CCC                     :0x5b5
+13:00:57: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:00:57: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:00:57: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:00:57: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:00:57: DSR(driver stage register)  DSR_IMP           :0x0
+13:00:57: Reserv2                                       :0x0
+13:00:57: Device Size C_SIZE                            :0xedc8
+13:00:57: Reserv3                                       :0x0
+13:00:57: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:00:57: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:00:57: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:00:57: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:00:57: Reserv4                                       :0x0
+13:00:57: Write Speed Factor R2W_FACTOR                 :0x2
+13:00:57: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:00:57: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:00:57: FILE_FORMAT_GRP                               :0x0
+13:00:57: COPY flag                                     :0x1
+13:00:57: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:00:57: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:00:57: File_Format                                   :0x0
+13:00:57: CRC                                           :0x0
+13:00:57: ####CSD Registe Values####  
+
+13:00:57: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register#####
+13:00:57: [GetSCRRegisterEntry] Passed
+13:00:57: SCR_STRUCTURE Version             : SCR_VERSION_1.0
+13:00:57: SD Memory Card - Spec. Version    : SPEC VERSION 2.00 or 3.0X
+13:00:57: Data_Status_After Erases          : 0
+13:00:57: CPRM Security Support             : No Security
+13:00:57: DAT Bus widths supported          : 1 bit [DAT0] and 4 bit (DAT0-3)
+13:00:57: Spec. Version                     : Version 3.0X
+13:00:57: Extended Security Support         : Extended_Security_Not_Supported
+13:00:57: Command Support                   : COMMAND_SUPPORT
+13:00:57: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register##### 
+
+13:00:57: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062484B0>, <py_sfcl.CommandDataDefinition object at 0x06248D80>) , Command count = 73 ] 
+13:00:57: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Tran', 'READY_FOR_DATA', 'APP_CMD']
+13:00:57: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06248AB0>, <py_sfcl.CommandDataDefinition object at 0x06248A80>) , Command count = 74 ] 
+13:00:57: ACmd51[ SEND_SCR ] Passed with R1 type response:[51, 0, 0, 9, 32, 18]
+13:00:57: [ SetBusWidth(0x4) , Command count = 75 ] 
+13:00:57: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:00:57: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x0624D0C0>, <0x200/0x200, Spc, pat:0x0>) , Command count = 76 ] 
+13:00:57: Protected Area Size 0x28000
+13:00:57: Bus Width           2
+13:00:57: Secure Mode         0
+13:00:57: Speed  Class        4
+13:00:57: Perf Move           0
+13:00:57: Au Size             9
+13:00:57: Erase Size          15
+13:00:57: Erase Timeout       1
+13:00:57: Erase offset        1
+13:00:57: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:00:57: [G02_GlobalSetBusMode]### Bus width is set to Four and Verified
+13:00:57: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API called
+13:00:57: [ CardSwitchCmd(True, [0x2, 0xF, 0xF, 0x1, 0xF, 0xF], <0x40/0x200, Spc, pat:0x0>, 0x40) , Command count = 77 ] 
+13:00:57: [DVTCommonLib]### CardSwitchCommand[INFO]:['OperatingCurrent:250 mA', 'SDR50 SWITCHED', '400mA SWITCHED']
+13:00:57: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API completed 
+
+13:00:57: [GO17_globalSetVeryHSHostFreq.py]### Set the Very High Host Frequency (e.g. lightning)
+13:00:57: Host Frequency set to 100000 KHz
+13:00:57: [GO17_globalSetVeryHSHostFreq.py]###  globalRandom value is NONE
+13:00:57: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:00:57: ####CSD Registe 2.0 Values####
+13:00:57: CSD_STRUCTURE                                 :0x1
+13:00:57: Reserv1                                       :0x0
+13:00:57: Time Access 1 TAAC                            :0xe
+13:00:57: Time Access 2 NSAC*100                        :0x0
+13:00:57: Data Transfer Rate TRAN_SPEED                 :0xb
+13:00:57: Card Command Classess CCC                     :0x5b5
+13:00:57: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:00:57: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:00:57: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:00:57: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:00:57: DSR(driver stage register)  DSR_IMP           :0x0
+13:00:57: Reserv2                                       :0x0
+13:00:57: Device Size C_SIZE                            :0xedc8
+13:00:57: Reserv3                                       :0x0
+13:00:57: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:00:57: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:00:57: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:00:57: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:00:57: Reserv4                                       :0x0
+13:00:57: Write Speed Factor R2W_FACTOR                 :0x2
+13:00:57: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:00:57: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:00:57: FILE_FORMAT_GRP                               :0x0
+13:00:57: COPY flag                                     :0x1
+13:00:57: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:00:57: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:00:57: File_Format                                   :0x0
+13:00:57: CRC                                           :0x0
+13:00:57: ####CSD Registe Values####  
+
+13:00:57: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x0624D330>, <py_sfcl.CommandDataDefinition object at 0x0624D150>) , Command count = 78 ] 
+13:00:57: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Stby', 'READY_FOR_DATA']
+13:00:57: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x0624D1B0>, <py_sfcl.CommandDataDefinition object at 0x0624D1E0>) , Command count = 79 ] 
+13:00:57: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:00:57: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+13:00:57: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x0 to EndLba:0x3B72406 with Increment Pattern
+13:21:25: [ WrLbaNoData(0x0, 0x3B72406, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0) , Command count = 80 ] 
+13:21:25: [ GetCardStatus() , Command count = 81 ] 
+13:21:25: [DVTCommonLib]### WriteWithFPGAPattern[ERROR] :MultipleWrite Failed from StartLba:0x0 to EndLba:0x3B72406 with Increment Pattern
+13:21:25: [DVTCommonLib]### Exception_Details :Card Secure Read/Secure Write/Secure Erase/Secure Read MKB  argument out of range
+13:21:25: [NBW_Num_Blks_Written] Failed as expected, OUT_OF_RANGE Error. 
+
+13:21:25: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :MultipleRead to the card at StartLba:0x0 to EndLba:0x3B723FD with Increment Pattern
+13:32:23: [ RdLbaNoData(0x0, 0x3B723FD, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0, True) , Command count = 82 ] 
+13:32:23: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :Done MultipleRead from StartLba: 0x0 to EndLba:0x3B723FD with Increment Pattern 
+
+13:32:23: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x0 to EndLba:0x3B72401 with One's Pattern
+13:52:31: [ WrLbaNoData(0x0, 0x3B72401, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_ONE, True, False, False, False, 0x0, False, 0x0) , Command count = 83 ] 
+13:52:31: [ GetCardStatus() , Command count = 84 ] 
+13:52:31: [DVTCommonLib]### WriteWithFPGAPattern[ERROR] :MultipleWrite Failed from StartLba:0x0 to EndLba:0x3B72401 with One's Pattern
+13:52:31: [DVTCommonLib]### Exception_Details :Card Secure Read/Secure Write/Secure Erase/Secure Read MKB  argument out of range
+13:52:31: [NBW_Num_Blks_Written] Failed as expected, OUT_OF_RANGE Error. 
+
+13:52:31: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :MultipleRead to the card at StartLba:0x0 to EndLba:0x3B723FD with One's Pattern
+14:03:29: [ RdLbaNoData(0x0, 0x3B723FD, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_ONE, True, False, False, False, 0x0, False, 0x0, True) , Command count = 85 ] 
+14:03:29: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :Done MultipleRead from StartLba: 0x0 to EndLba:0x3B723FD with One's Pattern 
+
+14:03:29: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x0 to EndLba:0x76E480 with Constant Pattern
+14:06:01: [ WrLbaNoData(0x0, 0x76E480, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 86 ] 
+14:06:01: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :Done MultipleWrite from StartLba: 0x0 to EndLba:0x76E480 with Constant Pattern 
+
+14:06:01: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :MultipleRead to the card at StartLba:0x0 to EndLba:0x76E480 with Constant Pattern
+14:06:01: [ RdLbaNoData(0x0, 0x76E480, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0, True) , Command count = 87 ] 
+14:06:01: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :Done MultipleRead from StartLba: 0x0 to EndLba:0x76E480 with Constant Pattern 
+
+14:06:01: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x76E480 to EndLba:0xEDC900 with Increment Pattern
+14:06:01: [ WrLbaNoData(0x76E480, 0x76E480, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0) , Command count = 88 ] 
+14:06:01: [ GetCardStatus() , Command count = 89 ] 
+14:06:01: [DVTCommonLib]### WriteWithFPGAPattern[ERROR] :MultipleWrite Failed from StartLba:0x76E480 to EndLba:0xEDC900 with Increment Pattern
+14:06:01: [DVTCommonLib]### Exception_Details :Card is reporting illegal command
+14:06:01: Failed Running script <module 'RT5107_Flash_Div_RW_All_MULT' from 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\SD\CommonDVT\Random_Tests_5\rt1\RT5107_Flash_Div_RW_All_MULT.py'> with error 
+CardCommandError:                                  
+card access failed on protocol=sd: 
+   Error 0x8L (8) executing command 'WrLbaNoData'
+   Description : Card is reporting illegal command
+   Error Layer : UNKNOWN
+   SW Error Location : UNKNOWN - UNKNOWN : 0
+   Arguments: ('(0x76E480, 0x76E480, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0)')
+   Extended error information:
+      Status         : 0xB00
+      Is busy?       : No
+ 
+14:06:01: ########################################
+14:06:01: ########################################
+14:06:01: Stated Running script RT5103_Flash_Div_Erase_All 
+14:06:01: ########################################
+14:06:01: ###### Running RT5103_Flash_Div_Erase_All Test 
+14:06:01: [GO4_globalInitCard]### Switch to Specify Card Type
+14:06:04: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+14:06:04: Host Frequency set to 25000 KHz
+14:06:04: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+14:06:04: [GO18_globalSetVolt]### Set Host Voltage value.
+14:06:04: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+14:06:04: [ SetVolt(<py_sfcl.SDVoltage object at 0x0624D840>, 0x0, True) , Command count = 90 ] 
+14:06:04: [GO18_globalSetVolt]### Host voltage value is set.
+14:06:04: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+14:06:04: [ SetVolt(<py_sfcl.SDVoltage object at 0x0624D6C0>, 0x0, False) , Command count = 91 ] 
+14:06:04: [GO18_globalSetVolt]### Host voltage value is set.
+14:06:04: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 92 ] 
+14:06:04: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+14:06:04: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x1, 0x0, 0x1, False, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 93 ] 
+14:06:04: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC1FF8000
+14:06:04: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+14:06:04: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+14:06:04: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+14:06:04: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 called 
+14:06:04: [ SwitchVolt_CMD11(True, 0x0, 0x5) , Command count = 94 ] 
+14:06:04: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 Completed
+14:06:04: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+14:06:04: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x0624D810>, <py_sfcl.CommandDataDefinition object at 0x0624D7B0>) , Command count = 95 ] 
+14:06:04: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+14:06:04: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x0624D870>, <py_sfcl.CommandDataDefinition object at 0x0624D8A0>) , Command count = 96 ] 
+14:06:04: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 0, 12]
+14:06:04: [ SetCardRCA(0x1, 0xD555) , Command count = 97 ] 
+14:06:04: [DVTCommonLib]### Identification :Idenfication of card completed 
+
+14:06:04: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+14:06:04: Host Frequency set to 25000 KHz
+14:06:04: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+14:06:04: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+14:06:04: ####CSD Registe 2.0 Values####
+14:06:04: CSD_STRUCTURE                                 :0x1
+14:06:04: Reserv1                                       :0x0
+14:06:04: Time Access 1 TAAC                            :0xe
+14:06:04: Time Access 2 NSAC*100                        :0x0
+14:06:04: Data Transfer Rate TRAN_SPEED                 :0x32
+14:06:04: Card Command Classess CCC                     :0x5b5
+14:06:04: Max Read Data Block Length  READ_BL_LEN       :0x9
+14:06:04: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+14:06:04: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+14:06:04: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+14:06:04: DSR(driver stage register)  DSR_IMP           :0x0
+14:06:04: Reserv2                                       :0x0
+14:06:04: Device Size C_SIZE                            :0xedc8
+14:06:04: Reserv3                                       :0x0
+14:06:04: Erase Single Block Enable ERASE_BLK_EN        :0x1
+14:06:04: Erase Sector Size SECTOR_SIZE                 :0x7f
+14:06:04: Write Protect Group Size WP_GRP_SIZE          :0x0
+14:06:04: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+14:06:04: Reserv4                                       :0x0
+14:06:04: Write Speed Factor R2W_FACTOR                 :0x2
+14:06:04: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+14:06:04: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+14:06:04: FILE_FORMAT_GRP                               :0x0
+14:06:04: COPY flag                                     :0x1
+14:06:04: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+14:06:04: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+14:06:04: File_Format                                   :0x0
+14:06:04: CRC                                           :0x0
+14:06:04: ####CSD Registe Values####  
+
+14:06:04: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register#####
+14:06:04: [GetSCRRegisterEntry] Passed
+14:06:04: SCR_STRUCTURE Version             : SCR_VERSION_1.0
+14:06:04: SD Memory Card - Spec. Version    : SPEC VERSION 2.00 or 3.0X
+14:06:04: Data_Status_After Erases          : 0
+14:06:04: CPRM Security Support             : No Security
+14:06:04: DAT Bus widths supported          : 1 bit [DAT0] and 4 bit (DAT0-3)
+14:06:04: Spec. Version                     : Version 3.0X
+14:06:04: Extended Security Support         : Extended_Security_Not_Supported
+14:06:04: Command Support                   : COMMAND_SUPPORT
+14:06:04: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register##### 
+
+14:06:04: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x0624DB10>, <py_sfcl.CommandDataDefinition object at 0x0624D930>) , Command count = 98 ] 
+14:06:04: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Tran', 'READY_FOR_DATA', 'APP_CMD']
+14:06:04: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x0624D990>, <py_sfcl.CommandDataDefinition object at 0x0624D9C0>) , Command count = 99 ] 
+14:06:04: ACmd51[ SEND_SCR ] Passed with R1 type response:[51, 0, 0, 9, 32, 18]
+14:06:04: [ SetBusWidth(0x4) , Command count = 100 ] 
+14:06:04: [DVTCommonLib]### GetSDStatus :######SD Status#######
+14:06:04: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x0624DA80>, <0x200/0x200, Spc, pat:0x0>) , Command count = 101 ] 
+14:06:04: Protected Area Size 0x28000
+14:06:04: Bus Width           2
+14:06:04: Secure Mode         0
+14:06:04: Speed  Class        4
+14:06:04: Perf Move           0
+14:06:04: Au Size             9
+14:06:04: Erase Size          15
+14:06:04: Erase Timeout       1
+14:06:04: Erase offset        1
+14:06:04: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+14:06:04: [G02_GlobalSetBusMode]### Bus width is set to Four and Verified
+14:06:04: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API called
+14:06:04: [ CardSwitchCmd(True, [0x2, 0xF, 0xF, 0x1, 0xF, 0xF], <0x40/0x200, Spc, pat:0x0>, 0x40) , Command count = 102 ] 
+14:06:04: [DVTCommonLib]### CardSwitchCommand[INFO]:['OperatingCurrent:250 mA', 'SDR50 SWITCHED', '400mA SWITCHED']
+14:06:04: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API completed 
+
+14:06:04: [GO17_globalSetVeryHSHostFreq.py]### Set the Very High Host Frequency (e.g. lightning)
+14:06:04: Host Frequency set to 100000 KHz
+14:06:04: [GO17_globalSetVeryHSHostFreq.py]###  globalRandom value is NONE
+14:06:04: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+14:06:04: ####CSD Registe 2.0 Values####
+14:06:04: CSD_STRUCTURE                                 :0x1
+14:06:04: Reserv1                                       :0x0
+14:06:04: Time Access 1 TAAC                            :0xe
+14:06:04: Time Access 2 NSAC*100                        :0x0
+14:06:04: Data Transfer Rate TRAN_SPEED                 :0xb
+14:06:04: Card Command Classess CCC                     :0x5b5
+14:06:04: Max Read Data Block Length  READ_BL_LEN       :0x9
+14:06:04: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+14:06:04: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+14:06:04: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+14:06:04: DSR(driver stage register)  DSR_IMP           :0x0
+14:06:04: Reserv2                                       :0x0
+14:06:04: Device Size C_SIZE                            :0xedc8
+14:06:04: Reserv3                                       :0x0
+14:06:04: Erase Single Block Enable ERASE_BLK_EN        :0x1
+14:06:04: Erase Sector Size SECTOR_SIZE                 :0x7f
+14:06:04: Write Protect Group Size WP_GRP_SIZE          :0x0
+14:06:04: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+14:06:04: Reserv4                                       :0x0
+14:06:04: Write Speed Factor R2W_FACTOR                 :0x2
+14:06:04: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+14:06:04: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+14:06:04: FILE_FORMAT_GRP                               :0x0
+14:06:04: COPY flag                                     :0x1
+14:06:04: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+14:06:04: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+14:06:04: File_Format                                   :0x0
+14:06:04: CRC                                           :0x0
+14:06:04: ####CSD Registe Values####  
+
+14:06:04: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x0624DD80>, <py_sfcl.CommandDataDefinition object at 0x0624DBA0>) , Command count = 103 ] 
+14:06:04: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Stby', 'READY_FOR_DATA']
+14:06:04: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x0624DC00>, <py_sfcl.CommandDataDefinition object at 0x0624DC30>) , Command count = 104 ] 
+14:06:04: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+14:06:04: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+14:06:04: Multiple Write from 0x0 to CardCapU-0x1 with incremental pattern
+14:06:04: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x0 to EndLba:0x3B723FF with Increment Pattern

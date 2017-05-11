@@ -1,0 +1,812 @@
+10:43:37: Sata Disconnector Board found in COM1.
+10:43:41: *****************************************************
+
+10:43:41: *  SDR/USD Driver version '10.0.0.1 (0x a.0.0.1)'   *
+
+10:43:41: *                                                   *
+
+10:43:41: *  Compatibility with this version is not verified! *
+
+10:43:41: *****************************************************
+
+10:43:43: [ DeviceSetupCompletion() , Command count = 7 ] 
+10:43:43: Testname Mapping: ScriptName=[ASIC01_Call_All_ASIC_Fixes_SD_SPI] -> TestId=[ASIC01]
+10:43:43: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 8 ] 
+10:43:44: [ GetPhysicalChipsInfo() , Command count = 9 ] 
+10:43:44: [ GetFileSize(0xEA) , Command count = 10 ] 
+10:43:44: [ ReadFile(<0xA00/0x200, Arb>, 0xEA, 0x1) , Command count = 11 ] 
+10:43:44: [ GetFileSize(0x16) , Command count = 12 ] 
+10:43:44: [ GetCardStatus() , Command count = 13 ] 
+10:43:44: [ GetFileSize(0x18) , Command count = 14 ] 
+10:43:44: [ ReadFile(<0x1000/0x200, Arb>, 0x18, 0x8) , Command count = 15 ] 
+10:43:44: [ GetFileSize(0x15) , Command count = 16 ] 
+10:43:44: [ ReadFile(<0x1000/0x200, Arb>, 0x15, 0x1) , Command count = 17 ] 
+10:43:45: Can not find revision of File 21 in file 'config.xml' or card is in the ROM mode
+10:43:45: [ GetFileSize(0xE) , Command count = 18 ] 
+10:43:45: [ ReadFile(<0x1000/0x200, Arb>, 0xE, 0x1) , Command count = 19 ] 
+10:43:45: [ GetFileSize(0x1E) , Command count = 20 ] 
+10:43:45: [ GetCardStatus() , Command count = 21 ] 
+10:43:45: [ GetFileSize(0x21) , Command count = 22 ] 
+10:43:45: [ GetCardStatus() , Command count = 23 ] 
+10:43:45: [ GetFileSize(0x33) , Command count = 24 ] 
+10:43:45: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x33, 0x1) , Command count = 25 ] 
+10:43:45: [ GetFileSize(0x1F) , Command count = 26 ] 
+10:43:45: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x1F, 0x1) , Command count = 27 ] 
+10:43:45: [ GetFileSize(0x2A) , Command count = 28 ] 
+10:43:45: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x2A, 0x1) , Command count = 29 ] 
+10:43:45: [ ReadCfgConf(<0x1000/0x200, Spc, pat:0x0>, 0x1) , Command count = 30 ] 
+10:43:45: [ ReadFirmwareParameter(<0x1000/0x200, Spc, pat:0x0>, 0x2) , Command count = 31 ] 
+10:43:45: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_BE) , Command count = 32 ] 
+10:43:45: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_PRODUCT) , Command count = 33 ] 
+10:43:45: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_FE_SD) , Command count = 34 ] 
+10:43:45: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, 0x0) , Command count = 35 ] 
+10:43:45: [ GetFileSize(0x33) , Command count = 36 ] 
+10:43:45: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 37 ] 
+10:43:45: [ GetFileSize(0x33) , Command count = 38 ] 
+10:43:46: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 39 ] 
+10:43:46: [ GetIpVersionInfo() , Command count = 40 ] 
+10:43:46: [ GetPhysicalChipsInfo() , Command count = 41 ] 
+10:43:46: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x05F4D750>, <0x200/0x200, Arb>) , Command count = 42 ] 
+10:43:46: [ SendDiagnostic(<0x200/0x200, Spc, pat:0x0>, [0x9A, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], 0x0, 0x1) , Command count = 43 ] 
+
+<<<<<<<<<<<<<<<         TEST HEADER          >>>>>>>>>>>>>>>
+
+Application                :  TestRunner.py
+Application version        :  SD_DVT 2.0.0
+Application folder         :  C:\SDDVT_Python_Package\SDDVT
+Command line               :  --protocol=sd --sdtestid=ASIC01 --dbconnection=none --adapter=SD05771_ASVU --sdConfiguration=SPI --projectconfig=C:\SDDVT_Python_Package\SDDVT\Projects_configuration\Colibri_32GB --paramsfile=C:\Colibri_SD_HC_I070_SDR104_Prof_C10_U3_V30_A1.txt --logfilename=C:\Results\[U]
+Protocol                   :  sd
+Serial number (CInfo)      :  sdin1091
+Adapter                    :  SDR Tester (S#: SD05771_ASVU): (Slot#:0)
+Adapter serial number      :  SD05771_ASVU
+Adapter type               :  USD
+Capacity                   :  32G
+Firmware revision          :  6RB C030
+Flashware revision         :  6RB C030
+IP Version Info            :  '' 01.04.00... ID 0x20
+                           :  '' 00.01.00... ID 0x10
+Memory ID                  :  453CA9A27A510B140000000000000000
+Controller                 :  81
+Trim settings              :  <Unavailable>
+Model revision             :  <Unavailable>
+Stream name                :  <Unavailable>
+FE IP                      :  1
+Romware revision           :  RRBZ1152
+Architecture               :  Gen 6
+Model                      :  SanDisk   COLIBRI
+Memory type                :  Unknown Device Type-2LC x 1
+ASIC id                    :  81
+Controller type            :  Unknown Controller   UMC-J
+Driver version (actual)    :  10.0.0.1 (0x a.0.0.1)
+Driver version (released)  :  7.1.4.3 (0x 7.1.4.3)
+Date and time              :  2016-11-21 10:43:46
+Host name                  :  SDDVT_Test2
+Host IP address            :  10.65.153.121
+Operating system           :  Microsoft Windows [Version 6.1.7601] Service Pack 1
+SanDisk Python version     :  1.17.5rc3
+CTF/PySFCL build number    :  1.3.0.131072
+PySFCL version             :  1.3.0
+CTF version                :  1.3
+Python version             :  2.4.2
+Project Name(Validation)   :  <None>
+
+
+<<<<<<<<<<<<<<<      SFCL CONFIGURATION      >>>>>>>>>>>>>>>
+
+[SD enumeration]
+cmdtiming=0
+useRelay=0
+autocompare=0
+relayPolarity=1
+relaySleep=500
+measureCmdLatency=1
+logicalChunkSize=0
+diagDisabled=0
+diagCmdTimeout=800
+useVddf=on
+nethostloglevel=
+nethostautoCompare=on
+CmdManShowProgress=off
+nethostsendtimeout=240000
+nethostreceivetimeout=240000
+countOfRetryCmdIfCrc=3
+enableOORPatch=
+lbaForSctpCommands=0x100
+subProtocol=0
+doDle=0
+diagnosticChunkSize=128
+logmsgformat=timeMessage
+logtimeformat=time
+relaySlot=0
+unloadDll=on
+hardTimeoutUnloadDll=on
+minDuration=7200
+remoteDevice=
+skipProduction=0
+ishighspeedmode=0
+highfreqinhz=500
+modeldelaytimeindiagnostic=0
+sataPort0ToRelaySlot=0
+sataPort1ToRelaySlot=0
+sataPort2ToRelaySlot=0
+sataPort3ToRelaySlot=0
+relayToComportMapping=1
+sdbToComportMapping=1
+sataAdapterPort0=0
+sataAdapterPort1=0
+sataAdapterPort2=0
+sataAdapterPort3=0
+sataPort0ToMubIndx=1
+sataPort1ToMubIndx=1
+sataPort2ToMubIndx=1
+sataPort3ToMubIndx=1
+
+[Common]
+enableChunkTraces=off
+enablePythonTraceback=1
+sctpPhaseDelay=0
+printcommandcount=on
+debugfilepath=
+initXMLPath=\\regression.lab.sandisk.com\shared\configurations
+delayBeforePwrCycle=0
+delayAfterPwrCycle=0
+reportCountStatistics=1
+reportPackage=0
+sfclConfig=Common
+
+<<<<<<<<<<<<<<<          CARD INFO           >>>>>>>>>>>>>>>
+
+Number Of LBAs  :  0x3b72400
+Card Is Locked  :  No
+Secure Area     :  0x28000
+Card Secure     :  No
+WP map          :
+
+<<<<<<<<<<<<<<<           CID INFO           >>>>>>>>>>>>>>>
+
+Manufacturer Id  :  0x3
+Card/BGA         :  0
+Application Id   :  0x5344
+ProductName      :  AGGCD
+ProductRev       :  0x80
+SerialNumber     :  0x23482900
+Reserved         :  0x23482900
+Year             :  2000
+Month            :  11
+CRC Check Sum    :  0x5
+Not Used         :
+
+<<<<<<<<<<<<<<<           CSD INFO           >>>>>>>>>>>>>>>
+
+CSD Structure                     :  0x1
+reserv. 1                         :  0x0
+TAAC                              :  0xe
+NSAC*100                          :  0x0
+data transfer rate                :  0x32
+card command classes CCC          :  0x5b5
+max. read data Blk. length        :  0x9
+partial blocks for read allowed   :  0x0
+write block misalignment          :  0x0
+read block misalignment           :  0x0
+DSR implemented                   :  0x0
+reserved 2                        :  0x0
+device size                       :  0xedc8
+Reserv3                           :  0x0
+SD Erase Blk Len En               :  0x1
+SD Sec Size                       :  0x7f
+write protect group size          :  0x0
+write protect group enable        :  0x0
+Reserv4                           :  0x0
+write speed factor                :  0x2
+max. write data blk. length       :  0x9
+partial blocks for write allowed  :  0x0
+File Format Group                 :  0x0
+copy flag(OTP)                    :  0x1
+permanent write protection        :  0x0
+temporary write protection        :  0x0
+File Format                       :  0x0
+CRC                               :  0x0
+<<<<<<<<<<<<<<<         M-CONF INFO          >>>>>>>>>>>>>>>
+
+Max LBA                      :  0x3b9b000
+FW Revision                  :  0x20425236
+Internal Flashware Revision  :
+Romware revision             :  RRBZ1152
+Device Count                 :  0x0
+Device Type                  :  0x0
+Device Configuration         :  0x0
+ASIC id                      :  81
+ASIC Vendor                  :  0x2
+ASIC Revision                :  0x0
+Security                     :  0x0
+File Number                  :  0x0
+File Version                 :  0x0
+File Sign                    :  0x0
+Bot File Version             :  COLB1S5211C0f30r_11UHB05D.
+Param File Version           :  0x70a006a0
+Lot Number                   :  0x0
+Talisman Security Code       :  0x0
+Reserved                     :  0x0
+SNDK Version                 :  0x0
+CRYS Version                 :  0x0
+PDL Version                  :  0x0
+Talisman Security Code       :  0x0
+Memory ID                    :  453CA9A27A510B140000000000000000
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165695
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165695
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+Set1 Cpu Clock               :
+Set1 Cpu Divider             :
+Set1 Fim Write Clock         :
+Set1 Fim Write Divider       :
+Set1 Fim Read Clock          :
+Set1 Fim Read Divider        :
+Set1 Hs Cpu Clock            :  0
+Set1 Hs Cpu Divider          :  0
+Set1 Hs Ecc Clock            :  0
+Set1 Hs Ecc Divider          :  0
+Set1 Hs Fim Clock            :  0
+Set1 Hs Fim Divider          :  0
+Set1 System Divider          :  0
+Update Blocks                :  0x43
+Chaotic Blocks               :
+Die Interleave               :  0x2
+Lower Page                   :  0x0
+File 31 In User Area         :  0x0
+SSA Version                  :
+App Versions                 :  0x0L
+Top Level IPartNum           :
+Part Number                  :
+Set2 Cpu Clock               :
+Set2 Cpu Divider             :
+Set2 Fim Write Clock         :
+Set2 Fim Write Divider       :
+Set2 Fim Read Clock          :
+Set2 Fim Read Divider        :
+Set2 Hs Cpu Clock            :  0
+Set2 Hs Cpu Divider          :  0
+Set2 Hs Ecc Clock            :  0
+Set2 Hs Ecc Divider          :  0
+Set2 Hs Fim Clock            :  0
+Set2 Hs Fim Divider          :  0
+Set2 System Divider          :  0
+Set3 Cpu Clock               :
+Set3 Cpu Divider             :
+Set3 Fim Write Clock         :
+Set3 Fim Write Divider       :
+Set3 Fim Read Clock          :
+Set3 Fim Read Divider        :
+Set3 Hs Cpu Clock            :  0
+Set3 Hs Cpu Divider          :  0
+Set3 Hs Ecc Clock            :  0
+Set3 Hs Ecc Divider          :  0
+Set3 Hs Fim Clock            :  0
+Set3 Hs Fim Divider          :  0
+Set3 System Divider          :  0
+Set4 Cpu Clock               :
+Set4 Cpu Divider             :
+Set4 Fim Write Clock         :
+Set4 Fim Write Divider       :
+Set4 Fim Read Clock          :
+Set4 Fim Read Divider        :
+Set4 Hs Cpu Clock            :  0
+Set4 Hs Cpu Divider          :  0
+Set4 Hs Ecc Clock            :  0
+Set4 Hs Ecc Divider          :  0
+Set4 Hs Fim Clock            :  0
+Set4 Hs Fim Divider          :  0
+Set4 System Divider          :  0
+Set5 Cpu Clock               :
+Set5 Cpu Divider             :
+Set5 Fim Write Clock         :
+Set5 Fim Write Divider       :
+Set5 Fim Read Clock          :
+Set5 Fim Read Divider        :
+Set5 Hs Cpu Clock            :  0
+Set5 Hs Cpu Divider          :  0
+Set5 Hs Ecc Clock            :  0
+Set5 Hs Ecc Divider          :  0
+Set5 Hs Fim Clock            :  0
+Set5 Hs Fim Divider          :  0
+Set5 System Divider          :  0
+MetaBlockSize                :  32768
+Card Physical Size           :  0
+WORM Card Lock               :  0
+OTEC Version                 :  0
+Meta Page Size               :  192
+Worm Version                 :  0
+
+<<<<<<<<<<<<<<<    COMMAND LINE ARGUMENTS    >>>>>>>>>>>>>>>
+
+
+Processed command-line options:
+   --protocol                                       : sd
+   --adapterspecifier                               : ain:-1,desc:SD05771_ASVU
+   --extcmdset                                      : FBCC
+   --sdtestid                                       : ASIC01
+   --sdconfiguration                                : SPI
+   --cyclecount                                     : 1
+   --testduration                                   : 20h
+   --writereadpercent                               : 100
+   --paramsfile                                     : 'C:\Colibri_SD_HC_I070_SDR104_Prof_C10_U3_V30_A1.txt'
+   --randomseed                                     : 12213697025
+   --projectconfig                                  : C:\SDDVT_Python_Package\SDDVT\Projects_configuration\Colibri_32GB
+   --logfiledir                                     : C:\SDDVT_Python_Package\SDDVT\DvtTestLogs
+   --hostlog                                        : 0
+   --dbconnection                                   : 'none'
+   --temperature                                    : 25
+   --voltage                                        : 0.00
+   --logfilename                                    : 'C:\Results\[U]'
+   --logtostdout                                    : Y
+   --overwriteexistinglogfile                       : Y
+   --logrotationspecifier                           : NoRotation
+   --loglevel                                       : <4, INFO>
+   --testcomment                                    : None
+   --dbproject                                      : CTFW_QA
+   --mdfwprojectid                                  : None
+   --mdconfigid                                     : None
+   --mdtestid                                       : None
+   --valid                                          : True
+   --waitTime                                       : None
+   --jitter                                         : F
+   --testlimits                                     : <None>-<None>
+   --LabID                                          : None
+   --DutID                                          : None
+   --LaunchId                                       : None
+   --TestQueueId                                    : None
+   --xfermode                                       : <N>
+   --networkperiod                                  : <N>
+   --networkpath                                    : <N>
+   --dumpfile                                       : 
+   --printcommandcount                              : N
+   --debugfilepath                                  : <N>
+   --chpfilename                                    : <N>
+   --enablecmdhistory                               : Y
+   --cmdhistextfilename                             : <N>
+   --cmdhistcsvfilename                             : <N>
+   --histdisplaysizes                               : 0,250
+   --stoponcommands                                 : <N>
+   --notifyemailid                                  : <N>
+   --spyoncommands                                  : <N>
+   --notifyoncommands                               : <N>
+   --CmdManShowProgress                             : 'off'
+   --enablePowerCycle                               : '1'
+   --measureCmdLatency                              : '1'
+   --useVddf                                        : 'on'
+   --gvi                                            : 'off'
+   --gviOnFly                                       : 'off'
+   --gviEncryption                                  : '0'
+   --remoteDevice                                   : ''
+   --skipProduction                                 : '0'
+   --forceMultipleMode                              : 'off'
+   --countOfRetryCmdIfCrc                           : '3'
+   --enableOORPatch                                 : 'on'
+   --connectonly                                    : 'off'
+   --nethostautocompare                             : 'on'
+   --nethostpowercycle                              : '0'
+   --nethostloglevel                                : '3'
+   --nethostlogconsole                              : '0'
+   --nethostsanitychecks                            : '0'
+   --nethostsendtimeout                             : '240000'
+   --nethostreceivetimeout                          : '240000'
+   --subProtocol                                    : '0'
+   --useVccq                                        : '3.3'
+   --maxprotocoloverhead                            : '0'
+   --maxprotocoltimingmode                          : '0'
+   --isHighSpeedMode                                : '0'
+   --highFreqInHz                                   : '500'
+   --doDle                                          : '0'
+   --lbaForSctpCommands                             : '0x100'
+   --cmdfilename                                    : ''
+   --cmdtofilewrites                                : '0'
+   --cmdtiming                                      : '0'
+   --cmdtocsv                                       : '0'
+   --logicalChunkSize                               : '0'
+   --diagnosticChunkSize                            : '128'
+   --readChunkSize                                  : '0'
+   --writeChunkSize                                 : '0'
+   --useRelay                                       : '0'
+   --sataPort0ToRelaySlot                           : '0'
+   --sataPort1ToRelaySlot                           : '0'
+   --sataPort2ToRelaySlot                           : '0'
+   --sataPort3ToRelaySlot                           : '0'
+   --relayToComportMapping                          : '1'
+   --useSDB                                         : '0'
+   --sdbToComportMapping                            : '1'
+   --sataAdapterPort0                               : '0'
+   --sataAdapterPort1                               : '0'
+   --sataAdapterPort2                               : '0'
+   --sataAdapterPort3                               : '0'
+   --relayPolarity                                  : '1'
+   --relaySleep                                     : '500'
+   --diagCmdTimeout                                 : '800'
+   --diagDisabled                                   : '0'
+   --hardTimeout                                    : '30000'
+   --commandscriptfolder                            : ''
+   --commandscriptstart                             : '0'
+   --logmsgformat                                   : 'timeMessage'
+   --logtimeformat                                  : 'time'
+   --relaySlot                                      : '0'
+   --atbuRelaySlot                                  : '3'
+   --diskCacheStore                                 : ''
+   --stopOnStart                                    : '0'
+   --notifyserver                                   : ''
+   --notifyretry                                    : '2'
+   --notifytimeout                                  : '60'
+   --failonnotifytimeout                            : '0'
+   --revertactions                                  : ''
+   --timechangedetection                            : '0'
+   --timechangecondition                            : '600'
+   --timechangecheckinterval                        : '1000'
+   --inputmonitor                                   : '1'
+   --logtimeprecision                               : '2'
+   --nonSndkDevEnumeration                          : '0'
+   --modelini                                       : 'C:\Program Files\SanDisk\CTF\Dlls\model.ini'
+   --sfclini                                        : 'C:\Program Files\SanDisk\CTF\Dlls\sfcl.ini'
+   --relayForceDownload                             : 'off'
+   --powercycleoninit                               : 'off'
+   --stopBgOperationOnFail                          : 'off'
+   --autocompare                                    : '0'
+   --autocompareRandomseed                          : '12345678'
+   --modeldelaytimeindiagnostic                     : '0'
+   --ForceDownloadMechanism                         : '0'
+   --EnableUARTDebugLog                             : '0'
+   --UARTBaudRate                                   : '230400'
+   --SerialUARTToCom                                : '0'
+   --UARTDebugFilePath                              : ''
+   --sataPort0ToMubIndx                             : '1'
+   --sataPort1ToMubIndx                             : '1'
+   --sataPort2ToMubIndx                             : '1'
+   --sataPort3ToMubIndx                             : '1'
+   --fclStep                                        : '0'
+   --fclCollectReads                                : '0'
+   --fclCollectWrites                               : '0'
+   --fclCollectErases                               : '0'
+   --fclCollectAOMReads                             : '0'
+   --fclAomBase                                     : '10'
+   --aomStep                                        : '0'
+   --aomMapFile                                     : '0'
+   --fclAomSaveFilesStep                            : '1000'
+   --gfa                                            : '0'
+   --atbuSoftwareLocation                           : ''
+   --atbuMemoryName                                 : ''
+   --atbuProfilesLocation                           : ''
+   --atbuThresholdValue                             : '0'
+   --atbuTransitionTime                             : '0'
+   --atbuDcCompensation                             : ''
+
+
+<<<<<<<<<<<<<<< RUNNING TEST: ASIC01_Call_All_ASIC_Fixes_SD_SPI >>>>>>>>>>>>>>>
+
+
+
+10:43:57: ###### Call All ASIC Fixes SD SPI test.
+10:44:03: FPGA Image Downloaded Is:SD_LEGACY-SDR2_2-01-00-0001.bin
+10:44:03: MaxLba of the card: 0x3B72400 
+10:44:06: [GO7_globalPreTestingSettings]### Default Initialization Start
+10:44:06: [DVTCommonLib]###  SwitchHostVoltageRegion called
+10:44:06: [ SwitchHostVoltageRegion(False) , Command count = 44 ] 
+10:44:06: [DVTCommonLib]###  SwitchHostVoltageRegion Completed 
+
+10:44:06: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 45 ] 
+10:44:08: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <None>, 0x0, 0x0, 0x1, True, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 46 ] 
+10:44:08: [ CardInit() , Command count = 47 ] 
+10:44:08: [ SendDiagnostic(<0x200/0x200, Spc, pat:0x0>, [0x9A, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], 0x0, 0x1) , Command count = 48 ] 
+
+<<<<<<<<<<<<<<<         M-CONF INFO          >>>>>>>>>>>>>>>
+
+Max LBA                      :  0x3b9b000
+FW Revision                  :  0x20425236
+Internal Flashware Revision  :
+Romware revision             :  RRBZ1152
+Device Count                 :  0x0
+Device Type                  :  0x0
+Device Configuration         :  0x0
+ASIC id                      :  81
+ASIC Vendor                  :  0x2
+ASIC Revision                :  0x0
+Security                     :  0x0
+File Number                  :  0x0
+File Version                 :  0x0
+File Sign                    :  0x0
+Bot File Version             :  COLB1S5211C0f30r_11UHB05D.
+Param File Version           :  0x70a006a0
+Lot Number                   :  0x0
+Talisman Security Code       :  0x0
+Reserved                     :  0x0
+SNDK Version                 :  0x0
+CRYS Version                 :  0x0
+PDL Version                  :  0x0
+Talisman Security Code       :  0x0
+Memory ID                    :  453CA9A27A510B140000000000000000
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165695
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165695
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+Set1 Cpu Clock               :
+Set1 Cpu Divider             :
+Set1 Fim Write Clock         :
+Set1 Fim Write Divider       :
+Set1 Fim Read Clock          :
+Set1 Fim Read Divider        :
+Set1 Hs Cpu Clock            :  0
+Set1 Hs Cpu Divider          :  0
+Set1 Hs Ecc Clock            :  0
+Set1 Hs Ecc Divider          :  0
+Set1 Hs Fim Clock            :  0
+Set1 Hs Fim Divider          :  0
+Set1 System Divider          :  0
+Update Blocks                :  0x43
+Chaotic Blocks               :
+Die Interleave               :  0x2
+Lower Page                   :  0x0
+File 31 In User Area         :  0x0
+SSA Version                  :
+App Versions                 :  0x0L
+Top Level IPartNum           :
+Part Number                  :
+Set2 Cpu Clock               :
+Set2 Cpu Divider             :
+Set2 Fim Write Clock         :
+Set2 Fim Write Divider       :
+Set2 Fim Read Clock          :
+Set2 Fim Read Divider        :
+Set2 Hs Cpu Clock            :  0
+Set2 Hs Cpu Divider          :  0
+Set2 Hs Ecc Clock            :  0
+Set2 Hs Ecc Divider          :  0
+Set2 Hs Fim Clock            :  0
+Set2 Hs Fim Divider          :  0
+Set2 System Divider          :  0
+Set3 Cpu Clock               :
+Set3 Cpu Divider             :
+Set3 Fim Write Clock         :
+Set3 Fim Write Divider       :
+Set3 Fim Read Clock          :
+Set3 Fim Read Divider        :
+Set3 Hs Cpu Clock            :  0
+Set3 Hs Cpu Divider          :  0
+Set3 Hs Ecc Clock            :  0
+Set3 Hs Ecc Divider          :  0
+Set3 Hs Fim Clock            :  0
+Set3 Hs Fim Divider          :  0
+Set3 System Divider          :  0
+Set4 Cpu Clock               :
+Set4 Cpu Divider             :
+Set4 Fim Write Clock         :
+Set4 Fim Write Divider       :
+Set4 Fim Read Clock          :
+Set4 Fim Read Divider        :
+Set4 Hs Cpu Clock            :  0
+Set4 Hs Cpu Divider          :  0
+Set4 Hs Ecc Clock            :  0
+Set4 Hs Ecc Divider          :  0
+Set4 Hs Fim Clock            :  0
+Set4 Hs Fim Divider          :  0
+Set4 System Divider          :  0
+Set5 Cpu Clock               :
+Set5 Cpu Divider             :
+Set5 Fim Write Clock         :
+Set5 Fim Write Divider       :
+Set5 Fim Read Clock          :
+Set5 Fim Read Divider        :
+Set5 Hs Cpu Clock            :  0
+Set5 Hs Cpu Divider          :  0
+Set5 Hs Ecc Clock            :  0
+Set5 Hs Ecc Divider          :  0
+Set5 Hs Fim Clock            :  0
+Set5 Hs Fim Divider          :  0
+Set5 System Divider          :  0
+MetaBlockSize                :  32768
+Card Physical Size           :  0
+WORM Card Lock               :  0
+OTEC Version                 :  0
+Meta Page Size               :  192
+Worm Version                 :  0
+
+10:44:09: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+10:44:09: ####CSD Registe 2.0 Values####
+10:44:09: CSD_STRUCTURE                                 :0x1
+10:44:09: Reserv1                                       :0x0
+10:44:09: Time Access 1 TAAC                            :0xe
+10:44:09: Time Access 2 NSAC*100                        :0x0
+10:44:09: Data Transfer Rate TRAN_SPEED                 :0x32
+10:44:09: Card Command Classess CCC                     :0x5b5
+10:44:09: Max Read Data Block Length  READ_BL_LEN       :0x9
+10:44:09: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+10:44:09: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+10:44:09: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+10:44:10: DSR(driver stage register)  DSR_IMP           :0x0
+10:44:10: Reserv2                                       :0x0
+10:44:10: Device Size C_SIZE                            :0xedc8
+10:44:10: Reserv3                                       :0x0
+10:44:10: Erase Single Block Enable ERASE_BLK_EN        :0x1
+10:44:10: Erase Sector Size SECTOR_SIZE                 :0x7f
+10:44:10: Write Protect Group Size WP_GRP_SIZE          :0x0
+10:44:10: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+10:44:10: Reserv4                                       :0x0
+10:44:10: Write Speed Factor R2W_FACTOR                 :0x2
+10:44:10: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+10:44:10: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+10:44:10: FILE_FORMAT_GRP                               :0x0
+10:44:10: COPY flag                                     :0x1
+10:44:10: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+10:44:10: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+10:44:10: File_Format                                   :0x0
+10:44:10: CRC                                           :0x0
+10:44:10: ####CSD Registe Values####  
+
+10:44:10: [DVTCommonLib]### CardInfo :###****CARD INFO****
+10:44:10: ProductSerialNumber = 0x23482900
+10:44:10: CardMaximumLBA      = 0x3b72400
+10:44:10: CardCapacity        = 32G
+10:44:10: Is card secure      = 0
+10:44:10: [DVTCommonLib]### CardInfo :###****CARD INFO**** 
+
+10:44:10: [GO7_globalPreTestingSettings]### Default Initialization Completed 
+
+
+10:44:10: [GO4_globalInitCard]### Switch to Specify Card Type
+10:44:12: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+10:44:12: Host Frequency set to 25000 KHz
+10:44:12: [GO12_globalSetLSHostFreq.py]###  globalRandom value is None
+10:44:12: [GO18_globalSetVolt]### Set Host Voltage value.
+10:44:12: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent= 100 mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+10:44:13: [ SetVolt(<py_sfcl.SDVoltage object at 0x05FF87E0>, 0x0, True) , Command count = 49 ] 
+10:44:13: [GO18_globalSetVolt]### Host voltage value is set.
+10:44:13: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=100 mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+10:44:13: [ SetVolt(<py_sfcl.SDVoltage object at 0x05FF8780>, 0x0, False) , Command count = 50 ] 
+10:44:13: [GO18_globalSetVolt]### Host voltage value is set.
+10:44:13: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 51 ] 
+10:44:13: [DVTCommonLib]### enableACMD41[INFO] :EnableACMD41 API Called 
+10:44:13: [ EnableACMD41() , Command count = 52 ] 
+10:44:13: [DVTCommonLib]### enableACMD41[INFO] :EnableACMD41 API completed
+
+10:44:13: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+10:44:13: [ CardReset(py_sfcl.CARD_MODE.SD_IN_SPI, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x0, 0x0, 0x1, True, True, 0x0, 0x1, 0xAA, 0x0) , Command count = 53 ] 
+10:44:13: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC0FF8000
+10:44:13: [DVTCommonLib]### Reset[INFO]: Card response as High Capacity from card.
+10:44:13: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+10:44:13: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+10:44:13: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+10:44:13: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+10:44:13: Host Frequency set to 25000 KHz
+10:44:13: [GO12_globalSetLSHostFreq.py]###  globalRandom value is None
+10:44:13: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 195]
+10:44:13: ####CSD Registe 2.0 Values####
+10:44:13: CSD_STRUCTURE                                 :0x1
+10:44:13: Reserv1                                       :0x0
+10:44:13: Time Access 1 TAAC                            :0xe
+10:44:13: Time Access 2 NSAC*100                        :0x0
+10:44:13: Data Transfer Rate TRAN_SPEED                 :0x32
+10:44:13: Card Command Classess CCC                     :0x5b5
+10:44:13: Max Read Data Block Length  READ_BL_LEN       :0x9
+10:44:13: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+10:44:13: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+10:44:13: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+10:44:13: DSR(driver stage register)  DSR_IMP           :0x0
+10:44:13: Reserv2                                       :0x0
+10:44:13: Device Size C_SIZE                            :0xedc8
+10:44:13: Reserv3                                       :0x0
+10:44:13: Erase Single Block Enable ERASE_BLK_EN        :0x1
+10:44:13: Erase Sector Size SECTOR_SIZE                 :0x7f
+10:44:13: Write Protect Group Size WP_GRP_SIZE          :0x0
+10:44:13: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+10:44:13: Reserv4                                       :0x0
+10:44:13: Write Speed Factor R2W_FACTOR                 :0x2
+10:44:13: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+10:44:13: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+10:44:13: FILE_FORMAT_GRP                               :0x0
+10:44:13: COPY flag                                     :0x1
+10:44:13: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+10:44:13: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+10:44:13: File_Format                                   :0x0
+10:44:13: CRC                                           :0x61
+10:44:13: ####CSD Registe Values####  
+
+10:44:13: [G02_GlobalSetBusMode]### Not Setting the Bus Width !!!
+10:44:13: [DVTCommonLib]### GetSDStatus :######SD Status#######
+10:44:13: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x05FF8AB0>, <0x200/0x200, Spc, pat:0x0>) , Command count = 54 ] 
+10:44:13: Protected Area Size 0x28000
+10:44:13: Bus Width           0
+10:44:13: Secure Mode         0
+10:44:13: Speed  Class        4
+10:44:13: Perf Move           0
+10:44:13: Au Size             9
+10:44:13: Erase Size          15
+10:44:13: Erase Timeout       1
+10:44:13: Erase offset        1
+10:44:13: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+10:44:13: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+10:44:14: Card is initialized in SPI mode.
+10:44:14: SCRIPT RUN STARTED.
+10:44:14: ##########   RUNNING SCRIPT WITH TEST ID: H2ASICErase. ###########
+10:44:22: ##########   RUNNING SCRIPT WITH TEST ID: ASIC03. ###########
+10:45:08: ##########   RUNNING SCRIPT WITH TEST ID: ASIC04. ###########
+10:45:35: ##########   RUNNING SCRIPT WITH TEST ID: ASIC02. ###########
+
+2016-11-21 10:45:55: 
+
+Elapsed time 00:02:18.
+
+
+   ######     ##    #####   #####  
+    ##  ##   ####  ##    # ##    # 
+    ##  ##  ##  ## ##      ##      
+    #####   ##  ##  #####   #####  
+    ##      ######      ##      ## 
+    ##      ##  ## #    ## #    ## 
+   ####     ##  ##  #####   #####
+

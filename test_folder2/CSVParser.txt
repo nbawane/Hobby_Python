@@ -1,0 +1,57 @@
+import csv
+
+
+#PATH = r"C:\Personal\csv_file.csv"
+PATH = 'C:\\Personal\\csv_file.csv'
+input_string = 'Raw'
+column_name = 'Measurement Type'
+
+
+def SearchStringInCoulmnOfCSV(csv_file_path, column_name, string_name):
+    with open(csv_file_path, 'r') as infile:
+        reader = csv.reader(infile)
+        item_found = 0
+        for row in reader:
+            if item_found == 1:
+                break
+            for row_index , item in enumerate(row, 1):
+                if item == column_name:
+                    print(row_index)
+                    column_index = row.index(item)
+                    print(column_index)
+                    print("Column "+ item + " present")
+                    item_found = 1
+                    print(row_index)
+                    FindStringInSelectedColumn(csv_file_path, string_name, row_index, column_index)
+                    break
+        if item_found != 1:
+            print("measurement type not found")
+
+
+
+def FindStringInSelectedColumn(csv_file_path, input_string, StartingRowNumber, column_index):
+    output = []
+    count = 0
+    #with open('csv_file.csv', 'r') as infile:
+    with open(PATH, 'r') as infile:
+        reader = csv.reader(infile)
+
+        for index,row in enumerate(reader, 1):
+            print (index)
+            print (StartingRowNumber)
+            if index >= StartingRowNumber:
+                output.append(row[column_index])
+
+    print(output)
+    for item in output:
+        if item == input_string:
+            print("item found")
+            return True
+    print("item not found")
+    return False
+
+
+if __name__ == "__main__":
+    SearchStringInCoulmnOfCSV(PATH, column_name, input_string)
+
+

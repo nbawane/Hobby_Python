@@ -1,0 +1,2149 @@
+13:06:40: Sata Disconnector Board found in COM1.
+13:06:44: ***************************************************** 
+
+13:06:44: *  SDR/USD Driver version '10.0.0.1 (0x a.0.0.1)'   * 
+
+13:06:44: *                                                   * 
+
+13:06:44: *  Compatibility with this version is not verified! * 
+
+13:06:44: ***************************************************** 
+
+13:06:47: [ DeviceSetupCompletion() , Command count = 7 ] 
+13:06:47: Testname Mapping: ScriptName=[ASIC666_Call_All_ASIC_Fixes_SD] -> TestId=[ASIC666]
+13:06:47: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 8 ] 
+13:06:47: [ GetPhysicalChipsInfo() , Command count = 9 ] 
+13:06:47: [ GetFileSize(0xEA) , Command count = 10 ] 
+13:06:47: [ ReadFile(<0xA00/0x200, Arb>, 0xEA, 0x1) , Command count = 11 ] 
+13:06:47: [ GetFileSize(0x16) , Command count = 12 ] 
+13:06:47: [ GetCardStatus() , Command count = 13 ] 
+13:06:47: [ GetFileSize(0x18) , Command count = 14 ] 
+13:06:47: [ ReadFile(<0x1000/0x200, Arb>, 0x18, 0x8) , Command count = 15 ] 
+13:06:47: [ GetFileSize(0x15) , Command count = 16 ] 
+13:06:47: [ ReadFile(<0x1000/0x200, Arb>, 0x15, 0x1) , Command count = 17 ] 
+13:06:49: Can not find revision of File 21 in file 'config.xml' or card is in the ROM mode
+13:06:49: [ GetFileSize(0xE) , Command count = 18 ] 
+13:06:49: [ ReadFile(<0x1000/0x200, Arb>, 0xE, 0x1) , Command count = 19 ] 
+13:06:49: [ GetFileSize(0x1E) , Command count = 20 ] 
+13:06:49: [ GetCardStatus() , Command count = 21 ] 
+13:06:49: [ GetFileSize(0x21) , Command count = 22 ] 
+13:06:49: [ GetCardStatus() , Command count = 23 ] 
+13:06:49: [ GetFileSize(0x33) , Command count = 24 ] 
+13:06:49: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x33, 0x1) , Command count = 25 ] 
+13:06:49: [ GetFileSize(0x1F) , Command count = 26 ] 
+13:06:49: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x1F, 0x1) , Command count = 27 ] 
+13:06:49: [ GetFileSize(0x2A) , Command count = 28 ] 
+13:06:49: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x2A, 0x1) , Command count = 29 ] 
+13:06:49: [ ReadCfgConf(<0x1000/0x200, Spc, pat:0x0>, 0x1) , Command count = 30 ] 
+13:06:49: [ ReadFirmwareParameter(<0x1000/0x200, Spc, pat:0x0>, 0x2) , Command count = 31 ] 
+13:06:49: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_BE) , Command count = 32 ] 
+13:06:49: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_PRODUCT) , Command count = 33 ] 
+13:06:49: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_FE_SD) , Command count = 34 ] 
+13:06:49: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, 0x0) , Command count = 35 ] 
+13:06:49: [ GetFileSize(0x33) , Command count = 36 ] 
+13:06:49: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 37 ] 
+13:06:49: [ GetFileSize(0x33) , Command count = 38 ] 
+13:06:49: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 39 ] 
+13:06:49: [ GetIpVersionInfo() , Command count = 40 ] 
+13:06:49: [ GetPhysicalChipsInfo() , Command count = 41 ] 
+13:06:49: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x06207540>, <0x200/0x200, Arb>) , Command count = 42 ] 
+13:06:50: [ SendDiagnostic(<0x200/0x200, Spc, pat:0x0>, [0x9A, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], 0x0, 0x1) , Command count = 43 ] 
+
+<<<<<<<<<<<<<<<         TEST HEADER          >>>>>>>>>>>>>>>
+
+Application                :  TestRunner.py
+Application version        :  SD_DVT_CQ_Spec 6.0.0
+Application folder         :  C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT
+Command line               :  --protocol=sd --sdtestid=ASIC666 --dbconnection=none --adapter=SD05412_9ADT --sdConfiguration=SDR50 --projectconfig=C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB --paramsfile=C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB\Colibri_SD_HC_I059_SDR104_Prem_C10_U1.txt --logfilename=C:\Results\ASIC666_CQ.txt --CQ=1
+Protocol                   :  sd
+Serial number (CInfo)      :  sdin1091
+Adapter                    :  SDR Tester (S#: SD05412_9ADT): (Slot#:0)
+Adapter serial number      :  SD05412_9ADT
+Adapter type               :  USD
+Capacity                   :  32G
+Firmware revision          :  6RB C030
+Flashware revision         :  6RB C030
+IP Version Info            :  '' 01.04.00... ID 0x20
+                           :  '' 00.01.00... ID 0x10
+Memory ID                  :  453CA9A27A510B140000000000000000
+Controller                 :  81
+Trim settings              :  <Unavailable>
+Model revision             :  <Unavailable>
+Stream name                :  <Unavailable>
+FE IP                      :  1
+Romware revision           :  RRBZ1152
+Architecture               :  Gen 6
+Model                      :  SanDisk   COLIBRI
+Memory type                :  Unknown Device Type-2LC x 1
+ASIC id                    :  81
+Controller type            :  Unknown Controller   UMC-J
+Driver version (actual)    :  10.0.0.1 (0x a.0.0.1)
+Driver version (released)  :  7.1.4.3 (0x 7.1.4.3)
+Date and time              :  2016-11-28 13:06:49
+Host name                  :  SDDVT_Test2
+Host IP address            :  10.65.153.121
+Operating system           :  Microsoft Windows [Version 6.1.7601] Service Pack 1
+SanDisk Python version     :  1.17.5rc3
+CTF/PySFCL build number    :  1.3.217491.217491
+PySFCL version             :  1.3.217491
+CTF version                :  1.3
+Python version             :  2.4.2
+Project Name(Validation)   :  <None>
+
+
+<<<<<<<<<<<<<<<      SFCL CONFIGURATION      >>>>>>>>>>>>>>>
+
+[SD enumeration]
+cmdtiming=0
+useRelay=0
+autocompare=0
+relayPolarity=1
+relaySleep=500
+measureCmdLatency=1
+logicalChunkSize=0
+diagDisabled=0
+diagCmdTimeout=800
+useVddf=on
+nethostloglevel=
+nethostautoCompare=on
+CmdManShowProgress=off
+nethostsendtimeout=240000
+nethostreceivetimeout=240000
+countOfRetryCmdIfCrc=3
+enableOORPatch=
+lbaForSctpCommands=0x100
+subProtocol=0
+doDle=0
+diagnosticChunkSize=128
+logmsgformat=timeMessage
+logtimeformat=time
+relaySlot=0
+unloadDll=on
+hardTimeoutUnloadDll=on
+minDuration=7200
+remoteDevice=
+skipProduction=0
+ishighspeedmode=0
+highfreqinhz=500
+modeldelaytimeindiagnostic=0
+cqDataTransferPollingShortInterval=1000
+cqDataStatusPollingLongInterval=1800000
+sataPort0ToRelaySlot=0
+sataPort1ToRelaySlot=0
+sataPort2ToRelaySlot=0
+sataPort3ToRelaySlot=0
+relayToComportMapping=1
+sdbToComportMapping=1
+sataAdapterPort0=0
+sataAdapterPort1=0
+sataAdapterPort2=0
+sataAdapterPort3=0
+sataPort0ToMubIndx=1
+sataPort1ToMubIndx=1
+sataPort2ToMubIndx=1
+sataPort3ToMubIndx=1
+
+[Common]
+enableChunkTraces=off
+enablePythonTraceback=1
+sctpPhaseDelay=0
+printcommandcount=on
+debugfilepath=
+initXMLPath=\\regression.lab.sandisk.com\shared\configurations
+delayBeforePwrCycle=0
+delayAfterPwrCycle=0
+reportCountStatistics=1
+reportPackage=0
+sfclConfig=Common
+
+<<<<<<<<<<<<<<<          CARD INFO           >>>>>>>>>>>>>>>
+
+Number Of LBAs  :  0x3b72400
+Card Is Locked  :  No
+Secure Area     :  0x28000
+Card Secure     :  No
+WP map          :
+
+<<<<<<<<<<<<<<<           CID INFO           >>>>>>>>>>>>>>>
+
+Manufacturer Id  :  0x3
+Card/BGA         :  0
+Application Id   :  0x5344
+ProductName      :  AGGCD
+ProductRev       :  0x80
+SerialNumber     :  0x23482900
+Reserved         :  0x23482900
+Year             :  2000
+Month            :  11
+CRC Check Sum    :  0x5
+Not Used         :
+
+<<<<<<<<<<<<<<<           CSD INFO           >>>>>>>>>>>>>>>
+
+CSD Structure                     :  0x1
+reserv. 1                         :  0x0
+TAAC                              :  0xe
+NSAC*100                          :  0x0
+data transfer rate                :  0x32
+card command classes CCC          :  0x5b5
+max. read data Blk. length        :  0x9
+partial blocks for read allowed   :  0x0
+write block misalignment          :  0x0
+read block misalignment           :  0x0
+DSR implemented                   :  0x0
+reserved 2                        :  0x0
+device size                       :  0xedc8
+Reserv3                           :  0x0
+SD Erase Blk Len En               :  0x1
+SD Sec Size                       :  0x7f
+write protect group size          :  0x0
+write protect group enable        :  0x0
+Reserv4                           :  0x0
+write speed factor                :  0x2
+max. write data blk. length       :  0x9
+partial blocks for write allowed  :  0x0
+File Format Group                 :  0x0
+copy flag(OTP)                    :  0x1
+permanent write protection        :  0x0
+temporary write protection        :  0x0
+File Format                       :  0x0
+CRC                               :  0x0
+<<<<<<<<<<<<<<<         M-CONF INFO          >>>>>>>>>>>>>>>
+
+Max LBA                      :  0x3b9b000
+FW Revision                  :  0x20425236
+Internal Flashware Revision  :
+Romware revision             :  RRBZ1152
+Device Count                 :  0x0
+Device Type                  :  0x0
+Device Configuration         :  0x0
+ASIC id                      :  81
+ASIC Vendor                  :  0x2
+ASIC Revision                :  0x0
+Security                     :  0x0
+File Number                  :  0x0
+File Version                 :  0x0
+File Sign                    :  0x0
+Bot File Version             :  COLB1S5211C0f30r_11UHB05D.
+Param File Version           :  0x70a006a0
+Lot Number                   :  0x0
+Talisman Security Code       :  0x0
+Reserved                     :  0x0
+SNDK Version                 :  0x0
+CRYS Version                 :  0x0
+PDL Version                  :  0x0
+Talisman Security Code       :  0x0
+Memory ID                    :  453CA9A27A510B140000000000000000
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+Set1 Cpu Clock               :
+Set1 Cpu Divider             :
+Set1 Fim Write Clock         :
+Set1 Fim Write Divider       :
+Set1 Fim Read Clock          :
+Set1 Fim Read Divider        :
+Set1 Hs Cpu Clock            :  0
+Set1 Hs Cpu Divider          :  0
+Set1 Hs Ecc Clock            :  0
+Set1 Hs Ecc Divider          :  0
+Set1 Hs Fim Clock            :  0
+Set1 Hs Fim Divider          :  0
+Set1 System Divider          :  0
+Update Blocks                :  0x43
+Chaotic Blocks               :
+Die Interleave               :  0x2
+Lower Page                   :  0x0
+File 31 In User Area         :  0x0
+SSA Version                  :
+App Versions                 :  0x0L
+Top Level IPartNum           :
+Part Number                  :
+Set2 Cpu Clock               :
+Set2 Cpu Divider             :
+Set2 Fim Write Clock         :
+Set2 Fim Write Divider       :
+Set2 Fim Read Clock          :
+Set2 Fim Read Divider        :
+Set2 Hs Cpu Clock            :  0
+Set2 Hs Cpu Divider          :  0
+Set2 Hs Ecc Clock            :  0
+Set2 Hs Ecc Divider          :  0
+Set2 Hs Fim Clock            :  0
+Set2 Hs Fim Divider          :  0
+Set2 System Divider          :  0
+Set3 Cpu Clock               :
+Set3 Cpu Divider             :
+Set3 Fim Write Clock         :
+Set3 Fim Write Divider       :
+Set3 Fim Read Clock          :
+Set3 Fim Read Divider        :
+Set3 Hs Cpu Clock            :  0
+Set3 Hs Cpu Divider          :  0
+Set3 Hs Ecc Clock            :  0
+Set3 Hs Ecc Divider          :  0
+Set3 Hs Fim Clock            :  0
+Set3 Hs Fim Divider          :  0
+Set3 System Divider          :  0
+Set4 Cpu Clock               :
+Set4 Cpu Divider             :
+Set4 Fim Write Clock         :
+Set4 Fim Write Divider       :
+Set4 Fim Read Clock          :
+Set4 Fim Read Divider        :
+Set4 Hs Cpu Clock            :  0
+Set4 Hs Cpu Divider          :  0
+Set4 Hs Ecc Clock            :  0
+Set4 Hs Ecc Divider          :  0
+Set4 Hs Fim Clock            :  0
+Set4 Hs Fim Divider          :  0
+Set4 System Divider          :  0
+Set5 Cpu Clock               :
+Set5 Cpu Divider             :
+Set5 Fim Write Clock         :
+Set5 Fim Write Divider       :
+Set5 Fim Read Clock          :
+Set5 Fim Read Divider        :
+Set5 Hs Cpu Clock            :  0
+Set5 Hs Cpu Divider          :  0
+Set5 Hs Ecc Clock            :  0
+Set5 Hs Ecc Divider          :  0
+Set5 Hs Fim Clock            :  0
+Set5 Hs Fim Divider          :  0
+Set5 System Divider          :  0
+MetaBlockSize                :  32768
+Card Physical Size           :  0
+WORM Card Lock               :  0
+OTEC Version                 :  0
+Meta Page Size               :  192
+Worm Version                 :  0
+
+<<<<<<<<<<<<<<<    COMMAND LINE ARGUMENTS    >>>>>>>>>>>>>>>
+
+
+Processed command-line options:
+   --protocol                                       : sd
+   --adapterspecifier                               : ain:-1,desc:SD05412_9ADT
+   --extcmdset                                      : FBCC
+   --sdtestid                                       : ASIC666
+   --sdconfiguration                                : SDR50
+   --cyclecount                                     : 1
+   --testduration                                   : 20h
+   --writereadpercent                               : 100
+   --paramsfile                                     : 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB\Colibri_SD_HC_I059_SDR104_Prem_C10_U1.txt'
+   --randomseed                                     : 70409026885
+   --projectconfig                                  : C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB
+   --logfiledir                                     : C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\DvtTestLogs
+   --hostlog                                        : 0
+   --cq                                             : 1
+   --dbconnection                                   : 'none'
+   --temperature                                    : 25
+   --voltage                                        : 0.00
+   --logfilename                                    : 'C:\Results\ASIC666_CQ.txt'
+   --logtostdout                                    : Y
+   --overwriteexistinglogfile                       : Y
+   --logrotationspecifier                           : NoRotation
+   --loglevel                                       : <4, INFO>
+   --testcomment                                    : None
+   --dbproject                                      : CTFW_QA
+   --mdfwprojectid                                  : None
+   --mdconfigid                                     : None
+   --mdtestid                                       : None
+   --valid                                          : True
+   --waitTime                                       : None
+   --jitter                                         : F
+   --testlimits                                     : <None>-<None>
+   --LabID                                          : None
+   --DutID                                          : None
+   --LaunchId                                       : None
+   --TestQueueId                                    : None
+   --xfermode                                       : <N>
+   --networkperiod                                  : <N>
+   --networkpath                                    : <N>
+   --dumpfile                                       : 
+   --printcommandcount                              : N
+   --debugfilepath                                  : <N>
+   --chpfilename                                    : <N>
+   --enablecmdhistory                               : Y
+   --cmdhistextfilename                             : <N>
+   --cmdhistcsvfilename                             : <N>
+   --histdisplaysizes                               : 0,250
+   --stoponcommands                                 : <N>
+   --notifyemailid                                  : <N>
+   --spyoncommands                                  : <N>
+   --notifyoncommands                               : <N>
+   --CmdManShowProgress                             : 'off'
+   --enablePowerCycle                               : '1'
+   --measureCmdLatency                              : '1'
+   --useVddf                                        : 'on'
+   --gvi                                            : 'off'
+   --gviOnFly                                       : 'off'
+   --gviEncryption                                  : '0'
+   --remoteDevice                                   : ''
+   --skipProduction                                 : '0'
+   --forceMultipleMode                              : 'off'
+   --countOfRetryCmdIfCrc                           : '3'
+   --enableOORPatch                                 : 'on'
+   --connectonly                                    : 'off'
+   --nethostautocompare                             : 'on'
+   --nethostpowercycle                              : '0'
+   --nethostloglevel                                : '3'
+   --nethostlogconsole                              : '0'
+   --nethostsanitychecks                            : '0'
+   --nethostsendtimeout                             : '240000'
+   --nethostreceivetimeout                          : '240000'
+   --subProtocol                                    : '0'
+   --useVccq                                        : '3.3'
+   --maxprotocoloverhead                            : '0'
+   --maxprotocoltimingmode                          : '0'
+   --isHighSpeedMode                                : '0'
+   --highFreqInHz                                   : '500'
+   --doDle                                          : '0'
+   --lbaForSctpCommands                             : '0x100'
+   --cmdfilename                                    : ''
+   --cmdtofilewrites                                : '0'
+   --cmdtiming                                      : '0'
+   --cmdtocsv                                       : '0'
+   --logicalChunkSize                               : '0'
+   --diagnosticChunkSize                            : '128'
+   --readChunkSize                                  : '0'
+   --writeChunkSize                                 : '0'
+   --useRelay                                       : '0'
+   --sataPort0ToRelaySlot                           : '0'
+   --sataPort1ToRelaySlot                           : '0'
+   --sataPort2ToRelaySlot                           : '0'
+   --sataPort3ToRelaySlot                           : '0'
+   --relayToComportMapping                          : '1'
+   --useSDB                                         : '0'
+   --sdbToComportMapping                            : '1'
+   --sataAdapterPort0                               : '0'
+   --sataAdapterPort1                               : '0'
+   --sataAdapterPort2                               : '0'
+   --sataAdapterPort3                               : '0'
+   --relayPolarity                                  : '1'
+   --relaySleep                                     : '500'
+   --diagCmdTimeout                                 : '800'
+   --diagDisabled                                   : '0'
+   --hardTimeout                                    : '30000'
+   --commandscriptfolder                            : ''
+   --commandscriptstart                             : '0'
+   --logmsgformat                                   : 'timeMessage'
+   --logtimeformat                                  : 'time'
+   --relaySlot                                      : '0'
+   --atbuRelaySlot                                  : '3'
+   --diskCacheStore                                 : ''
+   --stopOnStart                                    : '0'
+   --notifyserver                                   : ''
+   --notifyretry                                    : '2'
+   --notifytimeout                                  : '60'
+   --failonnotifytimeout                            : '0'
+   --revertactions                                  : ''
+   --timechangedetection                            : '0'
+   --timechangecondition                            : '600'
+   --timechangecheckinterval                        : '1000'
+   --inputmonitor                                   : '1'
+   --logtimeprecision                               : '2'
+   --nonSndkDevEnumeration                          : '0'
+   --modelini                                       : 'C:\Program Files\SanDisk\CTF\Dlls\model.ini'
+   --sfclini                                        : 'C:\Program Files\SanDisk\CTF\Dlls\sfcl.ini'
+   --relayForceDownload                             : 'off'
+   --powercycleoninit                               : 'off'
+   --stopBgOperationOnFail                          : 'off'
+   --autocompare                                    : '0'
+   --autocompareRandomseed                          : '12345678'
+   --modeldelaytimeindiagnostic                     : '0'
+   --ForceDownloadMechanism                         : '0'
+   --EnableUARTDebugLog                             : '0'
+   --UARTBaudRate                                   : '230400'
+   --SerialUARTToCom                                : '0'
+   --UARTDebugFilePath                              : ''
+   --sataPort0ToMubIndx                             : '1'
+   --sataPort1ToMubIndx                             : '1'
+   --sataPort2ToMubIndx                             : '1'
+   --sataPort3ToMubIndx                             : '1'
+   --fclStep                                        : '0'
+   --fclCollectReads                                : '0'
+   --fclCollectWrites                               : '0'
+   --fclCollectErases                               : '0'
+   --fclCollectAOMReads                             : '0'
+   --fclAomBase                                     : '10'
+   --aomStep                                        : '0'
+   --aomMapFile                                     : '0'
+   --fclAomSaveFilesStep                            : '1000'
+   --gfa                                            : '0'
+   --atbuSoftwareLocation                           : ''
+   --atbuMemoryName                                 : ''
+   --atbuProfilesLocation                           : ''
+   --atbuThresholdValue                             : '0'
+   --atbuTransitionTime                             : '0'
+   --atbuDcCompensation                             : ''
+
+
+<<<<<<<<<<<<<<< RUNNING TEST: ASIC666_Call_All_ASIC_Fixes_SD >>>>>>>>>>>>>>>
+
+
+
+13:06:50: ###### Running Call_All_ASIC_Fixes_SD scripts  ######
+13:06:56: FPGA Image Downloaded Is:C:\Program Files\SanDisk\CTF\FPGA\SD_CQ_SDR2_2-20-00-0002.bin
+13:06:56: MaxLba of the card: 0x3B72400 
+13:06:58: [GO7_globalPreTestingSettings]### Default Initialization Start
+13:06:58: [DVTCommonLib]###  SwitchHostVoltageRegion called
+13:06:58: [ SwitchHostVoltageRegion(False) , Command count = 44 ] 
+13:06:58: [DVTCommonLib]###  SwitchHostVoltageRegion Completed 
+
+13:06:58: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 45 ] 
+13:07:00: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <None>, 0x0, 0x0, 0x1, True, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 46 ] 
+13:07:00: [ CardInit() , Command count = 47 ] 
+13:07:00: [ SendDiagnostic(<0x200/0x200, Spc, pat:0x0>, [0x9A, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], 0x0, 0x1) , Command count = 48 ] 
+
+<<<<<<<<<<<<<<<         M-CONF INFO          >>>>>>>>>>>>>>>
+
+Max LBA                      :  0x3b9b000
+FW Revision                  :  0x20425236
+Internal Flashware Revision  :
+Romware revision             :  RRBZ1152
+Device Count                 :  0x0
+Device Type                  :  0x0
+Device Configuration         :  0x0
+ASIC id                      :  81
+ASIC Vendor                  :  0x2
+ASIC Revision                :  0x0
+Security                     :  0x0
+File Number                  :  0x0
+File Version                 :  0x0
+File Sign                    :  0x0
+Bot File Version             :  COLB1S5211C0f30r_11UHB05D.
+Param File Version           :  0x70a006a0
+Lot Number                   :  0x0
+Talisman Security Code       :  0x0
+Reserved                     :  0x0
+SNDK Version                 :  0x0
+CRYS Version                 :  0x0
+PDL Version                  :  0x0
+Talisman Security Code       :  0x0
+Memory ID                    :  453CA9A27A510B140000000000000000
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+Set1 Cpu Clock               :
+Set1 Cpu Divider             :
+Set1 Fim Write Clock         :
+Set1 Fim Write Divider       :
+Set1 Fim Read Clock          :
+Set1 Fim Read Divider        :
+Set1 Hs Cpu Clock            :  0
+Set1 Hs Cpu Divider          :  0
+Set1 Hs Ecc Clock            :  0
+Set1 Hs Ecc Divider          :  0
+Set1 Hs Fim Clock            :  0
+Set1 Hs Fim Divider          :  0
+Set1 System Divider          :  0
+Update Blocks                :  0x43
+Chaotic Blocks               :
+Die Interleave               :  0x2
+Lower Page                   :  0x0
+File 31 In User Area         :  0x0
+SSA Version                  :
+App Versions                 :  0x0L
+Top Level IPartNum           :
+Part Number                  :
+Set2 Cpu Clock               :
+Set2 Cpu Divider             :
+Set2 Fim Write Clock         :
+Set2 Fim Write Divider       :
+Set2 Fim Read Clock          :
+Set2 Fim Read Divider        :
+Set2 Hs Cpu Clock            :  0
+Set2 Hs Cpu Divider          :  0
+Set2 Hs Ecc Clock            :  0
+Set2 Hs Ecc Divider          :  0
+Set2 Hs Fim Clock            :  0
+Set2 Hs Fim Divider          :  0
+Set2 System Divider          :  0
+Set3 Cpu Clock               :
+Set3 Cpu Divider             :
+Set3 Fim Write Clock         :
+Set3 Fim Write Divider       :
+Set3 Fim Read Clock          :
+Set3 Fim Read Divider        :
+Set3 Hs Cpu Clock            :  0
+Set3 Hs Cpu Divider          :  0
+Set3 Hs Ecc Clock            :  0
+Set3 Hs Ecc Divider          :  0
+Set3 Hs Fim Clock            :  0
+Set3 Hs Fim Divider          :  0
+Set3 System Divider          :  0
+Set4 Cpu Clock               :
+Set4 Cpu Divider             :
+Set4 Fim Write Clock         :
+Set4 Fim Write Divider       :
+Set4 Fim Read Clock          :
+Set4 Fim Read Divider        :
+Set4 Hs Cpu Clock            :  0
+Set4 Hs Cpu Divider          :  0
+Set4 Hs Ecc Clock            :  0
+Set4 Hs Ecc Divider          :  0
+Set4 Hs Fim Clock            :  0
+Set4 Hs Fim Divider          :  0
+Set4 System Divider          :  0
+Set5 Cpu Clock               :
+Set5 Cpu Divider             :
+Set5 Fim Write Clock         :
+Set5 Fim Write Divider       :
+Set5 Fim Read Clock          :
+Set5 Fim Read Divider        :
+Set5 Hs Cpu Clock            :  0
+Set5 Hs Cpu Divider          :  0
+Set5 Hs Ecc Clock            :  0
+Set5 Hs Ecc Divider          :  0
+Set5 Hs Fim Clock            :  0
+Set5 Hs Fim Divider          :  0
+Set5 System Divider          :  0
+MetaBlockSize                :  32768
+Card Physical Size           :  0
+WORM Card Lock               :  0
+OTEC Version                 :  0
+Meta Page Size               :  192
+Worm Version                 :  0
+
+13:07:00: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:07:00: ####CSD Registe 2.0 Values####
+13:07:00: CSD_STRUCTURE                                 :0x1
+13:07:00: Reserv1                                       :0x0
+13:07:00: Time Access 1 TAAC                            :0xe
+13:07:00: Time Access 2 NSAC*100                        :0x0
+13:07:00: Data Transfer Rate TRAN_SPEED                 :0x32
+13:07:00: Card Command Classess CCC                     :0x5b5
+13:07:00: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:07:00: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:07:00: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:07:00: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:07:00: DSR(driver stage register)  DSR_IMP           :0x0
+13:07:00: Reserv2                                       :0x0
+13:07:00: Device Size C_SIZE                            :0xedc8
+13:07:00: Reserv3                                       :0x0
+13:07:00: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:07:00: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:07:00: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:07:00: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:07:00: Reserv4                                       :0x0
+13:07:00: Write Speed Factor R2W_FACTOR                 :0x2
+13:07:00: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:07:00: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:07:00: FILE_FORMAT_GRP                               :0x0
+13:07:00: COPY flag                                     :0x1
+13:07:00: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:07:00: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:07:00: File_Format                                   :0x0
+13:07:00: CRC                                           :0x0
+13:07:00: ####CSD Registe Values####  
+
+13:07:00: [DVTCommonLib]### CardInfo :###****CARD INFO****
+13:07:00: ProductSerialNumber = 0x23482900
+13:07:00: CardMaximumLBA      = 0x3b72400
+13:07:00: CardCapacity        = 32G
+13:07:00: Is card secure      = 0
+13:07:00: [DVTCommonLib]### CardInfo :###****CARD INFO**** 
+
+13:07:00: [GO7_globalPreTestingSettings]### Default Initialization Completed 
+
+
+13:07:00: [GO4_globalInitCard]### Switch to Specify Card Type
+13:07:02: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:07:02: Host Frequency set to 25000 KHz
+13:07:02: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:07:02: [GO18_globalSetVolt]### Set Host Voltage value.
+13:07:02: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+13:07:03: [ SetVolt(<py_sfcl.SDVoltage object at 0x062F13F0>, 0x0, True) , Command count = 49 ] 
+13:07:03: [GO18_globalSetVolt]### Host voltage value is set.
+13:07:03: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+13:07:03: [ SetVolt(<py_sfcl.SDVoltage object at 0x062F1CF0>, 0x0, False) , Command count = 50 ] 
+13:07:03: [GO18_globalSetVolt]### Host voltage value is set.
+13:07:03: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 51 ] 
+13:07:03: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+13:07:03: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x1, 0x0, 0x1, False, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 52 ] 
+13:07:03: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC1FF8000
+13:07:03: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+13:07:03: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+13:07:03: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+13:07:03: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 called 
+13:07:03: [ SwitchVolt_CMD11(True, 0x0, 0x5) , Command count = 53 ] 
+13:07:03: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 Completed
+13:07:03: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+13:07:03: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1660>, <py_sfcl.CommandDataDefinition object at 0x062F1A20>) , Command count = 54 ] 
+13:07:03: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+13:07:03: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1690>, <py_sfcl.CommandDataDefinition object at 0x062F18A0>) , Command count = 55 ] 
+13:07:03: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 0, 12]
+13:07:03: [ SetCardRCA(0x1, 0xD555) , Command count = 56 ] 
+13:07:03: [DVTCommonLib]### Identification :Idenfication of card completed 
+
+13:07:03: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:07:03: Host Frequency set to 25000 KHz
+13:07:03: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:07:03: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:07:03: ####CSD Registe 2.0 Values####
+13:07:03: CSD_STRUCTURE                                 :0x1
+13:07:03: Reserv1                                       :0x0
+13:07:03: Time Access 1 TAAC                            :0xe
+13:07:03: Time Access 2 NSAC*100                        :0x0
+13:07:03: Data Transfer Rate TRAN_SPEED                 :0x32
+13:07:03: Card Command Classess CCC                     :0x5b5
+13:07:03: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:07:03: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:07:03: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:07:03: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:07:03: DSR(driver stage register)  DSR_IMP           :0x0
+13:07:03: Reserv2                                       :0x0
+13:07:03: Device Size C_SIZE                            :0xedc8
+13:07:03: Reserv3                                       :0x0
+13:07:03: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:07:03: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:07:03: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:07:03: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:07:03: Reserv4                                       :0x0
+13:07:03: Write Speed Factor R2W_FACTOR                 :0x2
+13:07:03: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:07:03: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:07:03: FILE_FORMAT_GRP                               :0x0
+13:07:03: COPY flag                                     :0x1
+13:07:03: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:07:03: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:07:03: File_Format                                   :0x0
+13:07:03: CRC                                           :0x0
+13:07:03: ####CSD Registe Values####  
+
+13:07:03: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register#####
+13:07:03: [GetSCRRegisterEntry] Passed
+13:07:03: SCR_STRUCTURE Version             : SCR_VERSION_1.0
+13:07:03: SD Memory Card - Spec. Version    : SPEC VERSION 2.00 or 3.0X
+13:07:03: Data_Status_After Erases          : 0
+13:07:03: CPRM Security Support             : No Security
+13:07:03: DAT Bus widths supported          : 1 bit [DAT0] and 4 bit (DAT0-3)
+13:07:03: Spec. Version                     : Version 3.0X
+13:07:03: Extended Security Support         : Extended_Security_Not_Supported
+13:07:03: Command Support                   : COMMAND_SUPPORT
+13:07:03: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register##### 
+
+13:07:03: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F13C0>, <py_sfcl.CommandDataDefinition object at 0x062F1990>) , Command count = 57 ] 
+13:07:03: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Tran', 'READY_FOR_DATA', 'APP_CMD']
+13:07:03: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1480>, <py_sfcl.CommandDataDefinition object at 0x062F1E40>) , Command count = 58 ] 
+13:07:03: ACmd51[ SEND_SCR ] Passed with R1 type response:[51, 0, 0, 9, 32, 18]
+13:07:03: [ SetBusWidth(0x4) , Command count = 59 ] 
+13:07:03: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:07:03: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x062F19C0>, <0x200/0x200, Spc, pat:0x0>) , Command count = 60 ] 
+13:07:03: Protected Area Size 0x28000
+13:07:03: Bus Width           2
+13:07:03: Secure Mode         0
+13:07:03: Speed  Class        4
+13:07:03: Perf Move           0
+13:07:03: Au Size             9
+13:07:03: Erase Size          15
+13:07:03: Erase Timeout       1
+13:07:03: Erase offset        1
+13:07:03: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:07:03: [G02_GlobalSetBusMode]### Bus width is set to Four and Verified
+13:07:03: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API called
+13:07:03: [ CardSwitchCmd(True, [0x2, 0xF, 0xF, 0x1, 0xF, 0xF], <0x40/0x200, Spc, pat:0x0>, 0x40) , Command count = 61 ] 
+13:07:03: [DVTCommonLib]### CardSwitchCommand[INFO]:['OperatingCurrent:250 mA', 'SDR50 SWITCHED', '400mA SWITCHED']
+13:07:03: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API completed 
+
+13:07:03: [GO17_globalSetVeryHSHostFreq.py]### Set the Very High Host Frequency (e.g. lightning)
+13:07:03: Host Frequency set to 100000 KHz
+13:07:03: [GO17_globalSetVeryHSHostFreq.py]###  globalRandom value is NONE
+13:07:03: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:07:03: ####CSD Registe 2.0 Values####
+13:07:03: CSD_STRUCTURE                                 :0x1
+13:07:03: Reserv1                                       :0x0
+13:07:03: Time Access 1 TAAC                            :0xe
+13:07:03: Time Access 2 NSAC*100                        :0x0
+13:07:03: Data Transfer Rate TRAN_SPEED                 :0xb
+13:07:03: Card Command Classess CCC                     :0x5b5
+13:07:03: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:07:03: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:07:03: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:07:03: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:07:03: DSR(driver stage register)  DSR_IMP           :0x0
+13:07:03: Reserv2                                       :0x0
+13:07:03: Device Size C_SIZE                            :0xedc8
+13:07:03: Reserv3                                       :0x0
+13:07:03: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:07:03: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:07:03: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:07:03: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:07:03: Reserv4                                       :0x0
+13:07:03: Write Speed Factor R2W_FACTOR                 :0x2
+13:07:03: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:07:03: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:07:03: FILE_FORMAT_GRP                               :0x0
+13:07:03: COPY flag                                     :0x1
+13:07:03: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:07:03: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:07:03: File_Format                                   :0x0
+13:07:03: CRC                                           :0x0
+13:07:03: ####CSD Registe Values####  
+
+13:07:03: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F19F0>, <py_sfcl.CommandDataDefinition object at 0x062F1360>) , Command count = 62 ] 
+13:07:03: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Stby', 'READY_FOR_DATA']
+13:07:03: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F15D0>, <py_sfcl.CommandDataDefinition object at 0x062F1A80>) , Command count = 63 ] 
+13:07:03: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:07:03: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:07:03: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x062F16C0>, <0x200/0x200, Spc, pat:0x0>) , Command count = 64 ] 
+13:07:03: Protected Area Size 0x28000
+13:07:03: Bus Width           2
+13:07:03: Secure Mode         0
+13:07:03: Speed  Class        4
+13:07:03: Perf Move           0
+13:07:03: Au Size             9
+13:07:03: Erase Size          15
+13:07:03: Erase Timeout       1
+13:07:03: Erase offset        1
+13:07:03: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:07:03: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+13:07:03: Stated Running ASIC666_Call_All_ASIC_Fixes_SD
+
+13:07:03: ########################################
+13:07:03: Stated Running script H2ASICErase_H2_ASIC_fix_Erase_Enable_bit 
+13:07:03: ########################################
+13:07:03: [H2ASICErase_H2_ASIC_fix_Erase_Enable_bit.py]###### ASIC Fix Erase Enable Test. 
+13:07:03: [H2ASICErase_H2_ASIC_fix_Erase_Enable_bit]### TEST CASE ITERATION IS STARTED.
+13:07:03: [GO4_globalInitCard]### Switch to Specify Card Type
+13:07:05: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:07:05: Host Frequency set to 25000 KHz
+13:07:05: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:07:05: [GO18_globalSetVolt]### Set Host Voltage value.
+13:07:05: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+13:07:05: [ SetVolt(<py_sfcl.SDVoltage object at 0x062F1FC0>, 0x0, True) , Command count = 65 ] 
+13:07:05: [GO18_globalSetVolt]### Host voltage value is set.
+13:07:05: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+13:07:05: [ SetVolt(<py_sfcl.SDVoltage object at 0x062F1930>, 0x0, False) , Command count = 66 ] 
+13:07:05: [GO18_globalSetVolt]### Host voltage value is set.
+13:07:05: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 67 ] 
+13:07:05: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+13:07:05: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x1, 0x0, 0x1, False, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 68 ] 
+13:07:05: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC1FF8000
+13:07:05: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+13:07:05: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+13:07:05: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+13:07:05: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 called 
+13:07:05: [ SwitchVolt_CMD11(True, 0x0, 0x5) , Command count = 69 ] 
+13:07:05: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 Completed
+13:07:05: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+13:07:05: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062DBDB0>, <py_sfcl.CommandDataDefinition object at 0x062F7090>) , Command count = 70 ] 
+13:07:05: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+13:07:06: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7060>, <py_sfcl.CommandDataDefinition object at 0x062F70C0>) , Command count = 71 ] 
+13:07:06: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 0, 12]
+13:07:06: [ SetCardRCA(0x1, 0xD555) , Command count = 72 ] 
+13:07:06: [DVTCommonLib]### Identification :Idenfication of card completed 
+
+13:07:06: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:07:06: Host Frequency set to 25000 KHz
+13:07:06: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:07:06: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:07:06: ####CSD Registe 2.0 Values####
+13:07:06: CSD_STRUCTURE                                 :0x1
+13:07:06: Reserv1                                       :0x0
+13:07:06: Time Access 1 TAAC                            :0xe
+13:07:06: Time Access 2 NSAC*100                        :0x0
+13:07:06: Data Transfer Rate TRAN_SPEED                 :0x32
+13:07:06: Card Command Classess CCC                     :0x5b5
+13:07:06: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:07:06: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:07:06: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:07:06: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:07:06: DSR(driver stage register)  DSR_IMP           :0x0
+13:07:06: Reserv2                                       :0x0
+13:07:06: Device Size C_SIZE                            :0xedc8
+13:07:06: Reserv3                                       :0x0
+13:07:06: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:07:06: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:07:06: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:07:06: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:07:06: Reserv4                                       :0x0
+13:07:06: Write Speed Factor R2W_FACTOR                 :0x2
+13:07:06: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:07:06: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:07:06: FILE_FORMAT_GRP                               :0x0
+13:07:06: COPY flag                                     :0x1
+13:07:06: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:07:06: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:07:06: File_Format                                   :0x0
+13:07:06: CRC                                           :0x0
+13:07:06: ####CSD Registe Values####  
+
+13:07:06: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register#####
+13:07:06: [GetSCRRegisterEntry] Passed
+13:07:06: SCR_STRUCTURE Version             : SCR_VERSION_1.0
+13:07:06: SD Memory Card - Spec. Version    : SPEC VERSION 2.00 or 3.0X
+13:07:06: Data_Status_After Erases          : 0
+13:07:06: CPRM Security Support             : No Security
+13:07:06: DAT Bus widths supported          : 1 bit [DAT0] and 4 bit (DAT0-3)
+13:07:06: Spec. Version                     : Version 3.0X
+13:07:06: Extended Security Support         : Extended_Security_Not_Supported
+13:07:06: Command Support                   : COMMAND_SUPPORT
+13:07:06: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register##### 
+
+13:07:06: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7330>, <py_sfcl.CommandDataDefinition object at 0x062F7150>) , Command count = 73 ] 
+13:07:06: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Tran', 'READY_FOR_DATA', 'APP_CMD']
+13:07:06: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F71B0>, <py_sfcl.CommandDataDefinition object at 0x062F71E0>) , Command count = 74 ] 
+13:07:06: ACmd51[ SEND_SCR ] Passed with R1 type response:[51, 0, 0, 9, 32, 18]
+13:07:06: [ SetBusWidth(0x4) , Command count = 75 ] 
+13:07:06: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:07:06: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x062F72A0>, <0x200/0x200, Spc, pat:0x0>) , Command count = 76 ] 
+13:07:06: Protected Area Size 0x28000
+13:07:06: Bus Width           2
+13:07:06: Secure Mode         0
+13:07:06: Speed  Class        4
+13:07:06: Perf Move           0
+13:07:06: Au Size             9
+13:07:06: Erase Size          15
+13:07:06: Erase Timeout       1
+13:07:06: Erase offset        1
+13:07:06: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:07:06: [G02_GlobalSetBusMode]### Bus width is set to Four and Verified
+13:07:06: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API called
+13:07:06: [ CardSwitchCmd(True, [0x2, 0xF, 0xF, 0x1, 0xF, 0xF], <0x40/0x200, Spc, pat:0x0>, 0x40) , Command count = 77 ] 
+13:07:06: [DVTCommonLib]### CardSwitchCommand[INFO]:['OperatingCurrent:250 mA', 'SDR50 SWITCHED', '400mA SWITCHED']
+13:07:06: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API completed 
+
+13:07:06: [GO17_globalSetVeryHSHostFreq.py]### Set the Very High Host Frequency (e.g. lightning)
+13:07:06: Host Frequency set to 100000 KHz
+13:07:06: [GO17_globalSetVeryHSHostFreq.py]###  globalRandom value is NONE
+13:07:06: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:07:06: ####CSD Registe 2.0 Values####
+13:07:06: CSD_STRUCTURE                                 :0x1
+13:07:06: Reserv1                                       :0x0
+13:07:06: Time Access 1 TAAC                            :0xe
+13:07:06: Time Access 2 NSAC*100                        :0x0
+13:07:06: Data Transfer Rate TRAN_SPEED                 :0xb
+13:07:06: Card Command Classess CCC                     :0x5b5
+13:07:06: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:07:06: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:07:06: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:07:06: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:07:06: DSR(driver stage register)  DSR_IMP           :0x0
+13:07:06: Reserv2                                       :0x0
+13:07:06: Device Size C_SIZE                            :0xedc8
+13:07:06: Reserv3                                       :0x0
+13:07:06: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:07:06: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:07:06: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:07:06: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:07:06: Reserv4                                       :0x0
+13:07:06: Write Speed Factor R2W_FACTOR                 :0x2
+13:07:06: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:07:06: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:07:06: FILE_FORMAT_GRP                               :0x0
+13:07:06: COPY flag                                     :0x1
+13:07:06: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:07:06: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:07:06: File_Format                                   :0x0
+13:07:06: CRC                                           :0x0
+13:07:06: ####CSD Registe Values####  
+
+13:07:06: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7570>, <py_sfcl.CommandDataDefinition object at 0x062F7390>) , Command count = 78 ] 
+13:07:06: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Stby', 'READY_FOR_DATA']
+13:07:06: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F73F0>, <py_sfcl.CommandDataDefinition object at 0x062F7420>) , Command count = 79 ] 
+13:07:06: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:07:06: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+13:07:06: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:07:06: ####CSD Registe 2.0 Values####
+13:07:06: CSD_STRUCTURE                                 :0x1
+13:07:06: Reserv1                                       :0x0
+13:07:06: Time Access 1 TAAC                            :0xe
+13:07:06: Time Access 2 NSAC*100                        :0x0
+13:07:06: Data Transfer Rate TRAN_SPEED                 :0xb
+13:07:06: Card Command Classess CCC                     :0x5b5
+13:07:06: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:07:06: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:07:06: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:07:06: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:07:06: DSR(driver stage register)  DSR_IMP           :0x0
+13:07:06: Reserv2                                       :0x0
+13:07:06: Device Size C_SIZE                            :0xedc8
+13:07:06: Reserv3                                       :0x0
+13:07:06: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:07:06: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:07:06: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:07:06: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:07:06: Reserv4                                       :0x0
+13:07:06: Write Speed Factor R2W_FACTOR                 :0x2
+13:07:06: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:07:06: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:07:06: FILE_FORMAT_GRP                               :0x0
+13:07:06: COPY flag                                     :0x1
+13:07:06: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:07:06: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:07:06: File_Format                                   :0x0
+13:07:06: CRC                                           :0x0
+13:07:06: ####CSD Registe Values####  
+
+13:07:06: [INFO] Card type is SD.
+13:07:06: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7480>, <py_sfcl.CommandDataDefinition object at 0x062F74B0>) , Command count = 80 ] 
+13:07:06: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:07:06: Loop number: 1 is started for function start_I()
+13:07:06: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x0 to EndLba:0x27A180 with Increment Pattern
+13:07:57: [ WrLbaNoData(0x0, 0x27A180, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0) , Command count = 81 ] 
+13:07:57: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :Done MultipleWrite from StartLba: 0x0 to EndLba:0x27A180 with Increment Pattern 
+
+13:07:57: [DVTCommonLib]### Erase :Erase API Called
+13:07:57: [DVTCommonLib]### Erase :CTF Erase API called to erase from StartLba:0x120 with Blockcount:0x3A
+13:07:57: [ EraseLba(0x120, 0x3A) , Command count = 82 ] 
+13:07:57: [DVTCommonLib]### Erase :Completed CTF Erase API from StartLba:0x120 with Blockcount:0x3A 
+
+13:07:57: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :MultipleRead to the card at StartLba:0x0 to EndLba:0x120 with Increment Pattern
+13:07:57: [ RdLbaNoData(0x0, 0x120, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0, True) , Command count = 83 ] 
+13:07:57: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :Done MultipleRead from StartLba: 0x0 to EndLba:0x120 with Increment Pattern 
+
+13:07:57: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x120 to EndLba:0x15A with Zero's Pattern
+13:08:08: [ WrLbaNoData(0x120, 0x3A, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_ZERO, True, False, False, False, 0x0, False, 0x0) , Command count = 84 ] 
+13:08:08: [ GetCardStatus() , Command count = 85 ] 
+13:08:08: [DVTCommonLib]### WriteWithFPGAPattern[ERROR] :MultipleWrite Failed from StartLba:0x120 to EndLba:0x15A with Zero's Pattern
+13:08:08: [DVTCommonLib]### Exception_Details :Exception raised!!!, Error Number is 37 and Error Message is 
+CardCommandError:                                  
+card access failed on protocol=sd: 
+   Error 0x25L (37) executing command 'WrLbaNoData'
+   Description : Time out waiting for host response
+   Error Layer : UNKNOWN
+   SW Error Location : UNKNOWN - UNKNOWN : 0
+   Arguments: ('(0x120, 0x3A, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_ZERO, True, False, False, False, 0x0, False, 0x0)')
+   Extended error information:
+      Status         : 0xD00
+      Is busy?       : Yes
+
+13:08:08: Failed Running script <module 'H2ASICErase_H2_ASIC_fix_Erase_Enable_bit' from 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\SD\CommonDVT\ASIC_Fixes_SD\H2ASICErase_H2_ASIC_fix_Erase_Enable_bit.py'> with error 
+CardCommandError:                                  
+card access failed on protocol=sd: 
+   Error 0x25L (37) executing command 'WrLbaNoData'
+   Description : Time out waiting for host response
+   Error Layer : UNKNOWN
+   SW Error Location : UNKNOWN - UNKNOWN : 0
+   Arguments: ('(0x120, 0x3A, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_ZERO, True, False, False, False, 0x0, False, 0x0)')
+   Extended error information:
+      Status         : 0xD00
+      Is busy?       : Yes
+ 
+13:08:08: ########################################
+13:08:08: ########################################
+13:08:08: Stated Running script H2ASICSDOCR_H2_ASIC_fix_SD_OCR_FFC000 
+13:08:08: ########################################
+13:08:08: [H2ASICSDOCR_H2_ASIC_fix_SD_OCR_FFC000.py]###### H2 ASIC Fix SD OCR Test. 
+13:08:08: [H2ASICSDOCR_H2_ASIC_fix_SD_OCR_FFC000]### TEST CASE ITERATION IS STARTED.
+13:08:08: [GO4_globalInitCard]### Switch to Specify Card Type
+13:08:10: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:08:10: Host Frequency set to 25000 KHz
+13:08:10: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:08:10: [GO18_globalSetVolt]### Set Host Voltage value.
+13:08:10: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+13:08:10: [ SetVolt(<py_sfcl.SDVoltage object at 0x062F7C90>, 0x0, True) , Command count = 86 ] 
+13:08:10: [GO18_globalSetVolt]### Host voltage value is set.
+13:08:10: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+13:08:10: [ SetVolt(<py_sfcl.SDVoltage object at 0x062F7B70>, 0x0, False) , Command count = 87 ] 
+13:08:10: [GO18_globalSetVolt]### Host voltage value is set.
+13:08:10: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 88 ] 
+13:08:10: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+13:08:10: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x1, 0x0, 0x1, False, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 89 ] 
+13:08:10: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC1FF8000
+13:08:10: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+13:08:10: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+13:08:10: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+13:08:10: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 called 
+13:08:10: [ SwitchVolt_CMD11(True, 0x0, 0x5) , Command count = 90 ] 
+13:08:10: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 Completed
+13:08:10: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+13:08:10: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7DB0>, <py_sfcl.CommandDataDefinition object at 0x062F7CF0>) , Command count = 91 ] 
+13:08:10: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+13:08:10: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7CC0>, <py_sfcl.CommandDataDefinition object at 0x062F7D20>) , Command count = 92 ] 
+13:08:10: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 0, 12]
+13:08:10: [ SetCardRCA(0x1, 0xD555) , Command count = 93 ] 
+13:08:10: [DVTCommonLib]### Identification :Idenfication of card completed 
+
+13:08:10: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:08:10: Host Frequency set to 25000 KHz
+13:08:10: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:08:10: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:08:10: ####CSD Registe 2.0 Values####
+13:08:10: CSD_STRUCTURE                                 :0x1
+13:08:10: Reserv1                                       :0x0
+13:08:10: Time Access 1 TAAC                            :0xe
+13:08:10: Time Access 2 NSAC*100                        :0x0
+13:08:10: Data Transfer Rate TRAN_SPEED                 :0x32
+13:08:10: Card Command Classess CCC                     :0x5b5
+13:08:10: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:08:10: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:08:10: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:08:10: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:08:10: DSR(driver stage register)  DSR_IMP           :0x0
+13:08:10: Reserv2                                       :0x0
+13:08:10: Device Size C_SIZE                            :0xedc8
+13:08:10: Reserv3                                       :0x0
+13:08:10: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:08:10: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:08:10: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:08:10: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:08:10: Reserv4                                       :0x0
+13:08:10: Write Speed Factor R2W_FACTOR                 :0x2
+13:08:10: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:08:10: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:08:10: FILE_FORMAT_GRP                               :0x0
+13:08:10: COPY flag                                     :0x1
+13:08:10: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:08:10: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:08:10: File_Format                                   :0x0
+13:08:10: CRC                                           :0x0
+13:08:10: ####CSD Registe Values####  
+
+13:08:10: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register#####
+13:08:10: [GetSCRRegisterEntry] Passed
+13:08:10: SCR_STRUCTURE Version             : SCR_VERSION_1.0
+13:08:10: SD Memory Card - Spec. Version    : SPEC VERSION 2.00 or 3.0X
+13:08:10: Data_Status_After Erases          : 0
+13:08:10: CPRM Security Support             : No Security
+13:08:10: DAT Bus widths supported          : 1 bit [DAT0] and 4 bit (DAT0-3)
+13:08:10: Spec. Version                     : Version 3.0X
+13:08:10: Extended Security Support         : Extended_Security_Not_Supported
+13:08:10: Command Support                   : COMMAND_SUPPORT
+13:08:10: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register##### 
+
+13:08:11: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7F30>, <py_sfcl.CommandDataDefinition object at 0x062F7E10>) , Command count = 94 ] 
+13:08:11: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Tran', 'READY_FOR_DATA', 'APP_CMD']
+13:08:11: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7D80>, <py_sfcl.CommandDataDefinition object at 0x062F7EA0>) , Command count = 95 ] 
+13:08:11: ACmd51[ SEND_SCR ] Passed with R1 type response:[51, 0, 0, 9, 32, 18]
+13:08:11: [ SetBusWidth(0x4) , Command count = 96 ] 
+13:08:11: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:08:11: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x062F7C00>, <0x200/0x200, Spc, pat:0x0>) , Command count = 97 ] 
+13:08:11: Protected Area Size 0x28000
+13:08:11: Bus Width           2
+13:08:11: Secure Mode         0
+13:08:11: Speed  Class        4
+13:08:11: Perf Move           0
+13:08:11: Au Size             9
+13:08:11: Erase Size          15
+13:08:11: Erase Timeout       1
+13:08:11: Erase offset        1
+13:08:11: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:08:11: [G02_GlobalSetBusMode]### Bus width is set to Four and Verified
+13:08:11: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API called
+13:08:11: [ CardSwitchCmd(True, [0x2, 0xF, 0xF, 0x1, 0xF, 0xF], <0x40/0x200, Spc, pat:0x0>, 0x40) , Command count = 98 ] 
+13:08:11: [DVTCommonLib]### CardSwitchCommand[INFO]:['OperatingCurrent:250 mA', 'SDR50 SWITCHED', '400mA SWITCHED']
+13:08:11: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API completed 
+
+13:08:11: [GO17_globalSetVeryHSHostFreq.py]### Set the Very High Host Frequency (e.g. lightning)
+13:08:11: Host Frequency set to 100000 KHz
+13:08:11: [GO17_globalSetVeryHSHostFreq.py]###  globalRandom value is NONE
+13:08:11: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:08:11: ####CSD Registe 2.0 Values####
+13:08:11: CSD_STRUCTURE                                 :0x1
+13:08:11: Reserv1                                       :0x0
+13:08:11: Time Access 1 TAAC                            :0xe
+13:08:11: Time Access 2 NSAC*100                        :0x0
+13:08:11: Data Transfer Rate TRAN_SPEED                 :0xb
+13:08:11: Card Command Classess CCC                     :0x5b5
+13:08:11: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:08:11: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:08:11: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:08:11: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:08:11: DSR(driver stage register)  DSR_IMP           :0x0
+13:08:11: Reserv2                                       :0x0
+13:08:11: Device Size C_SIZE                            :0xedc8
+13:08:11: Reserv3                                       :0x0
+13:08:11: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:08:11: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:08:11: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:08:11: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:08:11: Reserv4                                       :0x0
+13:08:11: Write Speed Factor R2W_FACTOR                 :0x2
+13:08:11: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:08:11: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:08:11: FILE_FORMAT_GRP                               :0x0
+13:08:11: COPY flag                                     :0x1
+13:08:11: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:08:11: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:08:11: File_Format                                   :0x0
+13:08:11: CRC                                           :0x0
+13:08:11: ####CSD Registe Values####  
+
+13:08:11: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FF210>, <py_sfcl.CommandDataDefinition object at 0x062FF030>) , Command count = 99 ] 
+13:08:11: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Stby', 'READY_FOR_DATA']
+13:08:11: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FF090>, <py_sfcl.CommandDataDefinition object at 0x062FF0C0>) , Command count = 100 ] 
+13:08:11: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:08:11: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+13:08:11: SET TAG ---- OCR register - SD - not 1.8V 
+13:08:13: Power is off!!!!
+13:08:13: [ SwitchHostVoltageRegion(False) , Command count = 101 ] 
+13:08:13: [ SetVolt(<py_sfcl.SDVoltage object at 0x062F7AE0>, <0x5000/0x200, Arb>, True) , Command count = 102 ] 
+13:08:13: Voltage is set to 3.30V!!!!
+13:08:13: Power is On!!!!
+13:08:13: [ CardReset(py_sfcl.CARD_MODE.SD, 0x40FFC000, 0x1, True, <None>, 0x0, 0x0, 0x1, True, False, 0x1, 0x1, 0xAA, 0x0) , Command count = 103 ] 
+13:08:13: [ GetCardStatus() , Command count = 104 ] 
+13:08:13: [H2ASICSDOCR_H2_ASIC_fix_SD_OCR_FFC000][INFO] : Reset failed with a time out error as expected. Continuing the test
+13:08:13: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+13:08:13: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FF270>, <py_sfcl.CommandDataDefinition object at 0x062FF240>) , Command count = 105 ] 
+13:08:13: [ GetCardStatus() , Command count = 106 ] 
+13:08:13: CMD2[ ALL_SEND_CID ] failed with an exception
+13:08:13: [DVTCommonLib]### Identification :Identification Command failed
+13:08:13: [DVTCommonLib]### Exception_Details :Time out error on card response
+13:08:13: [INFO] : Identification failed with a time out error as expected. Continuing the test
+13:08:13: [H2ASICSDOCR_H2_ASIC_fix_SD_OCR_FFC000]### TEST CASE EXECUTION IS ENDED.
+13:08:13: ########################################
+13:08:13: Finished Running script H2ASICSDOCR_H2_ASIC_fix_SD_OCR_FFC000 
+13:08:13: ########################################
+13:08:13: ########################################
+13:08:13: Stated Running script H2ASICwidebus_H2_ASIC_fix_wide_bus_1_byte_tran 
+13:08:13: ########################################
+13:08:13: [H2ASICwidebus_H2_ASIC_fix_wide_bus_1_byte_tran.py]###### H2 ASIC Fix SD OCR Test. 
+13:08:13: [H2ASICwidebus_H2_ASIC_fix_wide_bus_1_byte_tran]### globallockunlock is Yes, Therefore Continuing the test case.
+13:08:13: [H2ASICwidebus_H2_ASIC_fix_wide_bus_1_byte_tran]### TEST CASE ITERATION IS STARTED.
+13:08:13: [GO4_globalInitCard]### Switch to Specify Card Type
+13:08:15: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:08:15: Host Frequency set to 25000 KHz
+13:08:15: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:08:15: [GO18_globalSetVolt]### Set Host Voltage value.
+13:08:15: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+13:08:15: [ SetVolt(<py_sfcl.SDVoltage object at 0x062FF630>, 0x0, True) , Command count = 107 ] 
+13:08:15: [GO18_globalSetVolt]### Host voltage value is set.
+13:08:15: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+13:08:15: [ SetVolt(<py_sfcl.SDVoltage object at 0x062FF480>, 0x0, False) , Command count = 108 ] 
+13:08:15: [GO18_globalSetVolt]### Host voltage value is set.
+13:08:15: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 109 ] 
+13:08:15: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+13:08:15: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x1, 0x0, 0x1, False, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 110 ] 
+13:08:15: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC1FF8000
+13:08:15: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+13:08:15: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+13:08:15: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+13:08:15: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 called 
+13:08:15: [ SwitchVolt_CMD11(True, 0x0, 0x5) , Command count = 111 ] 
+13:08:15: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 Completed
+13:08:15: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+13:08:15: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FF660>, <py_sfcl.CommandDataDefinition object at 0x062FF5A0>) , Command count = 112 ] 
+13:08:15: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+13:08:15: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FF690>, <py_sfcl.CommandDataDefinition object at 0x062FF6C0>) , Command count = 113 ] 
+13:08:15: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 0, 12]
+13:08:15: [ SetCardRCA(0x1, 0xD555) , Command count = 114 ] 
+13:08:15: [DVTCommonLib]### Identification :Idenfication of card completed 
+
+13:08:15: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:08:15: Host Frequency set to 25000 KHz
+13:08:15: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:08:15: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:08:15: ####CSD Registe 2.0 Values####
+13:08:15: CSD_STRUCTURE                                 :0x1
+13:08:15: Reserv1                                       :0x0
+13:08:15: Time Access 1 TAAC                            :0xe
+13:08:15: Time Access 2 NSAC*100                        :0x0
+13:08:15: Data Transfer Rate TRAN_SPEED                 :0x32
+13:08:15: Card Command Classess CCC                     :0x5b5
+13:08:15: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:08:15: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:08:15: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:08:15: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:08:15: DSR(driver stage register)  DSR_IMP           :0x0
+13:08:15: Reserv2                                       :0x0
+13:08:15: Device Size C_SIZE                            :0xedc8
+13:08:15: Reserv3                                       :0x0
+13:08:15: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:08:15: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:08:15: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:08:15: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:08:15: Reserv4                                       :0x0
+13:08:15: Write Speed Factor R2W_FACTOR                 :0x2
+13:08:15: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:08:15: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:08:15: FILE_FORMAT_GRP                               :0x0
+13:08:15: COPY flag                                     :0x1
+13:08:15: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:08:15: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:08:15: File_Format                                   :0x0
+13:08:15: CRC                                           :0x0
+13:08:15: ####CSD Registe Values####  
+
+13:08:15: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register#####
+13:08:15: [GetSCRRegisterEntry] Passed
+13:08:15: SCR_STRUCTURE Version             : SCR_VERSION_1.0
+13:08:15: SD Memory Card - Spec. Version    : SPEC VERSION 2.00 or 3.0X
+13:08:15: Data_Status_After Erases          : 0
+13:08:15: CPRM Security Support             : No Security
+13:08:15: DAT Bus widths supported          : 1 bit [DAT0] and 4 bit (DAT0-3)
+13:08:15: Spec. Version                     : Version 3.0X
+13:08:15: Extended Security Support         : Extended_Security_Not_Supported
+13:08:15: Command Support                   : COMMAND_SUPPORT
+13:08:15: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register##### 
+
+13:08:15: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FF930>, <py_sfcl.CommandDataDefinition object at 0x062FF750>) , Command count = 115 ] 
+13:08:15: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Tran', 'READY_FOR_DATA', 'APP_CMD']
+13:08:15: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FF7B0>, <py_sfcl.CommandDataDefinition object at 0x062FF7E0>) , Command count = 116 ] 
+13:08:15: ACmd51[ SEND_SCR ] Passed with R1 type response:[51, 0, 0, 9, 32, 18]
+13:08:15: [ SetBusWidth(0x4) , Command count = 117 ] 
+13:08:15: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:08:15: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x062FF8A0>, <0x200/0x200, Spc, pat:0x0>) , Command count = 118 ] 
+13:08:15: Protected Area Size 0x28000
+13:08:15: Bus Width           2
+13:08:15: Secure Mode         0
+13:08:15: Speed  Class        4
+13:08:15: Perf Move           0
+13:08:15: Au Size             9
+13:08:15: Erase Size          15
+13:08:15: Erase Timeout       1
+13:08:15: Erase offset        1
+13:08:15: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:08:15: [G02_GlobalSetBusMode]### Bus width is set to Four and Verified
+13:08:15: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API called
+13:08:15: [ CardSwitchCmd(True, [0x2, 0xF, 0xF, 0x1, 0xF, 0xF], <0x40/0x200, Spc, pat:0x0>, 0x40) , Command count = 119 ] 
+13:08:15: [DVTCommonLib]### CardSwitchCommand[INFO]:['OperatingCurrent:250 mA', 'SDR50 SWITCHED', '400mA SWITCHED']
+13:08:15: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API completed 
+
+13:08:15: [GO17_globalSetVeryHSHostFreq.py]### Set the Very High Host Frequency (e.g. lightning)
+13:08:16: Host Frequency set to 100000 KHz
+13:08:16: [GO17_globalSetVeryHSHostFreq.py]###  globalRandom value is NONE
+13:08:16: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:08:16: ####CSD Registe 2.0 Values####
+13:08:16: CSD_STRUCTURE                                 :0x1
+13:08:16: Reserv1                                       :0x0
+13:08:16: Time Access 1 TAAC                            :0xe
+13:08:16: Time Access 2 NSAC*100                        :0x0
+13:08:16: Data Transfer Rate TRAN_SPEED                 :0xb
+13:08:16: Card Command Classess CCC                     :0x5b5
+13:08:16: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:08:16: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:08:16: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:08:16: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:08:16: DSR(driver stage register)  DSR_IMP           :0x0
+13:08:16: Reserv2                                       :0x0
+13:08:16: Device Size C_SIZE                            :0xedc8
+13:08:16: Reserv3                                       :0x0
+13:08:16: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:08:16: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:08:16: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:08:16: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:08:16: Reserv4                                       :0x0
+13:08:16: Write Speed Factor R2W_FACTOR                 :0x2
+13:08:16: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:08:16: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:08:16: FILE_FORMAT_GRP                               :0x0
+13:08:16: COPY flag                                     :0x1
+13:08:16: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:08:16: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:08:16: File_Format                                   :0x0
+13:08:16: CRC                                           :0x0
+13:08:16: ####CSD Registe Values####  
+
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFBA0>, <py_sfcl.CommandDataDefinition object at 0x062FF9C0>) , Command count = 120 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Stby', 'READY_FOR_DATA']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFA20>, <py_sfcl.CommandDataDefinition object at 0x062FFA50>) , Command count = 121 ] 
+13:08:16: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:08:16: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+13:08:16: [ SetBusWidth(0x4) , Command count = 122 ] 
+13:08:16: LOCKING the card
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFB10>, <py_sfcl.CommandDataDefinition object at 0x062FFB40>) , Command count = 123 ] 
+13:08:16: CMD42[ LOCK_UNLOCK ] Passed with R1 type response:[42, 0, 0, 9, 0, 12]
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFAE0>, <py_sfcl.CommandDataDefinition object at 0x062FFBD0>) , Command count = 124 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:08:16: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x0 to EndLba:0x21 with Increment Pattern
+13:08:16: [ WrLbaNoData(0x0, 0x21, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0) , Command count = 125 ] 
+13:08:16: [ GetCardStatus() , Command count = 126 ] 
+13:08:16: [DVTCommonLib]### WriteWithFPGAPattern[ERROR] :MultipleWrite Failed from StartLba:0x0 to EndLba:0x21 with Increment Pattern
+13:08:16: [DVTCommonLib]### Exception_Details :Card is reporting illegal command
+13:08:16: [INFO] - Failed as expected, writing on locked card.
+13:08:16: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :MultipleRead to the card at StartLba:0x0 to EndLba:0x21 with Increment Pattern
+13:08:16: [ RdLbaNoData(0x0, 0x21, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0, True) , Command count = 127 ] 
+13:08:16: [ GetCardStatus() , Command count = 128 ] 
+13:08:16: [DVTCommonLib]### ReadWithFPGAPattern[ERROR] :MultipleRead Failed from StartLba:0x0 to EndLba:0x21 with Increment Pattern
+13:08:16: [DVTCommonLib]### Exception_Details :Card is reporting illegal command
+13:08:16: [INFO] - Failed as expected, Reading on locked card.
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFDB0>, <py_sfcl.CommandDataDefinition object at 0x062FFD80>) , Command count = 129 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFE10>, <py_sfcl.CommandDataDefinition object at 0x062FFE40>) , Command count = 130 ] 
+13:08:16: CMD42[ LOCK_UNLOCK ] Erasing the Card/Card is Busy......
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFF30>, <py_sfcl.CommandDataDefinition object at 0x062FFED0>) , Command count = 131 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFFC0>, <py_sfcl.CommandDataDefinition object at 0x062FFF90>) , Command count = 132 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300090>, <py_sfcl.CommandDataDefinition object at 0x06300060>) , Command count = 133 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300120>, <py_sfcl.CommandDataDefinition object at 0x063000F0>) , Command count = 134 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063001B0>, <py_sfcl.CommandDataDefinition object at 0x06300180>) , Command count = 135 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300240>, <py_sfcl.CommandDataDefinition object at 0x06300210>) , Command count = 136 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063002D0>, <py_sfcl.CommandDataDefinition object at 0x063002A0>) , Command count = 137 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300360>, <py_sfcl.CommandDataDefinition object at 0x06300330>) , Command count = 138 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063003F0>, <py_sfcl.CommandDataDefinition object at 0x063003C0>) , Command count = 139 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300480>, <py_sfcl.CommandDataDefinition object at 0x06300450>) , Command count = 140 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300510>, <py_sfcl.CommandDataDefinition object at 0x063004E0>) , Command count = 141 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063005A0>, <py_sfcl.CommandDataDefinition object at 0x06300570>) , Command count = 142 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300630>, <py_sfcl.CommandDataDefinition object at 0x06300600>) , Command count = 143 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063006C0>, <py_sfcl.CommandDataDefinition object at 0x06300690>) , Command count = 144 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300750>, <py_sfcl.CommandDataDefinition object at 0x06300720>) , Command count = 145 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063007E0>, <py_sfcl.CommandDataDefinition object at 0x063007B0>) , Command count = 146 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300870>, <py_sfcl.CommandDataDefinition object at 0x06300840>) , Command count = 147 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300900>, <py_sfcl.CommandDataDefinition object at 0x063008D0>) , Command count = 148 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300990>, <py_sfcl.CommandDataDefinition object at 0x06300960>) , Command count = 149 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300A20>, <py_sfcl.CommandDataDefinition object at 0x063009F0>) , Command count = 150 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300AB0>, <py_sfcl.CommandDataDefinition object at 0x06300A80>) , Command count = 151 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300B40>, <py_sfcl.CommandDataDefinition object at 0x06300B10>) , Command count = 152 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300BD0>, <py_sfcl.CommandDataDefinition object at 0x06300BA0>) , Command count = 153 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300C60>, <py_sfcl.CommandDataDefinition object at 0x06300C30>) , Command count = 154 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300CF0>, <py_sfcl.CommandDataDefinition object at 0x06300CC0>) , Command count = 155 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300D80>, <py_sfcl.CommandDataDefinition object at 0x06300D50>) , Command count = 156 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300E10>, <py_sfcl.CommandDataDefinition object at 0x06300DE0>) , Command count = 157 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300EA0>, <py_sfcl.CommandDataDefinition object at 0x06300E70>) , Command count = 158 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300F30>, <py_sfcl.CommandDataDefinition object at 0x06300F00>) , Command count = 159 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06300FC0>, <py_sfcl.CommandDataDefinition object at 0x06300F90>) , Command count = 160 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303090>, <py_sfcl.CommandDataDefinition object at 0x06303060>) , Command count = 161 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303120>, <py_sfcl.CommandDataDefinition object at 0x063030F0>) , Command count = 162 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063031B0>, <py_sfcl.CommandDataDefinition object at 0x06303180>) , Command count = 163 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303240>, <py_sfcl.CommandDataDefinition object at 0x06303210>) , Command count = 164 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063032D0>, <py_sfcl.CommandDataDefinition object at 0x063032A0>) , Command count = 165 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303360>, <py_sfcl.CommandDataDefinition object at 0x06303330>) , Command count = 166 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063033F0>, <py_sfcl.CommandDataDefinition object at 0x063033C0>) , Command count = 167 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303480>, <py_sfcl.CommandDataDefinition object at 0x06303450>) , Command count = 168 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303510>, <py_sfcl.CommandDataDefinition object at 0x063034E0>) , Command count = 169 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063035A0>, <py_sfcl.CommandDataDefinition object at 0x06303570>) , Command count = 170 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303630>, <py_sfcl.CommandDataDefinition object at 0x06303600>) , Command count = 171 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063036C0>, <py_sfcl.CommandDataDefinition object at 0x06303690>) , Command count = 172 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303750>, <py_sfcl.CommandDataDefinition object at 0x06303720>) , Command count = 173 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063037E0>, <py_sfcl.CommandDataDefinition object at 0x063037B0>) , Command count = 174 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303870>, <py_sfcl.CommandDataDefinition object at 0x06303840>) , Command count = 175 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303900>, <py_sfcl.CommandDataDefinition object at 0x063038D0>) , Command count = 176 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303990>, <py_sfcl.CommandDataDefinition object at 0x06303960>) , Command count = 177 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303A20>, <py_sfcl.CommandDataDefinition object at 0x063039F0>) , Command count = 178 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303AB0>, <py_sfcl.CommandDataDefinition object at 0x06303A80>) , Command count = 179 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303B40>, <py_sfcl.CommandDataDefinition object at 0x06303B10>) , Command count = 180 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303BD0>, <py_sfcl.CommandDataDefinition object at 0x06303BA0>) , Command count = 181 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303C60>, <py_sfcl.CommandDataDefinition object at 0x06303C30>) , Command count = 182 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303CF0>, <py_sfcl.CommandDataDefinition object at 0x06303CC0>) , Command count = 183 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303D80>, <py_sfcl.CommandDataDefinition object at 0x06303D50>) , Command count = 184 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303E10>, <py_sfcl.CommandDataDefinition object at 0x06303DE0>) , Command count = 185 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303EA0>, <py_sfcl.CommandDataDefinition object at 0x06303E70>) , Command count = 186 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303F30>, <py_sfcl.CommandDataDefinition object at 0x06303F00>) , Command count = 187 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06303FC0>, <py_sfcl.CommandDataDefinition object at 0x06303F90>) , Command count = 188 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308090>, <py_sfcl.CommandDataDefinition object at 0x06308060>) , Command count = 189 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308120>, <py_sfcl.CommandDataDefinition object at 0x063080F0>) , Command count = 190 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063081B0>, <py_sfcl.CommandDataDefinition object at 0x06308180>) , Command count = 191 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308240>, <py_sfcl.CommandDataDefinition object at 0x06308210>) , Command count = 192 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063082D0>, <py_sfcl.CommandDataDefinition object at 0x063082A0>) , Command count = 193 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308360>, <py_sfcl.CommandDataDefinition object at 0x06308330>) , Command count = 194 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063083F0>, <py_sfcl.CommandDataDefinition object at 0x063083C0>) , Command count = 195 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308480>, <py_sfcl.CommandDataDefinition object at 0x06308450>) , Command count = 196 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308510>, <py_sfcl.CommandDataDefinition object at 0x063084E0>) , Command count = 197 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063085A0>, <py_sfcl.CommandDataDefinition object at 0x06308570>) , Command count = 198 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308630>, <py_sfcl.CommandDataDefinition object at 0x06308600>) , Command count = 199 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063086C0>, <py_sfcl.CommandDataDefinition object at 0x06308690>) , Command count = 200 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308750>, <py_sfcl.CommandDataDefinition object at 0x06308720>) , Command count = 201 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063087E0>, <py_sfcl.CommandDataDefinition object at 0x063087B0>) , Command count = 202 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308870>, <py_sfcl.CommandDataDefinition object at 0x06308840>) , Command count = 203 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308900>, <py_sfcl.CommandDataDefinition object at 0x063088D0>) , Command count = 204 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308990>, <py_sfcl.CommandDataDefinition object at 0x06308960>) , Command count = 205 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308A20>, <py_sfcl.CommandDataDefinition object at 0x063089F0>) , Command count = 206 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308AB0>, <py_sfcl.CommandDataDefinition object at 0x06308A80>) , Command count = 207 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308B40>, <py_sfcl.CommandDataDefinition object at 0x06308B10>) , Command count = 208 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308BD0>, <py_sfcl.CommandDataDefinition object at 0x06308BA0>) , Command count = 209 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308C60>, <py_sfcl.CommandDataDefinition object at 0x06308C30>) , Command count = 210 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308CF0>, <py_sfcl.CommandDataDefinition object at 0x06308CC0>) , Command count = 211 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308D80>, <py_sfcl.CommandDataDefinition object at 0x06308D50>) , Command count = 212 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308E10>, <py_sfcl.CommandDataDefinition object at 0x06308DE0>) , Command count = 213 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308EA0>, <py_sfcl.CommandDataDefinition object at 0x06308E70>) , Command count = 214 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308F30>, <py_sfcl.CommandDataDefinition object at 0x06308F00>) , Command count = 215 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06308FC0>, <py_sfcl.CommandDataDefinition object at 0x06308F90>) , Command count = 216 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306090>, <py_sfcl.CommandDataDefinition object at 0x06306060>) , Command count = 217 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306120>, <py_sfcl.CommandDataDefinition object at 0x063060F0>) , Command count = 218 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063061B0>, <py_sfcl.CommandDataDefinition object at 0x06306180>) , Command count = 219 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306240>, <py_sfcl.CommandDataDefinition object at 0x06306210>) , Command count = 220 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063062D0>, <py_sfcl.CommandDataDefinition object at 0x063062A0>) , Command count = 221 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306360>, <py_sfcl.CommandDataDefinition object at 0x06306330>) , Command count = 222 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063063F0>, <py_sfcl.CommandDataDefinition object at 0x063063C0>) , Command count = 223 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306480>, <py_sfcl.CommandDataDefinition object at 0x06306450>) , Command count = 224 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306510>, <py_sfcl.CommandDataDefinition object at 0x063064E0>) , Command count = 225 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063065A0>, <py_sfcl.CommandDataDefinition object at 0x06306570>) , Command count = 226 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306630>, <py_sfcl.CommandDataDefinition object at 0x06306600>) , Command count = 227 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063066C0>, <py_sfcl.CommandDataDefinition object at 0x06306690>) , Command count = 228 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306750>, <py_sfcl.CommandDataDefinition object at 0x06306720>) , Command count = 229 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063067E0>, <py_sfcl.CommandDataDefinition object at 0x063067B0>) , Command count = 230 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306870>, <py_sfcl.CommandDataDefinition object at 0x06306840>) , Command count = 231 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306900>, <py_sfcl.CommandDataDefinition object at 0x063068D0>) , Command count = 232 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306990>, <py_sfcl.CommandDataDefinition object at 0x06306960>) , Command count = 233 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306A20>, <py_sfcl.CommandDataDefinition object at 0x063069F0>) , Command count = 234 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306AB0>, <py_sfcl.CommandDataDefinition object at 0x06306A80>) , Command count = 235 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306B40>, <py_sfcl.CommandDataDefinition object at 0x06306B10>) , Command count = 236 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306BD0>, <py_sfcl.CommandDataDefinition object at 0x06306BA0>) , Command count = 237 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306C60>, <py_sfcl.CommandDataDefinition object at 0x06306C30>) , Command count = 238 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306CF0>, <py_sfcl.CommandDataDefinition object at 0x06306CC0>) , Command count = 239 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306D80>, <py_sfcl.CommandDataDefinition object at 0x06306D50>) , Command count = 240 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306E10>, <py_sfcl.CommandDataDefinition object at 0x06306DE0>) , Command count = 241 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306EA0>, <py_sfcl.CommandDataDefinition object at 0x06306E70>) , Command count = 242 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306F30>, <py_sfcl.CommandDataDefinition object at 0x06306F00>) , Command count = 243 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06306FC0>, <py_sfcl.CommandDataDefinition object at 0x06306F90>) , Command count = 244 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06372090>, <py_sfcl.CommandDataDefinition object at 0x06372060>) , Command count = 245 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06372120>, <py_sfcl.CommandDataDefinition object at 0x063720F0>) , Command count = 246 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063721B0>, <py_sfcl.CommandDataDefinition object at 0x06372180>) , Command count = 247 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06372240>, <py_sfcl.CommandDataDefinition object at 0x06372210>) , Command count = 248 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063722D0>, <py_sfcl.CommandDataDefinition object at 0x063722A0>) , Command count = 249 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06372360>, <py_sfcl.CommandDataDefinition object at 0x06372330>) , Command count = 250 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063723F0>, <py_sfcl.CommandDataDefinition object at 0x063723C0>) , Command count = 251 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05B65CC0>, <py_sfcl.CommandDataDefinition object at 0x06372450>) , Command count = 252 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063724E0>, <py_sfcl.CommandDataDefinition object at 0x063724B0>) , Command count = 253 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05B3DE10>, <py_sfcl.CommandDataDefinition object at 0x06372540>) , Command count = 254 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C6EF90>, <py_sfcl.CommandDataDefinition object at 0x05C6EF30>) , Command count = 255 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C84360>, <py_sfcl.CommandDataDefinition object at 0x063725D0>) , Command count = 256 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C844B0>, <py_sfcl.CommandDataDefinition object at 0x06372630>) , Command count = 257 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C8DF00>, <py_sfcl.CommandDataDefinition object at 0x06372690>) , Command count = 258 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C923C0>, <py_sfcl.CommandDataDefinition object at 0x063726F0>) , Command count = 259 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06372780>, <py_sfcl.CommandDataDefinition object at 0x06372750>) , Command count = 260 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C92480>, <py_sfcl.CommandDataDefinition object at 0x063727E0>) , Command count = 261 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C924E0>, <py_sfcl.CommandDataDefinition object at 0x06372840>) , Command count = 262 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063728D0>, <py_sfcl.CommandDataDefinition object at 0x063728A0>) , Command count = 263 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C92E70>, <py_sfcl.CommandDataDefinition object at 0x06372930>) , Command count = 264 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:16: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x01EFDD50>, <py_sfcl.CommandDataDefinition object at 0x06372990>) , Command count = 265 ] 
+13:08:16: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C92F60>, <py_sfcl.CommandDataDefinition object at 0x063729F0>) , Command count = 266 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C92EA0>, <py_sfcl.CommandDataDefinition object at 0x06372A50>) , Command count = 267 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C92ED0>, <py_sfcl.CommandDataDefinition object at 0x06372AB0>) , Command count = 268 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C9CC60>, <py_sfcl.CommandDataDefinition object at 0x06372B10>) , Command count = 269 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C9C150>, <py_sfcl.CommandDataDefinition object at 0x06372B70>) , Command count = 270 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C92870>, <py_sfcl.CommandDataDefinition object at 0x06372BD0>) , Command count = 271 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C92FC0>, <py_sfcl.CommandDataDefinition object at 0x06372C30>) , Command count = 272 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C6E570>, <py_sfcl.CommandDataDefinition object at 0x06372C90>) , Command count = 273 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C6E360>, <py_sfcl.CommandDataDefinition object at 0x06372CF0>) , Command count = 274 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C77180>, <py_sfcl.CommandDataDefinition object at 0x06372D50>) , Command count = 275 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C77210>, <py_sfcl.CommandDataDefinition object at 0x06372DB0>) , Command count = 276 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C6C6C0>, <py_sfcl.CommandDataDefinition object at 0x06372E10>) , Command count = 277 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C6CC90>, <py_sfcl.CommandDataDefinition object at 0x06372E70>) , Command count = 278 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C6C4B0>, <py_sfcl.CommandDataDefinition object at 0x06372ED0>) , Command count = 279 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C6CB10>, <py_sfcl.CommandDataDefinition object at 0x06372F30>) , Command count = 280 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05CC23F0>, <py_sfcl.CommandDataDefinition object at 0x06372F90>) , Command count = 281 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05CC2D20>, <py_sfcl.CommandDataDefinition object at 0x06373030>) , Command count = 282 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05CC2DB0>, <py_sfcl.CommandDataDefinition object at 0x06373090>) , Command count = 283 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05CC2DE0>, <py_sfcl.CommandDataDefinition object at 0x063730F0>) , Command count = 284 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05CC2E10>, <py_sfcl.CommandDataDefinition object at 0x06373150>) , Command count = 285 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05CC2E40>, <py_sfcl.CommandDataDefinition object at 0x063731B0>) , Command count = 286 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05C842D0>, <py_sfcl.CommandDataDefinition object at 0x06373210>) , Command count = 287 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05CC2ED0>, <py_sfcl.CommandDataDefinition object at 0x06373270>) , Command count = 288 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05CC2E70>, <py_sfcl.CommandDataDefinition object at 0x063732D0>) , Command count = 289 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05CC2EA0>, <py_sfcl.CommandDataDefinition object at 0x06373330>) , Command count = 290 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06207180>, <py_sfcl.CommandDataDefinition object at 0x06373390>) , Command count = 291 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06373420>, <py_sfcl.CommandDataDefinition object at 0x063733F0>) , Command count = 292 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06207660>, <py_sfcl.CommandDataDefinition object at 0x06207630>) , Command count = 293 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063734E0>, <py_sfcl.CommandDataDefinition object at 0x063734B0>) , Command count = 294 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062DBF30>, <py_sfcl.CommandDataDefinition object at 0x06373540>) , Command count = 295 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062DBFC0>, <py_sfcl.CommandDataDefinition object at 0x063735A0>) , Command count = 296 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06373630>, <py_sfcl.CommandDataDefinition object at 0x06373600>) , Command count = 297 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063736C0>, <py_sfcl.CommandDataDefinition object at 0x06373690>) , Command count = 298 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1180>, <py_sfcl.CommandDataDefinition object at 0x06373720>) , Command count = 299 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1B10>, <py_sfcl.CommandDataDefinition object at 0x062F1D80>) , Command count = 300 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063737E0>, <py_sfcl.CommandDataDefinition object at 0x063737B0>) , Command count = 301 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1F30>, <py_sfcl.CommandDataDefinition object at 0x06373840>) , Command count = 302 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x063738D0>, <py_sfcl.CommandDataDefinition object at 0x063738A0>) , Command count = 303 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1630>, <py_sfcl.CommandDataDefinition object at 0x06373930>) , Command count = 304 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1900>, <py_sfcl.CommandDataDefinition object at 0x062F15A0>) , Command count = 305 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1A20>, <py_sfcl.CommandDataDefinition object at 0x062F1660>) , Command count = 306 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1BD0>, <py_sfcl.CommandDataDefinition object at 0x06373990>) , Command count = 307 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F18A0>, <py_sfcl.CommandDataDefinition object at 0x062F1690>) , Command count = 308 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1990>, <py_sfcl.CommandDataDefinition object at 0x062F13C0>) , Command count = 309 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1510>, <py_sfcl.CommandDataDefinition object at 0x063739F0>) , Command count = 310 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1780>, <py_sfcl.CommandDataDefinition object at 0x06207510>) , Command count = 311 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1B40>, <py_sfcl.CommandDataDefinition object at 0x06373A80>) , Command count = 312 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1E40>, <py_sfcl.CommandDataDefinition object at 0x062F1480>) , Command count = 313 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1360>, <py_sfcl.CommandDataDefinition object at 0x062F19F0>) , Command count = 314 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1C00>, <py_sfcl.CommandDataDefinition object at 0x062F1A50>) , Command count = 315 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1C90>, <py_sfcl.CommandDataDefinition object at 0x062F1CF0>) , Command count = 316 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06373B70>, <py_sfcl.CommandDataDefinition object at 0x06373B40>) , Command count = 317 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1C60>, <py_sfcl.CommandDataDefinition object at 0x06373BD0>) , Command count = 318 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06373C60>, <py_sfcl.CommandDataDefinition object at 0x06373C30>) , Command count = 319 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F17E0>, <py_sfcl.CommandDataDefinition object at 0x06373CC0>) , Command count = 320 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1A80>, <py_sfcl.CommandDataDefinition object at 0x062F15D0>) , Command count = 321 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062DBDB0>, <py_sfcl.CommandDataDefinition object at 0x062F7090>) , Command count = 322 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7120>, <py_sfcl.CommandDataDefinition object at 0x06373D20>) , Command count = 323 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F70C0>, <py_sfcl.CommandDataDefinition object at 0x062F7060>) , Command count = 324 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7150>, <py_sfcl.CommandDataDefinition object at 0x062F7330>) , Command count = 325 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7240>, <py_sfcl.CommandDataDefinition object at 0x06373D80>) , Command count = 326 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F1CC0>, <py_sfcl.CommandDataDefinition object at 0x062F16C0>) , Command count = 327 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7360>, <py_sfcl.CommandDataDefinition object at 0x06373E10>) , Command count = 328 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F71E0>, <py_sfcl.CommandDataDefinition object at 0x062F71B0>) , Command count = 329 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7390>, <py_sfcl.CommandDataDefinition object at 0x062F7570>) , Command count = 330 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7420>, <py_sfcl.CommandDataDefinition object at 0x062F73F0>) , Command count = 331 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06373EA0>, <py_sfcl.CommandDataDefinition object at 0x06373E70>) , Command count = 332 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7660>, <py_sfcl.CommandDataDefinition object at 0x06373F00>) , Command count = 333 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7720>, <py_sfcl.CommandDataDefinition object at 0x06373F60>) , Command count = 334 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06373FC0>, <py_sfcl.CommandDataDefinition object at 0x06374030>) , Command count = 335 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7780>, <py_sfcl.CommandDataDefinition object at 0x06374090>) , Command count = 336 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7E40>, <py_sfcl.CommandDataDefinition object at 0x062F7B10>) , Command count = 337 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06374150>, <py_sfcl.CommandDataDefinition object at 0x06374120>) , Command count = 338 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7BD0>, <py_sfcl.CommandDataDefinition object at 0x063741B0>) , Command count = 339 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06374240>, <py_sfcl.CommandDataDefinition object at 0x06374210>) , Command count = 340 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7C30>, <py_sfcl.CommandDataDefinition object at 0x063742A0>) , Command count = 341 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F74B0>, <py_sfcl.CommandDataDefinition object at 0x062F7480>) , Command count = 342 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7CF0>, <py_sfcl.CommandDataDefinition object at 0x062F7DB0>) , Command count = 343 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7C60>, <py_sfcl.CommandDataDefinition object at 0x06374300>) , Command count = 344 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Prg']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7D20>, <py_sfcl.CommandDataDefinition object at 0x062F7CC0>) , Command count = 345 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7F30>, <py_sfcl.CommandDataDefinition object at 0x062F7E10>) , Command count = 346 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:08:17: CMD42[ LOCK_UNLOCK ] Passed with R1 type response:[13, 0, 0, 9, 0, 7]
+13:08:17: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFE40>, <py_sfcl.CommandDataDefinition object at 0x062FFE10>) , Command count = 347 ] 
+13:08:17: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:08:27: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFDE0>, <py_sfcl.CommandDataDefinition object at 0x062F7270>) , Command count = 348 ] 
+13:08:27: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:08:27: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x0 to EndLba:0x201 with Zero's Pattern
+13:08:27: [ WrLbaNoData(0x0, 0x201, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_ZERO, True, False, False, False, 0x0, False, 0x0) , Command count = 349 ] 
+13:08:27: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :Done MultipleWrite from StartLba: 0x0 to EndLba:0x201 with Zero's Pattern 
+
+13:08:27: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :MultipleRead to the card at StartLba:0x0 to EndLba:0x201 with Zero's Pattern
+13:08:27: [ RdLbaNoData(0x0, 0x201, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_ZERO, True, False, False, False, 0x0, False, 0x0, True) , Command count = 350 ] 
+13:08:27: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :Done MultipleRead from StartLba: 0x0 to EndLba:0x201 with Zero's Pattern 
+
+13:08:27: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x1DB9200 to EndLba:0x1DB9401 with Zero's Pattern
+13:08:38: [ WrLbaNoData(0x1DB9200, 0x201, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_ZERO, True, False, False, False, 0x0, False, 0x0) , Command count = 351 ] 
+13:08:38: [ GetCardStatus() , Command count = 352 ] 
+13:08:38: [DVTCommonLib]### WriteWithFPGAPattern[ERROR] :MultipleWrite Failed from StartLba:0x1DB9200 to EndLba:0x1DB9401 with Zero's Pattern
+13:08:38: [DVTCommonLib]### Exception_Details :Exception raised!!!, Error Number is 37 and Error Message is 
+CardCommandError:                                  
+card access failed on protocol=sd: 
+   Error 0x25L (37) executing command 'WrLbaNoData'
+   Description : Time out waiting for host response
+   Error Layer : UNKNOWN
+   SW Error Location : UNKNOWN - UNKNOWN : 0
+   Arguments: ('(0x1DB9200, 0x201, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_ZERO, True, False, False, False, 0x0, False, 0x0)')
+   Extended error information:
+      Status         : 0xD00
+      Is busy?       : Yes
+
+13:08:38: Failed as expected, Data miscompare with Erased data.
+13:08:38: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7B70>, <py_sfcl.CommandDataDefinition object at 0x062FFCF0>) , Command count = 353 ] 
+13:08:38: [ GetCardStatus() , Command count = 354 ] 
+13:08:38: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FF210>, <py_sfcl.CommandDataDefinition object at 0x062FF1E0>) , Command count = 355 ] 
+13:08:38: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Rcv', 'READY_FOR_DATA']
+13:08:38: CMD7[ SEL_DESELECT_CARD ] Failed with Timout Error
+13:08:38: Failed Running script <module 'H2ASICwidebus_H2_ASIC_fix_wide_bus_1_byte_tran' from 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\SD\CommonDVT\ASIC_Fixes_SD\H2ASICwidebus_H2_ASIC_fix_wide_bus_1_byte_tran.py'> with error 
+CardCommandError:                                  
+card access failed on protocol=sd: 
+   Error 0x1L (1) executing command 'SendBasicCommand'
+   Description : Time out error on card response
+   Error Layer : UNKNOWN
+   SW Error Location : UNKNOWN - UNKNOWN : 0
+   Arguments: ('(<py_sfcl.CommandDefinition object at 0x062F7B70>, <py_sfcl.CommandDataDefinition object at 0x062FFCF0>)')
+   Extended error information:
+      Status         : <CantDetermine>
+      Is busy?       : <CantDetermine>
+ 
+13:08:38: ########################################
+13:08:38: ########################################
+13:08:38: Stated Running script ASIC04_H2_ASIC_fix_Secure_ARG_0 
+13:08:38: ########################################
+13:08:38: Started Running script ASIC04_H2_ASIC_fix_Secure_ARG_0 as globalCPRM is NonSecure 
+
+13:08:38: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x06374F30>, <0x200/0x200, Arb>) , Command count = 356 ] 
+13:08:38: [ GetCardStatus() , Command count = 357 ] 
+13:08:38: Failed Running script <module 'ASIC04_H2_ASIC_fix_Secure_ARG_0' from 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\SD\CommonDVT\ASIC_Fixes_SD\ASIC04_H2_ASIC_fix_Secure_ARG_0.py'> with error 
+CardCommandError:                                  
+card access failed on protocol=sd: 
+   Error 0x1L (1) executing command 'CardGetStdStructure'
+   Description : Time out error on card response
+   Error Layer : UNKNOWN
+   SW Error Location : UNKNOWN - UNKNOWN : 0
+   Arguments: ('(<py_sfcl.STD_STRUCT object at 0x06374F30>, <0x200/0x200, Arb>)')
+   Extended error information:
+      Status         : <CantDetermine>
+      Is busy?       : <CantDetermine>
+ 
+13:08:38: ########################################
+13:08:38: ########################################
+13:08:38: Stated Running script H2ASICBL_H2_ASIC_fix_ACMD_43_block_len 
+13:08:38: ########################################
+13:08:38: Started Running script H2ASICBL_H2_ASIC_fix_ACMD_43_block_len as globalCPRM is NonSecure 
+
+13:08:38: MaxLba of the card: 0x3B72400 
+13:08:39: ###### GWP Management Test. 
+13:08:39: [H2ASIC_H2_ASIC_fix_ACMD_43_block_len]### TEST CASE ITERATION IS STARTED.
+13:08:39: [H2ASIC_H2_ASIC_fix_ACMD_43_block_len]### This test is for LC cards. Script is not compatiable with HC cards.
+13:08:39: ########################################
+13:08:39: Finished Running script H2ASICBL_H2_ASIC_fix_ACMD_43_block_len 
+13:08:39: ########################################
+13:08:39: ########################################
+13:08:39: The Script <class 'ASIC666_Call_All_ASIC_Fixes_SD.Call_All_ASIC_Fixes_SD'> has 3 error on running 
+13:08:39: ########################################
+
+2016-11-28 13:08:40: 
+
+
+<<<<<<<<<<<<<<<       PYTHON TRACEBACK       >>>>>>>>>>>>>>>
+
+   File "C:\Program Files\SanDisk\CTF\Libs\General\AppDriver.py", line 269, in _DoRunApp
+     returnData = appMainFunction( *functionArgs, **functionKwArgs )
+   File "C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\TestRunner.py", line 122, in Main
+     testProcedureObj.RunTestProcedure(randomObj)
+   File "C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\SD\CommonDVT\ASIC_Fixes_SD\ASIC666_Call_All_ASIC_Fixes_SD.py", line 121, in RunTestProcedure
+     self.Call_All_ASIC_Fixes_SDObj.Run(randomObj)
+   File "C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\SD\CommonDVT\ASIC_Fixes_SD\ASIC666_Call_All_ASIC_Fixes_SD.py", line 93, in Run
+     raise TestError.TestFailedError("The Script %s has %d error on running "%(self.__class__,ScriptsStatus))
+
+
+
+<<<<<<<<<<<<<<<                              >>>>>>>>>>>>>>>  
+
+
+
+<<<<<<<<<<<<<<<        ERROR SUMMARY         >>>>>>>>>>>>>>>
+
+
+ Test reported an error
+    The Script <class 'ASIC<NUM>_Call_All_ASIC_Fixes_SD.Call_All_ASIC_Fixes_SD'> has <NUM> error on running 
+
+
+
+<<<<<<<<<<<<<<<                              >>>>>>>>>>>>>>>  
+
+
+
+
+<<<<<<<<<<<<<<<      SCRIPT FAILS WITH       >>>>>>>>>>>>>>>
+
+
+ TestFailedError:                                   
+    The Script <class 'ASIC666_Call_All_ASIC_Fixes_SD.Call_All_ASIC_Fixes_SD'> has 3 error on running
+
+
+
+<<<<<<<<<<<<<<<                              >>>>>>>>>>>>>>>  
+
+
+<<<<<<<<<<<<<<<       COMMAND HISTORY        >>>>>>>>>>>>>>>
+
+The command history may not capture all of the commands going
+to the card so use this information with caution. This is not meant
+to be a replacement for a logic or protocol analyzer.
+
+Last 20 commands before error:
+     # Command                                                                FromStart(s) Elapsed(ms)   LatencyMax(ms)                      RV      
+   338 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7E40>, <py       97.162         3.5   read=  0, write=  0                 0       
+   339 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06374150>, <py       97.167         3.5   read=  0, write=  0                 0       
+   340 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7BD0>, <py       97.171         3.5   read=  0, write=  0                 0       
+   341 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06374240>, <py       97.174         3.5   read=  0, write=  0                 0       
+   342 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7C30>, <py       97.178         3.5   read=  0, write=  0                 0       
+   343 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F74B0>, <py       97.182         3.5   read=  0, write=  0                 0       
+   344 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7CF0>, <py       97.186         3.5   read=  0, write=  0                 0       
+   345 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7C60>, <py       97.190         3.5   read=  0, write=  0                 0       
+   346 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7D20>, <py       97.194         3.5   read=  0, write=  0                 0       
+   347 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7F30>, <py       97.198         3.5   read=  0, write=  0                 0       
+   348 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFE40>, <py      107.211         3.6   read=  0, write=  0                 0       
+   349 WrLbaNoData(0, 201, <400/200, Arb>, py_sfcl.Pattern.ALL_ZERO, T, F, F,      107.216        26.8   read=  0, write=  0                 0       
+   350 RdLbaNoData(0, 201, <400/200, Arb>, py_sfcl.Pattern.ALL_ZERO, T, F, F,      107.243         6.1   read=  0, write=  0                 0       
+   351 WrLbaNoData(1DB9200, 201, <400/200, Arb>, py_sfcl.Pattern.ALL_ZERO, T,      107.249     10682.1   read=  0, write=  0                 25      
+   352 GetCardStatus()                                                             117.932         3.5   read=  0, write=  0                 'List'  
+   353 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062F7270>, <py      117.938         4.9   read=  0, write=  0                 1       
+   354 GetCardStatus()                                                             117.944         4.5   read=  0, write=  0                 'Obj'   
+   355 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FF150>, <py      117.950         3.5   read=  0, write=  0                 0       
+   356 CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x062FF870>, <200/20      117.985         3.6   read=  0, write=  0                 1       
+   357 GetCardStatus()                                                             117.989         4.4   read=  0, write=  0                 'Obj'   
+
+     # Command                                                                FromStart(s) Elapsed(ms)   LatencyMax(ms)                      RV      
+   -----------------------------------------------------------------------------------------------------------------------------------------------
+   20 commands.  Total time 00:01:57
+
+
+Start LBA: 0xffffffff Transferred block amount: 0xffffffff
+
+Latency data
+--------------------------------------------------
+Time Interval  Reset        Read         Write        
+  0 -   8 :    0            103          48           
+  8 -  13 :    0            0            0            
+ 13 -  17 :    0            0            0            
+ 17 -  21 :    0            0            0            
+ 21 -  26 :    0            0            0            
+ 26 -  30 :    0            0            0            
+ 30 -  34 :    0            0            0            
+ 34 -  39 :    0            0            0            
+ 39 -  43 :    0            0            0            
+ 43 -  48 :    0            0            0            
+ 48 -  52 :    0            0            0            
+ 52 -  56 :    0            0            0            
+ 56 -  61 :    0            0            0            
+ 61 -  65 :    0            0            0            
+ 65 -  69 :    0            0            0            
+ 69 -  74 :    0            0            0            
+ 74 -  78 :    0            0            0            
+ 78 -  82 :    0            0            0            
+ 82 -  87 :    0            0            0            
+ 87 -  91 :    0            0            0            
+ 91 -  96 :    0            0            0            
+ 96 - 100 :    0            0            0            
+100 - 104 :    0            0            0            
+104 - 109 :    0            0            0            
+109 - 113 :    0            0            0            
+113 - 117 :    0            0            0            
+117 - 122 :    0            0            0            
+122 - 126 :    0            0            0            
+126 - 131 :    0            0            0            
+131 - 135 :    0            0            0            
+135 - 139 :    0            0            0            
+139 - 144 :    0            0            0            
+144 - 148 :    0            0            0            
+148 - 152 :    0            0            0            
+152 - 157 :    0            0            0            
+157 - 161 :    0            0            0            
+161 - 165 :    0            0            0            
+165 - 170 :    0            0            0            
+170 - 174 :    0            0            0            
+174 - 179 :    0            0            0            
+179 - 183 :    0            0            0            
+183 - 187 :    0            0            0            
+187 - 192 :    0            0            0            
+192 - 196 :    0            0            0            
+196 - 200 :    0            0            0            
+200 - 205 :    0            0            0            
+205 - 209 :    0            0            0            
+209 - 214 :    0            0            0            
+214 - 218 :    0            0            0            
+--------------------------------------------------
+
+
+List of commands that took the most time to execute:
+----------------------------------------------------
+     # Command                                                                FromStart(s) Elapsed(ms)   LatencyMax(ms)                      RV      
+
+    81 WrLbaNoData(0x0, 0x27A180, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREME           NA 51349.339476   NA                                  0       
+    84 WrLbaNoData(0x120, 0x3A, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_ZERO,           NA 10682.389077   NA                                  37      
+   250 WrLbaNoData(0x1DB9200, 0x201, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_           NA 10682.092365   NA                                  37      
+   130 SendBasicCommand(<py_sfcl.CommandDefinition object at 0x062FFDB0>, <py           NA  255.040027   NA                                  5       
+    68 CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, S           NA  204.492755   NA                                  3254747136
+    89 CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, S           NA  204.251885   NA                                  3254747136
+    52 CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, S           NA  204.124507   NA                                  3254747136
+   110 CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, S           NA  204.120281   NA                                  3254747136
+    46 CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <None>, 0x0, 0x           NA  193.211063   NA                                  3254747136
+   103 CardReset(py_sfcl.CARD_MODE.SD, 0x40FFC000, 0x1, True, <None>, 0x0, 0x           NA  162.185804   NA                                  None    
+    47 CardInit()                                                                       NA  133.941729   NA                                  0       
+   125 WrLbaNoData(0x0, 0x21, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL           NA   46.464842   NA                                  8       
+     9 GetPhysicalChipsInfo()                                                           NA   45.808333   NA                                  (<py_sfcl.PhysicalChipInfo object at 0x05C8C990>,)
+    41 GetPhysicalChipsInfo()                                                           NA   44.895257   NA                                  (<py_sfcl.PhysicalChipInfo object at 0x05CA0670>,)
+   127 RdLbaNoData(0x0, 0x21, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL           NA   40.251097   NA                                  3759407112
+    50 SetVolt(<py_sfcl.SDVoltage object at 0x062F13F0>, 0x0, False)                    NA   28.650960   NA                                  0       
+    66 SetVolt(<py_sfcl.SDVoltage object at 0x062F1FC0>, 0x0, False)                    NA   28.572179   NA                                  0       
+   108 SetVolt(<py_sfcl.SDVoltage object at 0x062FF630>, 0x0, False)                    NA   28.557087   NA                                  0       
+    87 SetVolt(<py_sfcl.SDVoltage object at 0x062F7C90>, 0x0, False)                    NA   28.552861   NA                                  0       
+   250 WrLbaNoData(0x0, 0x201, <0x400/0x200, Arb>, py_sfcl.Pattern.ALL_ZERO,            NA   26.773495   NA                                  0       
+
+     # Command                                                                FromStart(s) Elapsed(ms)   LatencyMax(ms)                      RV      
+
+Last resetup command number: 356
+
+
+<<<<<<<<<<<<<<<                              >>>>>>>>>>>>>>>  
+
+TestFailedError error at 00:02:00.
+
+
+<<<<<<<<<<<<<<<      SCRIPT FAILS WITH       >>>>>>>>>>>>>>>
+
+
+ TestFailedError:                                   
+    The Script <class 'ASIC666_Call_All_ASIC_Fixes_SD.Call_All_ASIC_Fixes_SD'> has 3 error on running
+
+
+
+<<<<<<<<<<<<<<<                              >>>>>>>>>>>>>>>  
+
+
+
+
+   #######    ##     ####  ####    
+    ##   #   ####     ##    ##     
+    ## #    ##  ##    ##    ##     
+    ####    ##  ##    ##    ##     
+    ## #    ######    ##    ##     
+    ##      ##  ##    ##    ##  ## 
+   ####     ##  ##   ####  ####### 
+                                   
+
+ 
+

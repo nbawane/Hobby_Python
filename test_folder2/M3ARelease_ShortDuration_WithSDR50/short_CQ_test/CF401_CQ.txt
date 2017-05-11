@@ -1,0 +1,1154 @@
+12:05:45: Sata Disconnector Board found in COM1.
+12:05:49: ***************************************************** 
+
+12:05:49: *  SDR/USD Driver version '10.0.0.1 (0x a.0.0.1)'   * 
+
+12:05:49: *                                                   * 
+
+12:05:49: *  Compatibility with this version is not verified! * 
+
+12:05:49: ***************************************************** 
+
+12:05:52: [ DeviceSetupCompletion() , Command count = 7 ] 
+12:05:52: Testname Mapping: ScriptName=[CF401_Call_All_Chapter_4] -> TestId=[CF401]
+12:05:52: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 8 ] 
+12:05:52: [ GetPhysicalChipsInfo() , Command count = 9 ] 
+12:05:52: [ GetFileSize(0xEA) , Command count = 10 ] 
+12:05:52: [ ReadFile(<0xA00/0x200, Arb>, 0xEA, 0x1) , Command count = 11 ] 
+12:05:52: [ GetFileSize(0x16) , Command count = 12 ] 
+12:05:52: [ GetCardStatus() , Command count = 13 ] 
+12:05:52: [ GetFileSize(0x18) , Command count = 14 ] 
+12:05:52: [ ReadFile(<0x1000/0x200, Arb>, 0x18, 0x8) , Command count = 15 ] 
+12:05:52: [ GetFileSize(0x15) , Command count = 16 ] 
+12:05:52: [ ReadFile(<0x1000/0x200, Arb>, 0x15, 0x1) , Command count = 17 ] 
+12:05:55: Can not find revision of File 21 in file 'config.xml' or card is in the ROM mode
+12:05:55: [ GetFileSize(0xE) , Command count = 18 ] 
+12:05:55: [ ReadFile(<0x1000/0x200, Arb>, 0xE, 0x1) , Command count = 19 ] 
+12:05:55: [ GetFileSize(0x1E) , Command count = 20 ] 
+12:05:55: [ GetCardStatus() , Command count = 21 ] 
+12:05:55: [ GetFileSize(0x21) , Command count = 22 ] 
+12:05:55: [ GetCardStatus() , Command count = 23 ] 
+12:05:55: [ GetFileSize(0x33) , Command count = 24 ] 
+12:05:55: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x33, 0x1) , Command count = 25 ] 
+12:05:55: [ GetFileSize(0x1F) , Command count = 26 ] 
+12:05:55: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x1F, 0x1) , Command count = 27 ] 
+12:05:55: [ GetFileSize(0x2A) , Command count = 28 ] 
+12:05:55: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x2A, 0x1) , Command count = 29 ] 
+12:05:55: [ ReadCfgConf(<0x1000/0x200, Spc, pat:0x0>, 0x1) , Command count = 30 ] 
+12:05:55: [ ReadFirmwareParameter(<0x1000/0x200, Spc, pat:0x0>, 0x2) , Command count = 31 ] 
+12:05:55: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_BE) , Command count = 32 ] 
+12:05:55: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_PRODUCT) , Command count = 33 ] 
+12:05:55: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_FE_SD) , Command count = 34 ] 
+12:05:55: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, 0x0) , Command count = 35 ] 
+12:05:55: [ GetFileSize(0x33) , Command count = 36 ] 
+12:05:55: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 37 ] 
+12:05:55: [ GetFileSize(0x33) , Command count = 38 ] 
+12:05:55: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 39 ] 
+12:05:56: [ GetIpVersionInfo() , Command count = 40 ] 
+12:05:56: [ GetPhysicalChipsInfo() , Command count = 41 ] 
+12:05:56: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x064006C0>, <0x200/0x200, Arb>) , Command count = 42 ] 
+12:05:56: [ SendDiagnostic(<0x200/0x200, Spc, pat:0x0>, [0x9A, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], 0x0, 0x1) , Command count = 43 ] 
+
+<<<<<<<<<<<<<<<         TEST HEADER          >>>>>>>>>>>>>>>
+
+Application                :  TestRunner.py
+Application version        :  SD_DVT_CQ_Spec 6.0.0
+Application folder         :  C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT
+Command line               :  --protocol=sd --sdtestid=CF401 --dbconnection=none --adapter=SD05412_9ADT --sdConfiguration=SDR50 --projectconfig=C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB --paramsfile=C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB\Colibri_SD_HC_I059_SDR104_Prem_C10_U1.txt --logfilename=C:\Results\CF401_CQ.txt --CQ=1
+Protocol                   :  sd
+Serial number (CInfo)      :  sdin1091
+Adapter                    :  SDR Tester (S#: SD05412_9ADT): (Slot#:0)
+Adapter serial number      :  SD05412_9ADT
+Adapter type               :  USD
+Capacity                   :  32G
+Firmware revision          :  6RB C030
+Flashware revision         :  6RB C030
+IP Version Info            :  '' 01.04.00... ID 0x20
+                           :  '' 00.01.00... ID 0x10
+Memory ID                  :  453CA9A27A510B140000000000000000
+Controller                 :  81
+Trim settings              :  <Unavailable>
+Model revision             :  <Unavailable>
+Stream name                :  <Unavailable>
+FE IP                      :  1
+Romware revision           :  RRBZ1152
+Architecture               :  Gen 6
+Model                      :  SanDisk   COLIBRI
+Memory type                :  Unknown Device Type-2LC x 1
+ASIC id                    :  81
+Controller type            :  Unknown Controller   UMC-J
+Driver version (actual)    :  10.0.0.1 (0x a.0.0.1)
+Driver version (released)  :  7.1.4.3 (0x 7.1.4.3)
+Date and time              :  2016-11-29 12:05:56
+Host name                  :  SDDVT_Test2
+Host IP address            :  10.65.153.121
+Operating system           :  Microsoft Windows [Version 6.1.7601] Service Pack 1
+SanDisk Python version     :  1.17.5rc3
+CTF/PySFCL build number    :  1.3.217491.217491
+PySFCL version             :  1.3.217491
+CTF version                :  1.3
+Python version             :  2.4.2
+Project Name(Validation)   :  <None>
+
+
+<<<<<<<<<<<<<<<      SFCL CONFIGURATION      >>>>>>>>>>>>>>>
+
+[SD enumeration]
+cmdtiming=0
+useRelay=0
+autocompare=0
+relayPolarity=1
+relaySleep=500
+measureCmdLatency=1
+logicalChunkSize=0
+diagDisabled=0
+diagCmdTimeout=800
+useVddf=on
+nethostloglevel=
+nethostautoCompare=on
+CmdManShowProgress=off
+nethostsendtimeout=240000
+nethostreceivetimeout=240000
+countOfRetryCmdIfCrc=3
+enableOORPatch=
+lbaForSctpCommands=0x100
+subProtocol=0
+doDle=0
+diagnosticChunkSize=128
+logmsgformat=timeMessage
+logtimeformat=time
+relaySlot=0
+unloadDll=on
+hardTimeoutUnloadDll=on
+minDuration=7200
+remoteDevice=
+skipProduction=0
+ishighspeedmode=0
+highfreqinhz=500
+modeldelaytimeindiagnostic=0
+cqDataTransferPollingShortInterval=1000
+cqDataStatusPollingLongInterval=1800000
+sataPort0ToRelaySlot=0
+sataPort1ToRelaySlot=0
+sataPort2ToRelaySlot=0
+sataPort3ToRelaySlot=0
+relayToComportMapping=1
+sdbToComportMapping=1
+sataAdapterPort0=0
+sataAdapterPort1=0
+sataAdapterPort2=0
+sataAdapterPort3=0
+sataPort0ToMubIndx=1
+sataPort1ToMubIndx=1
+sataPort2ToMubIndx=1
+sataPort3ToMubIndx=1
+
+[Common]
+enableChunkTraces=off
+enablePythonTraceback=1
+sctpPhaseDelay=0
+printcommandcount=on
+debugfilepath=
+initXMLPath=\\regression.lab.sandisk.com\shared\configurations
+delayBeforePwrCycle=0
+delayAfterPwrCycle=0
+reportCountStatistics=1
+reportPackage=0
+sfclConfig=Common
+
+<<<<<<<<<<<<<<<          CARD INFO           >>>>>>>>>>>>>>>
+
+Number Of LBAs  :  0x3b72400
+Card Is Locked  :  No
+Secure Area     :  0x28000
+Card Secure     :  No
+WP map          :
+
+<<<<<<<<<<<<<<<           CID INFO           >>>>>>>>>>>>>>>
+
+Manufacturer Id  :  0x3
+Card/BGA         :  0
+Application Id   :  0x5344
+ProductName      :  AGGCD
+ProductRev       :  0x80
+SerialNumber     :  0x23482900
+Reserved         :  0x23482900
+Year             :  2000
+Month            :  11
+CRC Check Sum    :  0x5
+Not Used         :
+
+<<<<<<<<<<<<<<<           CSD INFO           >>>>>>>>>>>>>>>
+
+CSD Structure                     :  0x1
+reserv. 1                         :  0x0
+TAAC                              :  0xe
+NSAC*100                          :  0x0
+data transfer rate                :  0x32
+card command classes CCC          :  0x5b5
+max. read data Blk. length        :  0x9
+partial blocks for read allowed   :  0x0
+write block misalignment          :  0x0
+read block misalignment           :  0x0
+DSR implemented                   :  0x0
+reserved 2                        :  0x0
+device size                       :  0xedc8
+Reserv3                           :  0x0
+SD Erase Blk Len En               :  0x1
+SD Sec Size                       :  0x7f
+write protect group size          :  0x0
+write protect group enable        :  0x0
+Reserv4                           :  0x0
+write speed factor                :  0x2
+max. write data blk. length       :  0x9
+partial blocks for write allowed  :  0x0
+File Format Group                 :  0x0
+copy flag(OTP)                    :  0x1
+permanent write protection        :  0x0
+temporary write protection        :  0x0
+File Format                       :  0x0
+CRC                               :  0x0
+<<<<<<<<<<<<<<<         M-CONF INFO          >>>>>>>>>>>>>>>
+
+Max LBA                      :  0x3b9b000
+FW Revision                  :  0x20425236
+Internal Flashware Revision  :
+Romware revision             :  RRBZ1152
+Device Count                 :  0x0
+Device Type                  :  0x0
+Device Configuration         :  0x0
+ASIC id                      :  81
+ASIC Vendor                  :  0x2
+ASIC Revision                :  0x0
+Security                     :  0x0
+File Number                  :  0x0
+File Version                 :  0x0
+File Sign                    :  0x0
+Bot File Version             :  COLB1S5211C0f30r_11UHB05D.
+Param File Version           :  0x70a006a0
+Lot Number                   :  0x0
+Talisman Security Code       :  0x0
+Reserved                     :  0x0
+SNDK Version                 :  0x0
+CRYS Version                 :  0x0
+PDL Version                  :  0x0
+Talisman Security Code       :  0x0
+Memory ID                    :  453CA9A27A510B140000000000000000
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+Set1 Cpu Clock               :
+Set1 Cpu Divider             :
+Set1 Fim Write Clock         :
+Set1 Fim Write Divider       :
+Set1 Fim Read Clock          :
+Set1 Fim Read Divider        :
+Set1 Hs Cpu Clock            :  0
+Set1 Hs Cpu Divider          :  0
+Set1 Hs Ecc Clock            :  0
+Set1 Hs Ecc Divider          :  0
+Set1 Hs Fim Clock            :  0
+Set1 Hs Fim Divider          :  0
+Set1 System Divider          :  0
+Update Blocks                :  0x43
+Chaotic Blocks               :
+Die Interleave               :  0x2
+Lower Page                   :  0x0
+File 31 In User Area         :  0x0
+SSA Version                  :
+App Versions                 :  0x0L
+Top Level IPartNum           :
+Part Number                  :
+Set2 Cpu Clock               :
+Set2 Cpu Divider             :
+Set2 Fim Write Clock         :
+Set2 Fim Write Divider       :
+Set2 Fim Read Clock          :
+Set2 Fim Read Divider        :
+Set2 Hs Cpu Clock            :  0
+Set2 Hs Cpu Divider          :  0
+Set2 Hs Ecc Clock            :  0
+Set2 Hs Ecc Divider          :  0
+Set2 Hs Fim Clock            :  0
+Set2 Hs Fim Divider          :  0
+Set2 System Divider          :  0
+Set3 Cpu Clock               :
+Set3 Cpu Divider             :
+Set3 Fim Write Clock         :
+Set3 Fim Write Divider       :
+Set3 Fim Read Clock          :
+Set3 Fim Read Divider        :
+Set3 Hs Cpu Clock            :  0
+Set3 Hs Cpu Divider          :  0
+Set3 Hs Ecc Clock            :  0
+Set3 Hs Ecc Divider          :  0
+Set3 Hs Fim Clock            :  0
+Set3 Hs Fim Divider          :  0
+Set3 System Divider          :  0
+Set4 Cpu Clock               :
+Set4 Cpu Divider             :
+Set4 Fim Write Clock         :
+Set4 Fim Write Divider       :
+Set4 Fim Read Clock          :
+Set4 Fim Read Divider        :
+Set4 Hs Cpu Clock            :  0
+Set4 Hs Cpu Divider          :  0
+Set4 Hs Ecc Clock            :  0
+Set4 Hs Ecc Divider          :  0
+Set4 Hs Fim Clock            :  0
+Set4 Hs Fim Divider          :  0
+Set4 System Divider          :  0
+Set5 Cpu Clock               :
+Set5 Cpu Divider             :
+Set5 Fim Write Clock         :
+Set5 Fim Write Divider       :
+Set5 Fim Read Clock          :
+Set5 Fim Read Divider        :
+Set5 Hs Cpu Clock            :  0
+Set5 Hs Cpu Divider          :  0
+Set5 Hs Ecc Clock            :  0
+Set5 Hs Ecc Divider          :  0
+Set5 Hs Fim Clock            :  0
+Set5 Hs Fim Divider          :  0
+Set5 System Divider          :  0
+MetaBlockSize                :  32768
+Card Physical Size           :  0
+WORM Card Lock               :  0
+OTEC Version                 :  0
+Meta Page Size               :  192
+Worm Version                 :  0
+
+<<<<<<<<<<<<<<<    COMMAND LINE ARGUMENTS    >>>>>>>>>>>>>>>
+
+
+Processed command-line options:
+   --protocol                                       : sd
+   --adapterspecifier                               : ain:-1,desc:SD05412_9ADT
+   --extcmdset                                      : FBCC
+   --sdtestid                                       : CF401
+   --sdconfiguration                                : SDR50
+   --cyclecount                                     : 1
+   --testduration                                   : 20h
+   --writereadpercent                               : 100
+   --paramsfile                                     : 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB\Colibri_SD_HC_I059_SDR104_Prem_C10_U1.txt'
+   --randomseed                                     : 86205320204
+   --projectconfig                                  : C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB
+   --logfiledir                                     : C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\DvtTestLogs
+   --hostlog                                        : 0
+   --cq                                             : 1
+   --dbconnection                                   : 'none'
+   --temperature                                    : 25
+   --voltage                                        : 0.00
+   --logfilename                                    : 'C:\Results\CF401_CQ.txt'
+   --logtostdout                                    : Y
+   --overwriteexistinglogfile                       : Y
+   --logrotationspecifier                           : NoRotation
+   --loglevel                                       : <4, INFO>
+   --testcomment                                    : None
+   --dbproject                                      : CTFW_QA
+   --mdfwprojectid                                  : None
+   --mdconfigid                                     : None
+   --mdtestid                                       : None
+   --valid                                          : True
+   --waitTime                                       : None
+   --jitter                                         : F
+   --testlimits                                     : <None>-<None>
+   --LabID                                          : None
+   --DutID                                          : None
+   --LaunchId                                       : None
+   --TestQueueId                                    : None
+   --xfermode                                       : <N>
+   --networkperiod                                  : <N>
+   --networkpath                                    : <N>
+   --dumpfile                                       : 
+   --printcommandcount                              : N
+   --debugfilepath                                  : <N>
+   --chpfilename                                    : <N>
+   --enablecmdhistory                               : Y
+   --cmdhistextfilename                             : <N>
+   --cmdhistcsvfilename                             : <N>
+   --histdisplaysizes                               : 0,250
+   --stoponcommands                                 : <N>
+   --notifyemailid                                  : <N>
+   --spyoncommands                                  : <N>
+   --notifyoncommands                               : <N>
+   --CmdManShowProgress                             : 'off'
+   --enablePowerCycle                               : '1'
+   --measureCmdLatency                              : '1'
+   --useVddf                                        : 'on'
+   --gvi                                            : 'off'
+   --gviOnFly                                       : 'off'
+   --gviEncryption                                  : '0'
+   --remoteDevice                                   : ''
+   --skipProduction                                 : '0'
+   --forceMultipleMode                              : 'off'
+   --countOfRetryCmdIfCrc                           : '3'
+   --enableOORPatch                                 : 'on'
+   --connectonly                                    : 'off'
+   --nethostautocompare                             : 'on'
+   --nethostpowercycle                              : '0'
+   --nethostloglevel                                : '3'
+   --nethostlogconsole                              : '0'
+   --nethostsanitychecks                            : '0'
+   --nethostsendtimeout                             : '240000'
+   --nethostreceivetimeout                          : '240000'
+   --subProtocol                                    : '0'
+   --useVccq                                        : '3.3'
+   --maxprotocoloverhead                            : '0'
+   --maxprotocoltimingmode                          : '0'
+   --isHighSpeedMode                                : '0'
+   --highFreqInHz                                   : '500'
+   --doDle                                          : '0'
+   --lbaForSctpCommands                             : '0x100'
+   --cmdfilename                                    : ''
+   --cmdtofilewrites                                : '0'
+   --cmdtiming                                      : '0'
+   --cmdtocsv                                       : '0'
+   --logicalChunkSize                               : '0'
+   --diagnosticChunkSize                            : '128'
+   --readChunkSize                                  : '0'
+   --writeChunkSize                                 : '0'
+   --useRelay                                       : '0'
+   --sataPort0ToRelaySlot                           : '0'
+   --sataPort1ToRelaySlot                           : '0'
+   --sataPort2ToRelaySlot                           : '0'
+   --sataPort3ToRelaySlot                           : '0'
+   --relayToComportMapping                          : '1'
+   --useSDB                                         : '0'
+   --sdbToComportMapping                            : '1'
+   --sataAdapterPort0                               : '0'
+   --sataAdapterPort1                               : '0'
+   --sataAdapterPort2                               : '0'
+   --sataAdapterPort3                               : '0'
+   --relayPolarity                                  : '1'
+   --relaySleep                                     : '500'
+   --diagCmdTimeout                                 : '800'
+   --diagDisabled                                   : '0'
+   --hardTimeout                                    : '30000'
+   --commandscriptfolder                            : ''
+   --commandscriptstart                             : '0'
+   --logmsgformat                                   : 'timeMessage'
+   --logtimeformat                                  : 'time'
+   --relaySlot                                      : '0'
+   --atbuRelaySlot                                  : '3'
+   --diskCacheStore                                 : ''
+   --stopOnStart                                    : '0'
+   --notifyserver                                   : ''
+   --notifyretry                                    : '2'
+   --notifytimeout                                  : '60'
+   --failonnotifytimeout                            : '0'
+   --revertactions                                  : ''
+   --timechangedetection                            : '0'
+   --timechangecondition                            : '600'
+   --timechangecheckinterval                        : '1000'
+   --inputmonitor                                   : '1'
+   --logtimeprecision                               : '2'
+   --nonSndkDevEnumeration                          : '0'
+   --modelini                                       : 'C:\Program Files\SanDisk\CTF\Dlls\model.ini'
+   --sfclini                                        : 'C:\Program Files\SanDisk\CTF\Dlls\sfcl.ini'
+   --relayForceDownload                             : 'off'
+   --powercycleoninit                               : 'off'
+   --stopBgOperationOnFail                          : 'off'
+   --autocompare                                    : '0'
+   --autocompareRandomseed                          : '12345678'
+   --modeldelaytimeindiagnostic                     : '0'
+   --ForceDownloadMechanism                         : '0'
+   --EnableUARTDebugLog                             : '0'
+   --UARTBaudRate                                   : '230400'
+   --SerialUARTToCom                                : '0'
+   --UARTDebugFilePath                              : ''
+   --sataPort0ToMubIndx                             : '1'
+   --sataPort1ToMubIndx                             : '1'
+   --sataPort2ToMubIndx                             : '1'
+   --sataPort3ToMubIndx                             : '1'
+   --fclStep                                        : '0'
+   --fclCollectReads                                : '0'
+   --fclCollectWrites                               : '0'
+   --fclCollectErases                               : '0'
+   --fclCollectAOMReads                             : '0'
+   --fclAomBase                                     : '10'
+   --aomStep                                        : '0'
+   --aomMapFile                                     : '0'
+   --fclAomSaveFilesStep                            : '1000'
+   --gfa                                            : '0'
+   --atbuSoftwareLocation                           : ''
+   --atbuMemoryName                                 : ''
+   --atbuProfilesLocation                           : ''
+   --atbuThresholdValue                             : '0'
+   --atbuTransitionTime                             : '0'
+   --atbuDcCompensation                             : ''
+
+
+<<<<<<<<<<<<<<< RUNNING TEST: CF401_Call_All_Chapter_4 >>>>>>>>>>>>>>>
+
+
+
+12:05:56: ###### Running Chapter 4 All scripts  ######
+12:05:56: MaxLba of the card: 0x3B72400 
+12:05:58: [GO7_globalPreTestingSettings]### Default Initialization Start
+12:05:58: [DVTCommonLib]###  SwitchHostVoltageRegion called
+12:05:58: [ SwitchHostVoltageRegion(False) , Command count = 44 ] 
+12:05:58: [DVTCommonLib]###  SwitchHostVoltageRegion Completed 
+
+12:05:58: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 45 ] 
+12:06:00: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <None>, 0x0, 0x0, 0x1, True, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 46 ] 
+12:06:00: [ CardInit() , Command count = 47 ] 
+12:06:00: [ SendDiagnostic(<0x200/0x200, Spc, pat:0x0>, [0x9A, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], 0x0, 0x1) , Command count = 48 ] 
+
+<<<<<<<<<<<<<<<         M-CONF INFO          >>>>>>>>>>>>>>>
+
+Max LBA                      :  0x3b9b000
+FW Revision                  :  0x20425236
+Internal Flashware Revision  :
+Romware revision             :  RRBZ1152
+Device Count                 :  0x0
+Device Type                  :  0x0
+Device Configuration         :  0x0
+ASIC id                      :  81
+ASIC Vendor                  :  0x2
+ASIC Revision                :  0x0
+Security                     :  0x0
+File Number                  :  0x0
+File Version                 :  0x0
+File Sign                    :  0x0
+Bot File Version             :  COLB1S5211C0f30r_11UHB05D.
+Param File Version           :  0x70a006a0
+Lot Number                   :  0x0
+Talisman Security Code       :  0x0
+Reserved                     :  0x0
+SNDK Version                 :  0x0
+CRYS Version                 :  0x0
+PDL Version                  :  0x0
+Talisman Security Code       :  0x0
+Memory ID                    :  453CA9A27A510B140000000000000000
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+Set1 Cpu Clock               :
+Set1 Cpu Divider             :
+Set1 Fim Write Clock         :
+Set1 Fim Write Divider       :
+Set1 Fim Read Clock          :
+Set1 Fim Read Divider        :
+Set1 Hs Cpu Clock            :  0
+Set1 Hs Cpu Divider          :  0
+Set1 Hs Ecc Clock            :  0
+Set1 Hs Ecc Divider          :  0
+Set1 Hs Fim Clock            :  0
+Set1 Hs Fim Divider          :  0
+Set1 System Divider          :  0
+Update Blocks                :  0x43
+Chaotic Blocks               :
+Die Interleave               :  0x2
+Lower Page                   :  0x0
+File 31 In User Area         :  0x0
+SSA Version                  :
+App Versions                 :  0x0L
+Top Level IPartNum           :
+Part Number                  :
+Set2 Cpu Clock               :
+Set2 Cpu Divider             :
+Set2 Fim Write Clock         :
+Set2 Fim Write Divider       :
+Set2 Fim Read Clock          :
+Set2 Fim Read Divider        :
+Set2 Hs Cpu Clock            :  0
+Set2 Hs Cpu Divider          :  0
+Set2 Hs Ecc Clock            :  0
+Set2 Hs Ecc Divider          :  0
+Set2 Hs Fim Clock            :  0
+Set2 Hs Fim Divider          :  0
+Set2 System Divider          :  0
+Set3 Cpu Clock               :
+Set3 Cpu Divider             :
+Set3 Fim Write Clock         :
+Set3 Fim Write Divider       :
+Set3 Fim Read Clock          :
+Set3 Fim Read Divider        :
+Set3 Hs Cpu Clock            :  0
+Set3 Hs Cpu Divider          :  0
+Set3 Hs Ecc Clock            :  0
+Set3 Hs Ecc Divider          :  0
+Set3 Hs Fim Clock            :  0
+Set3 Hs Fim Divider          :  0
+Set3 System Divider          :  0
+Set4 Cpu Clock               :
+Set4 Cpu Divider             :
+Set4 Fim Write Clock         :
+Set4 Fim Write Divider       :
+Set4 Fim Read Clock          :
+Set4 Fim Read Divider        :
+Set4 Hs Cpu Clock            :  0
+Set4 Hs Cpu Divider          :  0
+Set4 Hs Ecc Clock            :  0
+Set4 Hs Ecc Divider          :  0
+Set4 Hs Fim Clock            :  0
+Set4 Hs Fim Divider          :  0
+Set4 System Divider          :  0
+Set5 Cpu Clock               :
+Set5 Cpu Divider             :
+Set5 Fim Write Clock         :
+Set5 Fim Write Divider       :
+Set5 Fim Read Clock          :
+Set5 Fim Read Divider        :
+Set5 Hs Cpu Clock            :  0
+Set5 Hs Cpu Divider          :  0
+Set5 Hs Ecc Clock            :  0
+Set5 Hs Ecc Divider          :  0
+Set5 Hs Fim Clock            :  0
+Set5 Hs Fim Divider          :  0
+Set5 System Divider          :  0
+MetaBlockSize                :  32768
+Card Physical Size           :  0
+WORM Card Lock               :  0
+OTEC Version                 :  0
+Meta Page Size               :  192
+Worm Version                 :  0
+
+12:06:00: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+12:06:00: ####CSD Registe 2.0 Values####
+12:06:00: CSD_STRUCTURE                                 :0x1
+12:06:00: Reserv1                                       :0x0
+12:06:00: Time Access 1 TAAC                            :0xe
+12:06:00: Time Access 2 NSAC*100                        :0x0
+12:06:00: Data Transfer Rate TRAN_SPEED                 :0x32
+12:06:00: Card Command Classess CCC                     :0x5b5
+12:06:00: Max Read Data Block Length  READ_BL_LEN       :0x9
+12:06:00: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+12:06:00: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+12:06:00: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+12:06:00: DSR(driver stage register)  DSR_IMP           :0x0
+12:06:00: Reserv2                                       :0x0
+12:06:00: Device Size C_SIZE                            :0xedc8
+12:06:00: Reserv3                                       :0x0
+12:06:00: Erase Single Block Enable ERASE_BLK_EN        :0x1
+12:06:00: Erase Sector Size SECTOR_SIZE                 :0x7f
+12:06:00: Write Protect Group Size WP_GRP_SIZE          :0x0
+12:06:00: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+12:06:00: Reserv4                                       :0x0
+12:06:00: Write Speed Factor R2W_FACTOR                 :0x2
+12:06:00: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+12:06:00: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+12:06:00: FILE_FORMAT_GRP                               :0x0
+12:06:00: COPY flag                                     :0x1
+12:06:00: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+12:06:00: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+12:06:00: File_Format                                   :0x0
+12:06:00: CRC                                           :0x0
+12:06:00: ####CSD Registe Values####  
+
+12:06:01: [DVTCommonLib]### CardInfo :###****CARD INFO****
+12:06:01: ProductSerialNumber = 0x23482900
+12:06:01: CardMaximumLBA      = 0x3b72400
+12:06:01: CardCapacity        = 32G
+12:06:01: Is card secure      = 0
+12:06:01: [DVTCommonLib]### CardInfo :###****CARD INFO**** 
+
+12:06:01: [GO7_globalPreTestingSettings]### Default Initialization Completed 
+
+
+12:06:01: ########################################
+12:06:01: Stated Running script CH43311a_Basic_partial_read_test 
+12:06:01: ########################################
+12:06:01: MaxLba of the card: 0x3B72400 
+12:06:02: ###### Basic Partial read test.
+12:06:02: [CH43311a_Basic_partial_read_test]### globalCardCapacity is HC, test script is continued.
+12:06:02: [CH43311a_Basic_partial_read_test]### TEST CASE FIRST ITERATION IS STARTED.
+12:06:09: FPGA Image Downloaded Is:C:\Program Files\SanDisk\CTF\FPGA\SD_CQ_SDR2_2-20-00-0002.bin
+12:06:09: [GO4_globalInitCard]### Switch to Specify Card Type
+12:06:11: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+12:06:11: Host Frequency set to 25000 KHz
+12:06:11: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+12:06:11: [GO18_globalSetVolt]### Set Host Voltage value.
+12:06:11: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+12:06:11: [ SetVolt(<py_sfcl.SDVoltage object at 0x064DCC00>, 0x0, True) , Command count = 49 ] 
+12:06:11: [GO18_globalSetVolt]### Host voltage value is set.
+12:06:11: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+12:06:11: [ SetVolt(<py_sfcl.SDVoltage object at 0x064DCE40>, 0x0, False) , Command count = 50 ] 
+12:06:11: [GO18_globalSetVolt]### Host voltage value is set.
+12:06:11: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 51 ] 
+12:06:11: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+12:06:11: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x1, 0x0, 0x1, False, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 52 ] 
+12:06:11: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC1FF8000
+12:06:11: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+12:06:11: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+12:06:11: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+12:06:11: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 called 
+12:06:11: [ SwitchVolt_CMD11(True, 0x0, 0x5) , Command count = 53 ] 
+12:06:11: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 Completed
+12:06:11: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+12:06:11: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064DC9F0>, <py_sfcl.CommandDataDefinition object at 0x064DCC60>) , Command count = 54 ] 
+12:06:11: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+12:06:11: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064DCF00>, <py_sfcl.CommandDataDefinition object at 0x064DCDB0>) , Command count = 55 ] 
+12:06:11: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 0, 12]
+12:06:11: [ SetCardRCA(0x1, 0xD555) , Command count = 56 ] 
+12:06:12: [DVTCommonLib]### Identification :Idenfication of card completed 
+
+12:06:12: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+12:06:12: Host Frequency set to 25000 KHz
+12:06:12: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+12:06:12: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+12:06:12: ####CSD Registe 2.0 Values####
+12:06:12: CSD_STRUCTURE                                 :0x1
+12:06:12: Reserv1                                       :0x0
+12:06:12: Time Access 1 TAAC                            :0xe
+12:06:12: Time Access 2 NSAC*100                        :0x0
+12:06:12: Data Transfer Rate TRAN_SPEED                 :0x32
+12:06:12: Card Command Classess CCC                     :0x5b5
+12:06:12: Max Read Data Block Length  READ_BL_LEN       :0x9
+12:06:12: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+12:06:12: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+12:06:12: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+12:06:12: DSR(driver stage register)  DSR_IMP           :0x0
+12:06:12: Reserv2                                       :0x0
+12:06:12: Device Size C_SIZE                            :0xedc8
+12:06:12: Reserv3                                       :0x0
+12:06:12: Erase Single Block Enable ERASE_BLK_EN        :0x1
+12:06:12: Erase Sector Size SECTOR_SIZE                 :0x7f
+12:06:12: Write Protect Group Size WP_GRP_SIZE          :0x0
+12:06:12: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+12:06:12: Reserv4                                       :0x0
+12:06:12: Write Speed Factor R2W_FACTOR                 :0x2
+12:06:12: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+12:06:12: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+12:06:12: FILE_FORMAT_GRP                               :0x0
+12:06:12: COPY flag                                     :0x1
+12:06:12: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+12:06:12: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+12:06:12: File_Format                                   :0x0
+12:06:12: CRC                                           :0x0
+12:06:12: ####CSD Registe Values####  
+
+12:06:12: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register#####
+12:06:12: [GetSCRRegisterEntry] Passed
+12:06:12: SCR_STRUCTURE Version             : SCR_VERSION_1.0
+12:06:12: SD Memory Card - Spec. Version    : SPEC VERSION 2.00 or 3.0X
+12:06:12: Data_Status_After Erases          : 0
+12:06:12: CPRM Security Support             : No Security
+12:06:12: DAT Bus widths supported          : 1 bit [DAT0] and 4 bit (DAT0-3)
+12:06:12: Spec. Version                     : Version 3.0X
+12:06:12: Extended Security Support         : Extended_Security_Not_Supported
+12:06:12: Command Support                   : COMMAND_SUPPORT
+12:06:12: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register##### 
+
+12:06:12: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064DC450>, <py_sfcl.CommandDataDefinition object at 0x064DC120>) , Command count = 57 ] 
+12:06:12: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Tran', 'READY_FOR_DATA', 'APP_CMD']
+12:06:12: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064DCF30>, <py_sfcl.CommandDataDefinition object at 0x064DCE70>) , Command count = 58 ] 
+12:06:12: ACmd51[ SEND_SCR ] Passed with R1 type response:[51, 0, 0, 9, 32, 18]
+12:06:12: [ SetBusWidth(0x4) , Command count = 59 ] 
+12:06:12: [DVTCommonLib]### GetSDStatus :######SD Status#######
+12:06:12: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x064E9030>, <0x200/0x200, Spc, pat:0x0>) , Command count = 60 ] 
+12:06:12: Protected Area Size 0x28000
+12:06:12: Bus Width           2
+12:06:12: Secure Mode         0
+12:06:12: Speed  Class        4
+12:06:12: Perf Move           0
+12:06:12: Au Size             9
+12:06:12: Erase Size          15
+12:06:12: Erase Timeout       1
+12:06:12: Erase offset        1
+12:06:12: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+12:06:12: [G02_GlobalSetBusMode]### Bus width is set to Four and Verified
+12:06:12: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API called
+12:06:12: [ CardSwitchCmd(True, [0x2, 0xF, 0xF, 0x1, 0xF, 0xF], <0x40/0x200, Spc, pat:0x0>, 0x40) , Command count = 61 ] 
+12:06:12: [DVTCommonLib]### CardSwitchCommand[INFO]:['OperatingCurrent:250 mA', 'SDR50 SWITCHED', '400mA SWITCHED']
+12:06:12: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API completed 
+
+12:06:12: [GO17_globalSetVeryHSHostFreq.py]### Set the Very High Host Frequency (e.g. lightning)
+12:06:12: Host Frequency set to 100000 KHz
+12:06:12: [GO17_globalSetVeryHSHostFreq.py]###  globalRandom value is NONE
+12:06:12: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+12:06:12: ####CSD Registe 2.0 Values####
+12:06:12: CSD_STRUCTURE                                 :0x1
+12:06:12: Reserv1                                       :0x0
+12:06:12: Time Access 1 TAAC                            :0xe
+12:06:12: Time Access 2 NSAC*100                        :0x0
+12:06:12: Data Transfer Rate TRAN_SPEED                 :0xb
+12:06:12: Card Command Classess CCC                     :0x5b5
+12:06:12: Max Read Data Block Length  READ_BL_LEN       :0x9
+12:06:12: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+12:06:12: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+12:06:12: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+12:06:12: DSR(driver stage register)  DSR_IMP           :0x0
+12:06:12: Reserv2                                       :0x0
+12:06:12: Device Size C_SIZE                            :0xedc8
+12:06:12: Reserv3                                       :0x0
+12:06:12: Erase Single Block Enable ERASE_BLK_EN        :0x1
+12:06:12: Erase Sector Size SECTOR_SIZE                 :0x7f
+12:06:12: Write Protect Group Size WP_GRP_SIZE          :0x0
+12:06:12: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+12:06:12: Reserv4                                       :0x0
+12:06:12: Write Speed Factor R2W_FACTOR                 :0x2
+12:06:12: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+12:06:12: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+12:06:12: FILE_FORMAT_GRP                               :0x0
+12:06:12: COPY flag                                     :0x1
+12:06:12: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+12:06:12: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+12:06:12: File_Format                                   :0x0
+12:06:12: CRC                                           :0x0
+12:06:12: ####CSD Registe Values####  
+
+12:06:12: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9450>, <py_sfcl.CommandDataDefinition object at 0x064E9270>) , Command count = 62 ] 
+12:06:12: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Stby', 'READY_FOR_DATA']
+12:06:12: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E92D0>, <py_sfcl.CommandDataDefinition object at 0x064E9300>) , Command count = 63 ] 
+12:06:12: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+12:06:12: [DVTCommonLib]### GetSDStatus :######SD Status#######
+12:06:12: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x064E9390>, <0x200/0x200, Spc, pat:0x0>) , Command count = 64 ] 
+12:06:12: Protected Area Size 0x28000
+12:06:12: Bus Width           2
+12:06:12: Secure Mode         0
+12:06:12: Speed  Class        4
+12:06:12: Perf Move           0
+12:06:12: Au Size             9
+12:06:12: Erase Size          15
+12:06:12: Erase Timeout       1
+12:06:12: Erase offset        1
+12:06:12: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+12:06:12: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+12:06:12: Setting Host Frequency in Hz:15000000
+12:06:18: ***************************************************** 
+
+12:06:18: *  SDR/USD Driver version '10.0.0.1 (0x a.0.0.1)'   * 
+
+12:06:18: *                                                   * 
+
+12:06:18: *  Compatibility with this version is not verified! * 
+
+12:06:18: ***************************************************** 
+
+12:06:22: [DoInitIDD] : Power is off!!!!
+12:06:22: [DoInitIDD] : Power is On!!!!
+12:06:22: ######################################################################################################################################################
+12:06:22: Resetting the card and passing init sequence again
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9600>, <py_sfcl.CommandDataDefinition object at 0x064E9630>) , Command count = 67 ] 
+12:06:22: CMD0[ GO_IDLE_STATE ] Passed with R0 type response
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9690>, <py_sfcl.CommandDataDefinition object at 0x064E96C0>) , Command count = 68 ] 
+12:06:22: CMD8[ SEND_IF_COND ] Passed with R7 type response:[8, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'VOLA Voltage accepted - 2.7-3.6V', 'Check Pattern 0xAA', 'CRC 7']
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9750>, <py_sfcl.CommandDataDefinition object at 0x064E9780>) , Command count = 69 ] 
+12:06:22: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E97E0>, <py_sfcl.CommandDataDefinition object at 0x064E9810>) , Command count = 70 ] 
+12:06:22: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9870>, <py_sfcl.CommandDataDefinition object at 0x064E98A0>) , Command count = 71 ] 
+12:06:22: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9900>, <py_sfcl.CommandDataDefinition object at 0x064E9930>) , Command count = 72 ] 
+12:06:22: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9990>, <py_sfcl.CommandDataDefinition object at 0x064E99C0>) , Command count = 73 ] 
+12:06:22: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9A20>, <py_sfcl.CommandDataDefinition object at 0x064E9A50>) , Command count = 74 ] 
+12:06:22: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9AB0>, <py_sfcl.CommandDataDefinition object at 0x064E9AE0>) , Command count = 75 ] 
+12:06:22: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9B40>, <py_sfcl.CommandDataDefinition object at 0x064E9B70>) , Command count = 76 ] 
+12:06:22: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9BD0>, <py_sfcl.CommandDataDefinition object at 0x064E9C00>) , Command count = 77 ] 
+12:06:22: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:22: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9C60>, <py_sfcl.CommandDataDefinition object at 0x064E9C90>) , Command count = 78 ] 
+12:06:22: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9CF0>, <py_sfcl.CommandDataDefinition object at 0x064E9D20>) , Command count = 79 ] 
+12:06:23: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9D80>, <py_sfcl.CommandDataDefinition object at 0x064E9DB0>) , Command count = 80 ] 
+12:06:23: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9E10>, <py_sfcl.CommandDataDefinition object at 0x064E9E40>) , Command count = 81 ] 
+12:06:23: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9EA0>, <py_sfcl.CommandDataDefinition object at 0x064E9ED0>) , Command count = 82 ] 
+12:06:23: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9F30>, <py_sfcl.CommandDataDefinition object at 0x064E9F60>) , Command count = 83 ] 
+12:06:23: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064E9FC0>, <py_sfcl.CommandDataDefinition object at 0x064EB030>) , Command count = 84 ] 
+12:06:23: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB090>, <py_sfcl.CommandDataDefinition object at 0x064EB0C0>) , Command count = 85 ] 
+12:06:23: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB120>, <py_sfcl.CommandDataDefinition object at 0x064EB150>) , Command count = 86 ] 
+12:06:23: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB1B0>, <py_sfcl.CommandDataDefinition object at 0x064EB1E0>) , Command count = 87 ] 
+12:06:23: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB240>, <py_sfcl.CommandDataDefinition object at 0x064EB270>) , Command count = 88 ] 
+12:06:23: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB2D0>, <py_sfcl.CommandDataDefinition object at 0x064EB300>) , Command count = 89 ] 
+12:06:23: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB360>, <py_sfcl.CommandDataDefinition object at 0x064EB390>) , Command count = 90 ] 
+12:06:23: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB3F0>, <py_sfcl.CommandDataDefinition object at 0x064EB420>) , Command count = 91 ] 
+12:06:23: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB480>, <py_sfcl.CommandDataDefinition object at 0x064EB4B0>) , Command count = 92 ] 
+12:06:23: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB510>, <py_sfcl.CommandDataDefinition object at 0x064EB540>) , Command count = 93 ] 
+12:06:23: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB5A0>, <py_sfcl.CommandDataDefinition object at 0x064EB5D0>) , Command count = 94 ] 
+12:06:23: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 0, 255, 128, 0, 255]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB630>, <py_sfcl.CommandDataDefinition object at 0x064EB660>) , Command count = 95 ] 
+12:06:23: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Idle', 'READY_FOR_DATA', 'APP_CMD']
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB6C0>, <py_sfcl.CommandDataDefinition object at 0x064EB6F0>) , Command count = 96 ] 
+12:06:23: CMD41[ SD_SEND_OP_COND ] Passed with R3 type response:[63, 193, 255, 128, 0, 255]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB750>, <py_sfcl.CommandDataDefinition object at 0x064EB780>) , Command count = 97 ] 
+12:06:23: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB7E0>, <py_sfcl.CommandDataDefinition object at 0x064EB810>) , Command count = 98 ] 
+12:06:23: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 32, 0]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB870>, <py_sfcl.CommandDataDefinition object at 0x064EB8A0>) , Command count = 99 ] 
+12:06:23: CMD9[ SEND_CSD ] Passed with R2 type response:[63, 64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EB900>, <py_sfcl.CommandDataDefinition object at 0x064EB930>) , Command count = 100 ] 
+12:06:23: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+12:06:23: [ SetBusWidth(0x4) , Command count = 101 ] 
+12:06:23: [CH43311a_Basic_partial_read_test]##### SingleWrite to the card from startLba:0x0 to endSector:0x4
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EF870>, <py_sfcl.CommandDataDefinition object at 0x064EF8A0>) , Command count = 102 ] 
+12:06:23: CMD24[ WRITE_BLOCK ] Passed with R1 type response:[24, 0, 0, 9, 0, 11]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EF900>, <py_sfcl.CommandDataDefinition object at 0x064EF930>) , Command count = 103 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+12:06:23:   Write Lba:0x00000000  Transfer Length:0x0001 
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EF990>, <py_sfcl.CommandDataDefinition object at 0x064EF9C0>) , Command count = 104 ] 
+12:06:23: CMD24[ WRITE_BLOCK ] Passed with R1 type response:[24, 0, 0, 9, 0, 11]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EFA20>, <py_sfcl.CommandDataDefinition object at 0x064EFA50>) , Command count = 105 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+12:06:23:   Write Lba:0x00000001  Transfer Length:0x0001 
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EFAB0>, <py_sfcl.CommandDataDefinition object at 0x064EFAE0>) , Command count = 106 ] 
+12:06:23: CMD24[ WRITE_BLOCK ] Passed with R1 type response:[24, 0, 0, 9, 0, 11]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EFB40>, <py_sfcl.CommandDataDefinition object at 0x064EFB70>) , Command count = 107 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+12:06:23:   Write Lba:0x00000002  Transfer Length:0x0001 
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EFBD0>, <py_sfcl.CommandDataDefinition object at 0x064EFC00>) , Command count = 108 ] 
+12:06:23: CMD24[ WRITE_BLOCK ] Passed with R1 type response:[24, 0, 0, 9, 0, 11]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EFC60>, <py_sfcl.CommandDataDefinition object at 0x064EFC90>) , Command count = 109 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+12:06:23:   Write Lba:0x00000003  Transfer Length:0x0001 
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EFCF0>, <py_sfcl.CommandDataDefinition object at 0x064EFD20>) , Command count = 110 ] 
+12:06:23: CMD25[ WRITE_MULTIPLE_BLOCK ] Passed with R1 type response:[25, 0, 0, 9, 0, 6]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EFD80>, <py_sfcl.CommandDataDefinition object at 0x064EFDB0>) , Command count = 111 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Rcv', 'READY_FOR_DATA']
+12:06:23:   Write Lba:0x00000005  Transfer Length:0x0005 
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EFE10>, <py_sfcl.CommandDataDefinition object at 0x064EFE70>) , Command count = 112 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 12, 0, 3]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EFE40>, <py_sfcl.CommandDataDefinition object at 0x064EFED0>) , Command count = 113 ] 
+12:06:23: CMD25[ WRITE_MULTIPLE_BLOCK ] Passed with R1 type response:[25, 0, 0, 9, 0, 6]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EFF30>, <py_sfcl.CommandDataDefinition object at 0x064EFF60>) , Command count = 114 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Rcv', 'READY_FOR_DATA']
+12:06:23:   Write Lba:0x0000000A  Transfer Length:0x0005 
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064EFFC0>, <py_sfcl.CommandDataDefinition object at 0x064F4060>) , Command count = 115 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 12, 0, 3]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F4030>, <py_sfcl.CommandDataDefinition object at 0x064F40C0>) , Command count = 116 ] 
+12:06:23: CMD25[ WRITE_MULTIPLE_BLOCK ] Passed with R1 type response:[25, 0, 0, 9, 0, 6]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F4120>, <py_sfcl.CommandDataDefinition object at 0x064F4150>) , Command count = 117 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Rcv', 'READY_FOR_DATA']
+12:06:23:   Write Lba:0x0000000F  Transfer Length:0x0005 
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F41B0>, <py_sfcl.CommandDataDefinition object at 0x064F4210>) , Command count = 118 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 12, 0, 3]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F41E0>, <py_sfcl.CommandDataDefinition object at 0x064F4270>) , Command count = 119 ] 
+12:06:23: CMD25[ WRITE_MULTIPLE_BLOCK ] Passed with R1 type response:[25, 0, 0, 9, 0, 6]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F42D0>, <py_sfcl.CommandDataDefinition object at 0x064F4300>) , Command count = 120 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Rcv', 'READY_FOR_DATA']
+12:06:23:   Write Lba:0x00000014  Transfer Length:0x0005 
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F4360>, <py_sfcl.CommandDataDefinition object at 0x064F43C0>) , Command count = 121 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 12, 0, 3]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F4390>, <py_sfcl.CommandDataDefinition object at 0x064F4420>) , Command count = 122 ] 
+12:06:23: CMD25[ WRITE_MULTIPLE_BLOCK ] Passed with R1 type response:[25, 0, 0, 9, 0, 6]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F4480>, <py_sfcl.CommandDataDefinition object at 0x064F44B0>) , Command count = 123 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Rcv', 'READY_FOR_DATA']
+12:06:23:   Write Lba:0x00000019  Transfer Length:0x0005 
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F4510>, <py_sfcl.CommandDataDefinition object at 0x064F4570>) , Command count = 124 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 12, 0, 3]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F4540>, <py_sfcl.CommandDataDefinition object at 0x064F45D0>) , Command count = 125 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F4630>, <py_sfcl.CommandDataDefinition object at 0x064F4660>) , Command count = 126 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Data', 'READY_FOR_DATA']
+12:06:23:  Read & Verify  Lba:0x00000000 Transfer Length:0x0005   
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064FEAE0>, <py_sfcl.CommandDataDefinition object at 0x064FEB40>) , Command count = 127 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064FEB10>, <py_sfcl.CommandDataDefinition object at 0x064FEBD0>) , Command count = 128 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064FEC30>, <py_sfcl.CommandDataDefinition object at 0x064FEC60>) , Command count = 129 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Data', 'READY_FOR_DATA']
+12:06:23:  Read & Verify  Lba:0x00000019 Transfer Length:0x0005   
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064FECC0>, <py_sfcl.CommandDataDefinition object at 0x064FED20>) , Command count = 130 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064FECF0>, <py_sfcl.CommandDataDefinition object at 0x064FED80>) , Command count = 131 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064FEDE0>, <py_sfcl.CommandDataDefinition object at 0x064FEE10>) , Command count = 132 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Data', 'READY_FOR_DATA']
+12:06:23:  Read & Verify  Lba:0x0000000A Transfer Length:0x0005   
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064FEE70>, <py_sfcl.CommandDataDefinition object at 0x064FEED0>) , Command count = 133 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064FEEA0>, <py_sfcl.CommandDataDefinition object at 0x064FEF30>) , Command count = 134 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064FEF90>, <py_sfcl.CommandDataDefinition object at 0x064FEFC0>) , Command count = 135 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Data', 'READY_FOR_DATA']
+12:06:23:  Read & Verify  Lba:0x0000000F Transfer Length:0x0005   
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573060>, <py_sfcl.CommandDataDefinition object at 0x065730C0>) , Command count = 136 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573090>, <py_sfcl.CommandDataDefinition object at 0x06573120>) , Command count = 137 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573180>, <py_sfcl.CommandDataDefinition object at 0x065731B0>) , Command count = 138 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Data', 'READY_FOR_DATA']
+12:06:23:  Read & Verify  Lba:0x00000014 Transfer Length:0x0005   
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573210>, <py_sfcl.CommandDataDefinition object at 0x06573270>) , Command count = 139 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573240>, <py_sfcl.CommandDataDefinition object at 0x065732D0>) , Command count = 140 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573330>, <py_sfcl.CommandDataDefinition object at 0x06573360>) , Command count = 141 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Data', 'READY_FOR_DATA']
+12:06:23:  Read & Verify  Lba:0x00000019 Transfer Length:0x0005   
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065733C0>, <py_sfcl.CommandDataDefinition object at 0x06573420>) , Command count = 142 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065733F0>, <py_sfcl.CommandDataDefinition object at 0x06573480>) , Command count = 143 ] 
+12:06:23: CMD16[ SET_BLOCK_LENGTH ] Passed with R1 type response:[16, 0, 0, 9, 0, 1]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065734E0>, <py_sfcl.CommandDataDefinition object at 0x06573510>) , Command count = 144 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573570>, <py_sfcl.CommandDataDefinition object at 0x065735A0>) , Command count = 145 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Data', 'READY_FOR_DATA']
+12:06:23:  Read & Verify  Lba:0x00000000 Transfer Length:0x000a   
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573600>, <py_sfcl.CommandDataDefinition object at 0x06573660>) , Command count = 146 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573630>, <py_sfcl.CommandDataDefinition object at 0x065736C0>) , Command count = 147 ] 
+12:06:23: CMD16[ SET_BLOCK_LENGTH ] Passed with R1 type response:[16, 0, 0, 9, 0, 1]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573720>, <py_sfcl.CommandDataDefinition object at 0x06573750>) , Command count = 148 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065737B0>, <py_sfcl.CommandDataDefinition object at 0x065737E0>) , Command count = 149 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Data', 'READY_FOR_DATA']
+12:06:23:  Read & Verify  Lba:0x00000018 Transfer Length:0x0003   
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573840>, <py_sfcl.CommandDataDefinition object at 0x065738A0>) , Command count = 150 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573870>, <py_sfcl.CommandDataDefinition object at 0x06573900>) , Command count = 151 ] 
+12:06:23: CMD16[ SET_BLOCK_LENGTH ] Passed with R1 type response:[16, 0, 0, 9, 0, 1]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573960>, <py_sfcl.CommandDataDefinition object at 0x06573990>) , Command count = 152 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065739F0>, <py_sfcl.CommandDataDefinition object at 0x06573A20>) , Command count = 153 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Data', 'READY_FOR_DATA']
+12:06:23:  Read & Verify  Lba:0x00000019 Transfer Length:0x0005   
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573A80>, <py_sfcl.CommandDataDefinition object at 0x06573AE0>) , Command count = 154 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573AB0>, <py_sfcl.CommandDataDefinition object at 0x06573B40>) , Command count = 155 ] 
+12:06:23: CMD16[ SET_BLOCK_LENGTH ] Passed with R1 type response:[16, 0, 0, 9, 0, 1]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064F4750>, <py_sfcl.CommandDataDefinition object at 0x064F47B0>) , Command count = 156 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573BA0>, <py_sfcl.CommandDataDefinition object at 0x06573BD0>) , Command count = 157 ] 
+12:06:23: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Data', 'READY_FOR_DATA']
+12:06:23:  Read & Verify  Lba:0x00000003 Transfer Length:0x0008   
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573C30>, <py_sfcl.CommandDataDefinition object at 0x06573C90>) , Command count = 158 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [CH43311a_Basic_partial_read_test]### Issue CMD16 for Single Command Test
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573C60>, <py_sfcl.CommandDataDefinition object at 0x06573CF0>) , Command count = 159 ] 
+12:06:23: CMD16[ SET_BLOCK_LENGTH ] Passed with R1 type response:[16, 0, 0, 9, 0, 1]
+12:06:23: [CH43311a_Basic_partial_read_test]### Issue CMD18 for Single Command Test
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573D80>, <py_sfcl.CommandDataDefinition object at 0x06573DB0>) , Command count = 160 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573E10>, <py_sfcl.CommandDataDefinition object at 0x06573E70>) , Command count = 161 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573E40>, <py_sfcl.CommandDataDefinition object at 0x06573ED0>) , Command count = 162 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573F30>, <py_sfcl.CommandDataDefinition object at 0x06573F90>) , Command count = 163 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06573F60>, <py_sfcl.CommandDataDefinition object at 0x06576030>) , Command count = 164 ] 
+12:06:23: CMD16[ SET_BLOCK_LENGTH ] Passed with R1 type response:[16, 0, 0, 9, 0, 1]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06576090>, <py_sfcl.CommandDataDefinition object at 0x065760C0>) , Command count = 165 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06576120>, <py_sfcl.CommandDataDefinition object at 0x06576180>) , Command count = 166 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06576150>, <py_sfcl.CommandDataDefinition object at 0x065761E0>) , Command count = 167 ] 
+12:06:23: CMD16[ SET_BLOCK_LENGTH ] Passed with R1 type response:[16, 0, 0, 9, 0, 1]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06576240>, <py_sfcl.CommandDataDefinition object at 0x06576270>) , Command count = 168 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065762D0>, <py_sfcl.CommandDataDefinition object at 0x06576330>) , Command count = 169 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06576300>, <py_sfcl.CommandDataDefinition object at 0x06576390>) , Command count = 170 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065763F0>, <py_sfcl.CommandDataDefinition object at 0x06576450>) , Command count = 171 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06576420>, <py_sfcl.CommandDataDefinition object at 0x065764B0>) , Command count = 172 ] 
+12:06:23: CMD16[ SET_BLOCK_LENGTH ] Passed with R1 type response:[16, 0, 0, 9, 0, 1]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06576510>, <py_sfcl.CommandDataDefinition object at 0x06576540>) , Command count = 173 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065765A0>, <py_sfcl.CommandDataDefinition object at 0x06576600>) , Command count = 174 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065765D0>, <py_sfcl.CommandDataDefinition object at 0x06576660>) , Command count = 175 ] 
+12:06:23: CMD16[ SET_BLOCK_LENGTH ] Passed with R1 type response:[16, 0, 0, 9, 0, 1]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065766C0>, <py_sfcl.CommandDataDefinition object at 0x065766F0>) , Command count = 176 ] 
+12:06:23: CMD18[ READ_MULTI_BLOCK ] Passed with R1 type response:[18, 0, 0, 9, 0, 26]
+12:06:23: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06576750>, <py_sfcl.CommandDataDefinition object at 0x065767B0>) , Command count = 177 ] 
+12:06:23: CMD12[ STOP_TRANSMISSION ] Passed with R1b type response:[12, 0, 0, 11, 0, 15]
+12:06:23: [CH43311a_Basic_partial_read_test]### globalDVTTestScope is not AsicDVT.
+12:06:23: ########################################
+12:06:23: Finished Running script CH43311a_Basic_partial_read_test 
+12:06:23: ########################################
+12:06:23: ########################################
+12:06:23: Stated Running script CH43311b_Single_Partial_Read 
+12:06:23: ########################################
+12:06:23: MaxLba of the card: 0x3B72400 
+12:06:24: Failed Running script <module 'CH43311b_Single_Partial_Read' from 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\SD\CommonDVT\Chapter_4_Card_Functional\CH43311b_Single_Partial_Read.pyc'> with error  
+12:06:24: ########################################
+12:06:24: ########################################
+12:06:24: Stated Running script CH43311c_Multiple_Partial_Read 
+12:06:24: ########################################
+12:06:24: MaxLba of the card: 0x3B72400 

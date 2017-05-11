@@ -1,0 +1,1645 @@
+13:02:01: Sata Disconnector Board found in COM1.
+13:02:05: ***************************************************** 
+
+13:02:05: *  SDR/USD Driver version '10.0.0.1 (0x a.0.0.1)'   * 
+
+13:02:05: *                                                   * 
+
+13:02:05: *  Compatibility with this version is not verified! * 
+
+13:02:05: ***************************************************** 
+
+13:02:08: [ DeviceSetupCompletion() , Command count = 7 ] 
+13:02:08: Testname Mapping: ScriptName=[CH0204_CallAllScripts] -> TestId=[CH0204]
+13:02:08: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 8 ] 
+13:02:08: [ GetPhysicalChipsInfo() , Command count = 9 ] 
+13:02:08: [ GetFileSize(0xEA) , Command count = 10 ] 
+13:02:08: [ ReadFile(<0xA00/0x200, Arb>, 0xEA, 0x1) , Command count = 11 ] 
+13:02:08: [ GetFileSize(0x16) , Command count = 12 ] 
+13:02:08: [ GetCardStatus() , Command count = 13 ] 
+13:02:08: [ GetFileSize(0x18) , Command count = 14 ] 
+13:02:08: [ ReadFile(<0x1000/0x200, Arb>, 0x18, 0x8) , Command count = 15 ] 
+13:02:08: [ GetFileSize(0x15) , Command count = 16 ] 
+13:02:08: [ ReadFile(<0x1000/0x200, Arb>, 0x15, 0x1) , Command count = 17 ] 
+13:02:10: Can not find revision of File 21 in file 'config.xml' or card is in the ROM mode
+13:02:10: [ GetFileSize(0xE) , Command count = 18 ] 
+13:02:10: [ ReadFile(<0x1000/0x200, Arb>, 0xE, 0x1) , Command count = 19 ] 
+13:02:10: [ GetFileSize(0x1E) , Command count = 20 ] 
+13:02:10: [ GetCardStatus() , Command count = 21 ] 
+13:02:10: [ GetFileSize(0x21) , Command count = 22 ] 
+13:02:10: [ GetCardStatus() , Command count = 23 ] 
+13:02:10: [ GetFileSize(0x33) , Command count = 24 ] 
+13:02:10: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x33, 0x1) , Command count = 25 ] 
+13:02:10: [ GetFileSize(0x1F) , Command count = 26 ] 
+13:02:10: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x1F, 0x1) , Command count = 27 ] 
+13:02:10: [ GetFileSize(0x2A) , Command count = 28 ] 
+13:02:10: [ ReadFile(<0x1000/0x200, Spc, pat:0x0>, 0x2A, 0x1) , Command count = 29 ] 
+13:02:10: [ ReadCfgConf(<0x1000/0x200, Spc, pat:0x0>, 0x1) , Command count = 30 ] 
+13:02:10: [ ReadFirmwareParameter(<0x1000/0x200, Spc, pat:0x0>, 0x2) , Command count = 31 ] 
+13:02:10: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_BE) , Command count = 32 ] 
+13:02:10: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_PRODUCT) , Command count = 33 ] 
+13:02:10: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, py_sfcl.IpComponentId.ID_FE_SD) , Command count = 34 ] 
+13:02:10: [ GetIpInformation(<0x1000/0x200, Spc, pat:0x0>, 0x0) , Command count = 35 ] 
+13:02:10: [ GetFileSize(0x33) , Command count = 36 ] 
+13:02:10: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 37 ] 
+13:02:10: [ GetFileSize(0x33) , Command count = 38 ] 
+13:02:10: [ ReadFile(<0x200/0x200, Arb>, 0x33, 0x1) , Command count = 39 ] 
+13:02:10: [ GetIpVersionInfo() , Command count = 40 ] 
+13:02:10: [ GetPhysicalChipsInfo() , Command count = 41 ] 
+13:02:11: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x0640D690>, <0x200/0x200, Arb>) , Command count = 42 ] 
+13:02:11: [ SendDiagnostic(<0x200/0x200, Spc, pat:0x0>, [0x9A, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], 0x0, 0x1) , Command count = 43 ] 
+
+<<<<<<<<<<<<<<<         TEST HEADER          >>>>>>>>>>>>>>>
+
+Application                :  TestRunner.py
+Application version        :  SD_DVT_CQ_Spec 6.0.0
+Application folder         :  C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT
+Command line               :  --protocol=sd --sdtestid=CH0204 --dbconnection=none --adapter=SD05412_9ADT --sdConfiguration=SDR50 --projectconfig=C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB --paramsfile=C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB\Colibri_SD_HC_I059_SDR104_Prem_C10_U1.txt --logfilename=C:\Results\CH0204_CQ.txt --CQ=1
+Protocol                   :  sd
+Serial number (CInfo)      :  sdin1091
+Adapter                    :  SDR Tester (S#: SD05412_9ADT): (Slot#:0)
+Adapter serial number      :  SD05412_9ADT
+Adapter type               :  USD
+Capacity                   :  32G
+Firmware revision          :  6RB C030
+Flashware revision         :  6RB C030
+IP Version Info            :  '' 01.04.00... ID 0x20
+                           :  '' 00.01.00... ID 0x10
+Memory ID                  :  453CA9A27A510B140000000000000000
+Controller                 :  81
+Trim settings              :  <Unavailable>
+Model revision             :  <Unavailable>
+Stream name                :  <Unavailable>
+FE IP                      :  1
+Romware revision           :  RRBZ1152
+Architecture               :  Gen 6
+Model                      :  SanDisk   COLIBRI
+Memory type                :  Unknown Device Type-2LC x 1
+ASIC id                    :  81
+Controller type            :  Unknown Controller   UMC-J
+Driver version (actual)    :  10.0.0.1 (0x a.0.0.1)
+Driver version (released)  :  7.1.4.3 (0x 7.1.4.3)
+Date and time              :  2016-11-28 13:02:11
+Host name                  :  SDDVT_Test2
+Host IP address            :  10.65.153.121
+Operating system           :  Microsoft Windows [Version 6.1.7601] Service Pack 1
+SanDisk Python version     :  1.17.5rc3
+CTF/PySFCL build number    :  1.3.217491.217491
+PySFCL version             :  1.3.217491
+CTF version                :  1.3
+Python version             :  2.4.2
+Project Name(Validation)   :  <None>
+
+
+<<<<<<<<<<<<<<<      SFCL CONFIGURATION      >>>>>>>>>>>>>>>
+
+[SD enumeration]
+cmdtiming=0
+useRelay=0
+autocompare=0
+relayPolarity=1
+relaySleep=500
+measureCmdLatency=1
+logicalChunkSize=0
+diagDisabled=0
+diagCmdTimeout=800
+useVddf=on
+nethostloglevel=
+nethostautoCompare=on
+CmdManShowProgress=off
+nethostsendtimeout=240000
+nethostreceivetimeout=240000
+countOfRetryCmdIfCrc=3
+enableOORPatch=
+lbaForSctpCommands=0x100
+subProtocol=0
+doDle=0
+diagnosticChunkSize=128
+logmsgformat=timeMessage
+logtimeformat=time
+relaySlot=0
+unloadDll=on
+hardTimeoutUnloadDll=on
+minDuration=7200
+remoteDevice=
+skipProduction=0
+ishighspeedmode=0
+highfreqinhz=500
+modeldelaytimeindiagnostic=0
+cqDataTransferPollingShortInterval=1000
+cqDataStatusPollingLongInterval=1800000
+sataPort0ToRelaySlot=0
+sataPort1ToRelaySlot=0
+sataPort2ToRelaySlot=0
+sataPort3ToRelaySlot=0
+relayToComportMapping=1
+sdbToComportMapping=1
+sataAdapterPort0=0
+sataAdapterPort1=0
+sataAdapterPort2=0
+sataAdapterPort3=0
+sataPort0ToMubIndx=1
+sataPort1ToMubIndx=1
+sataPort2ToMubIndx=1
+sataPort3ToMubIndx=1
+
+[Common]
+enableChunkTraces=off
+enablePythonTraceback=1
+sctpPhaseDelay=0
+printcommandcount=on
+debugfilepath=
+initXMLPath=\\regression.lab.sandisk.com\shared\configurations
+delayBeforePwrCycle=0
+delayAfterPwrCycle=0
+reportCountStatistics=1
+reportPackage=0
+sfclConfig=Common
+
+<<<<<<<<<<<<<<<          CARD INFO           >>>>>>>>>>>>>>>
+
+Number Of LBAs  :  0x3b72400
+Card Is Locked  :  No
+Secure Area     :  0x28000
+Card Secure     :  No
+WP map          :
+
+<<<<<<<<<<<<<<<           CID INFO           >>>>>>>>>>>>>>>
+
+Manufacturer Id  :  0x3
+Card/BGA         :  0
+Application Id   :  0x5344
+ProductName      :  AGGCD
+ProductRev       :  0x80
+SerialNumber     :  0x23482900
+Reserved         :  0x23482900
+Year             :  2000
+Month            :  11
+CRC Check Sum    :  0x5
+Not Used         :
+
+<<<<<<<<<<<<<<<           CSD INFO           >>>>>>>>>>>>>>>
+
+CSD Structure                     :  0x1
+reserv. 1                         :  0x0
+TAAC                              :  0xe
+NSAC*100                          :  0x0
+data transfer rate                :  0x32
+card command classes CCC          :  0x5b5
+max. read data Blk. length        :  0x9
+partial blocks for read allowed   :  0x0
+write block misalignment          :  0x0
+read block misalignment           :  0x0
+DSR implemented                   :  0x0
+reserved 2                        :  0x0
+device size                       :  0xedc8
+Reserv3                           :  0x0
+SD Erase Blk Len En               :  0x1
+SD Sec Size                       :  0x7f
+write protect group size          :  0x0
+write protect group enable        :  0x0
+Reserv4                           :  0x0
+write speed factor                :  0x2
+max. write data blk. length       :  0x9
+partial blocks for write allowed  :  0x0
+File Format Group                 :  0x0
+copy flag(OTP)                    :  0x1
+permanent write protection        :  0x0
+temporary write protection        :  0x0
+File Format                       :  0x0
+CRC                               :  0x0
+<<<<<<<<<<<<<<<         M-CONF INFO          >>>>>>>>>>>>>>>
+
+Max LBA                      :  0x3b9b000
+FW Revision                  :  0x20425236
+Internal Flashware Revision  :
+Romware revision             :  RRBZ1152
+Device Count                 :  0x0
+Device Type                  :  0x0
+Device Configuration         :  0x0
+ASIC id                      :  81
+ASIC Vendor                  :  0x2
+ASIC Revision                :  0x0
+Security                     :  0x0
+File Number                  :  0x0
+File Version                 :  0x0
+File Sign                    :  0x0
+Bot File Version             :  COLB1S5211C0f30r_11UHB05D.
+Param File Version           :  0x70a006a0
+Lot Number                   :  0x0
+Talisman Security Code       :  0x0
+Reserved                     :  0x0
+SNDK Version                 :  0x0
+CRYS Version                 :  0x0
+PDL Version                  :  0x0
+Talisman Security Code       :  0x0
+Memory ID                    :  453CA9A27A510B140000000000000000
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+Set1 Cpu Clock               :
+Set1 Cpu Divider             :
+Set1 Fim Write Clock         :
+Set1 Fim Write Divider       :
+Set1 Fim Read Clock          :
+Set1 Fim Read Divider        :
+Set1 Hs Cpu Clock            :  0
+Set1 Hs Cpu Divider          :  0
+Set1 Hs Ecc Clock            :  0
+Set1 Hs Ecc Divider          :  0
+Set1 Hs Fim Clock            :  0
+Set1 Hs Fim Divider          :  0
+Set1 System Divider          :  0
+Update Blocks                :  0x43
+Chaotic Blocks               :
+Die Interleave               :  0x2
+Lower Page                   :  0x0
+File 31 In User Area         :  0x0
+SSA Version                  :
+App Versions                 :  0x0L
+Top Level IPartNum           :
+Part Number                  :
+Set2 Cpu Clock               :
+Set2 Cpu Divider             :
+Set2 Fim Write Clock         :
+Set2 Fim Write Divider       :
+Set2 Fim Read Clock          :
+Set2 Fim Read Divider        :
+Set2 Hs Cpu Clock            :  0
+Set2 Hs Cpu Divider          :  0
+Set2 Hs Ecc Clock            :  0
+Set2 Hs Ecc Divider          :  0
+Set2 Hs Fim Clock            :  0
+Set2 Hs Fim Divider          :  0
+Set2 System Divider          :  0
+Set3 Cpu Clock               :
+Set3 Cpu Divider             :
+Set3 Fim Write Clock         :
+Set3 Fim Write Divider       :
+Set3 Fim Read Clock          :
+Set3 Fim Read Divider        :
+Set3 Hs Cpu Clock            :  0
+Set3 Hs Cpu Divider          :  0
+Set3 Hs Ecc Clock            :  0
+Set3 Hs Ecc Divider          :  0
+Set3 Hs Fim Clock            :  0
+Set3 Hs Fim Divider          :  0
+Set3 System Divider          :  0
+Set4 Cpu Clock               :
+Set4 Cpu Divider             :
+Set4 Fim Write Clock         :
+Set4 Fim Write Divider       :
+Set4 Fim Read Clock          :
+Set4 Fim Read Divider        :
+Set4 Hs Cpu Clock            :  0
+Set4 Hs Cpu Divider          :  0
+Set4 Hs Ecc Clock            :  0
+Set4 Hs Ecc Divider          :  0
+Set4 Hs Fim Clock            :  0
+Set4 Hs Fim Divider          :  0
+Set4 System Divider          :  0
+Set5 Cpu Clock               :
+Set5 Cpu Divider             :
+Set5 Fim Write Clock         :
+Set5 Fim Write Divider       :
+Set5 Fim Read Clock          :
+Set5 Fim Read Divider        :
+Set5 Hs Cpu Clock            :  0
+Set5 Hs Cpu Divider          :  0
+Set5 Hs Ecc Clock            :  0
+Set5 Hs Ecc Divider          :  0
+Set5 Hs Fim Clock            :  0
+Set5 Hs Fim Divider          :  0
+Set5 System Divider          :  0
+MetaBlockSize                :  32768
+Card Physical Size           :  0
+WORM Card Lock               :  0
+OTEC Version                 :  0
+Meta Page Size               :  192
+Worm Version                 :  0
+
+<<<<<<<<<<<<<<<    COMMAND LINE ARGUMENTS    >>>>>>>>>>>>>>>
+
+
+Processed command-line options:
+   --protocol                                       : sd
+   --adapterspecifier                               : ain:-1,desc:SD05412_9ADT
+   --extcmdset                                      : FBCC
+   --sdtestid                                       : CH0204
+   --sdconfiguration                                : SDR50
+   --cyclecount                                     : 1
+   --testduration                                   : 20h
+   --writereadpercent                               : 100
+   --paramsfile                                     : 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB\Colibri_SD_HC_I059_SDR104_Prem_C10_U1.txt'
+   --randomseed                                     : 68802792285
+   --projectconfig                                  : C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\Projects_configuration\Colibri_32GB
+   --logfiledir                                     : C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\DvtTestLogs
+   --hostlog                                        : 0
+   --cq                                             : 1
+   --dbconnection                                   : 'none'
+   --temperature                                    : 25
+   --voltage                                        : 0.00
+   --logfilename                                    : 'C:\Results\CH0204_CQ.txt'
+   --logtostdout                                    : Y
+   --overwriteexistinglogfile                       : Y
+   --logrotationspecifier                           : NoRotation
+   --loglevel                                       : <4, INFO>
+   --testcomment                                    : None
+   --dbproject                                      : CTFW_QA
+   --mdfwprojectid                                  : None
+   --mdconfigid                                     : None
+   --mdtestid                                       : None
+   --valid                                          : True
+   --waitTime                                       : None
+   --jitter                                         : F
+   --testlimits                                     : <None>-<None>
+   --LabID                                          : None
+   --DutID                                          : None
+   --LaunchId                                       : None
+   --TestQueueId                                    : None
+   --xfermode                                       : <N>
+   --networkperiod                                  : <N>
+   --networkpath                                    : <N>
+   --dumpfile                                       : 
+   --printcommandcount                              : N
+   --debugfilepath                                  : <N>
+   --chpfilename                                    : <N>
+   --enablecmdhistory                               : Y
+   --cmdhistextfilename                             : <N>
+   --cmdhistcsvfilename                             : <N>
+   --histdisplaysizes                               : 0,250
+   --stoponcommands                                 : <N>
+   --notifyemailid                                  : <N>
+   --spyoncommands                                  : <N>
+   --notifyoncommands                               : <N>
+   --CmdManShowProgress                             : 'off'
+   --enablePowerCycle                               : '1'
+   --measureCmdLatency                              : '1'
+   --useVddf                                        : 'on'
+   --gvi                                            : 'off'
+   --gviOnFly                                       : 'off'
+   --gviEncryption                                  : '0'
+   --remoteDevice                                   : ''
+   --skipProduction                                 : '0'
+   --forceMultipleMode                              : 'off'
+   --countOfRetryCmdIfCrc                           : '3'
+   --enableOORPatch                                 : 'on'
+   --connectonly                                    : 'off'
+   --nethostautocompare                             : 'on'
+   --nethostpowercycle                              : '0'
+   --nethostloglevel                                : '3'
+   --nethostlogconsole                              : '0'
+   --nethostsanitychecks                            : '0'
+   --nethostsendtimeout                             : '240000'
+   --nethostreceivetimeout                          : '240000'
+   --subProtocol                                    : '0'
+   --useVccq                                        : '3.3'
+   --maxprotocoloverhead                            : '0'
+   --maxprotocoltimingmode                          : '0'
+   --isHighSpeedMode                                : '0'
+   --highFreqInHz                                   : '500'
+   --doDle                                          : '0'
+   --lbaForSctpCommands                             : '0x100'
+   --cmdfilename                                    : ''
+   --cmdtofilewrites                                : '0'
+   --cmdtiming                                      : '0'
+   --cmdtocsv                                       : '0'
+   --logicalChunkSize                               : '0'
+   --diagnosticChunkSize                            : '128'
+   --readChunkSize                                  : '0'
+   --writeChunkSize                                 : '0'
+   --useRelay                                       : '0'
+   --sataPort0ToRelaySlot                           : '0'
+   --sataPort1ToRelaySlot                           : '0'
+   --sataPort2ToRelaySlot                           : '0'
+   --sataPort3ToRelaySlot                           : '0'
+   --relayToComportMapping                          : '1'
+   --useSDB                                         : '0'
+   --sdbToComportMapping                            : '1'
+   --sataAdapterPort0                               : '0'
+   --sataAdapterPort1                               : '0'
+   --sataAdapterPort2                               : '0'
+   --sataAdapterPort3                               : '0'
+   --relayPolarity                                  : '1'
+   --relaySleep                                     : '500'
+   --diagCmdTimeout                                 : '800'
+   --diagDisabled                                   : '0'
+   --hardTimeout                                    : '30000'
+   --commandscriptfolder                            : ''
+   --commandscriptstart                             : '0'
+   --logmsgformat                                   : 'timeMessage'
+   --logtimeformat                                  : 'time'
+   --relaySlot                                      : '0'
+   --atbuRelaySlot                                  : '3'
+   --diskCacheStore                                 : ''
+   --stopOnStart                                    : '0'
+   --notifyserver                                   : ''
+   --notifyretry                                    : '2'
+   --notifytimeout                                  : '60'
+   --failonnotifytimeout                            : '0'
+   --revertactions                                  : ''
+   --timechangedetection                            : '0'
+   --timechangecondition                            : '600'
+   --timechangecheckinterval                        : '1000'
+   --inputmonitor                                   : '1'
+   --logtimeprecision                               : '2'
+   --nonSndkDevEnumeration                          : '0'
+   --modelini                                       : 'C:\Program Files\SanDisk\CTF\Dlls\model.ini'
+   --sfclini                                        : 'C:\Program Files\SanDisk\CTF\Dlls\sfcl.ini'
+   --relayForceDownload                             : 'off'
+   --powercycleoninit                               : 'off'
+   --stopBgOperationOnFail                          : 'off'
+   --autocompare                                    : '0'
+   --autocompareRandomseed                          : '12345678'
+   --modeldelaytimeindiagnostic                     : '0'
+   --ForceDownloadMechanism                         : '0'
+   --EnableUARTDebugLog                             : '0'
+   --UARTBaudRate                                   : '230400'
+   --SerialUARTToCom                                : '0'
+   --UARTDebugFilePath                              : ''
+   --sataPort0ToMubIndx                             : '1'
+   --sataPort1ToMubIndx                             : '1'
+   --sataPort2ToMubIndx                             : '1'
+   --sataPort3ToMubIndx                             : '1'
+   --fclStep                                        : '0'
+   --fclCollectReads                                : '0'
+   --fclCollectWrites                               : '0'
+   --fclCollectErases                               : '0'
+   --fclCollectAOMReads                             : '0'
+   --fclAomBase                                     : '10'
+   --aomStep                                        : '0'
+   --aomMapFile                                     : '0'
+   --fclAomSaveFilesStep                            : '1000'
+   --gfa                                            : '0'
+   --atbuSoftwareLocation                           : ''
+   --atbuMemoryName                                 : ''
+   --atbuProfilesLocation                           : ''
+   --atbuThresholdValue                             : '0'
+   --atbuTransitionTime                             : '0'
+   --atbuDcCompensation                             : ''
+
+
+<<<<<<<<<<<<<<< RUNNING TEST: CH0204_CallAllScripts >>>>>>>>>>>>>>>
+
+
+
+13:02:11: ###### Running Chapter 2 All scripts  ######
+13:02:11: ########################################
+13:02:11: Stated Running script CH2BCL_BasicCardLock 
+13:02:11: ########################################
+13:02:11: MaxLba of the card: 0x3B72400 
+13:02:13: ###### Running BasicCardlock Test 
+13:02:13: Tag----Name: 2_7 - Basic card lock
+13:02:19: FPGA Image Downloaded Is:C:\Program Files\SanDisk\CTF\FPGA\SD_CQ_SDR2_2-20-00-0002.bin
+13:02:19: [GO7_globalPreTestingSettings]### Default Initialization Start
+13:02:19: [DVTCommonLib]###  SwitchHostVoltageRegion called
+13:02:19: [ SwitchHostVoltageRegion(False) , Command count = 44 ] 
+13:02:19: [DVTCommonLib]###  SwitchHostVoltageRegion Completed 
+
+13:02:19: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 45 ] 
+13:02:21: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <None>, 0x0, 0x0, 0x1, True, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 46 ] 
+13:02:22: [ CardInit() , Command count = 47 ] 
+13:02:22: [ SendDiagnostic(<0x200/0x200, Spc, pat:0x0>, [0x9A, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], 0x0, 0x1) , Command count = 48 ] 
+
+<<<<<<<<<<<<<<<         M-CONF INFO          >>>>>>>>>>>>>>>
+
+Max LBA                      :  0x3b9b000
+FW Revision                  :  0x20425236
+Internal Flashware Revision  :
+Romware revision             :  RRBZ1152
+Device Count                 :  0x0
+Device Type                  :  0x0
+Device Configuration         :  0x0
+ASIC id                      :  81
+ASIC Vendor                  :  0x2
+ASIC Revision                :  0x0
+Security                     :  0x0
+File Number                  :  0x0
+File Version                 :  0x0
+File Sign                    :  0x0
+Bot File Version             :  COLB1S5211C0f30r_11UHB05D.
+Param File Version           :  0x70a006a0
+Lot Number                   :  0x0
+Talisman Security Code       :  0x0
+Reserved                     :  0x0
+SNDK Version                 :  0x0
+CRYS Version                 :  0x0
+PDL Version                  :  0x0
+Talisman Security Code       :  0x0
+Memory ID                    :  453CA9A27A510B140000000000000000
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+File21 Version               :  11UHB05D
+Secured Flashware            :  0x0
+Compilation Date             :  Apr 22 2016
+Compilation Time             :  14:59:40
+Sectors Per Block            :  0x0
+FFU State                    :  0x0
+Set0 Cpu Clock               :  165829
+Set0 Cpu Divider             :  2
+Set0 Fim Write Clock         :  33000
+Set0 Fim Write Divider       :  11
+Set0 Fim Read Clock          :  33000
+Set0 Fim Read Divider        :  11
+Set0 Hs Cpu Clock            :  0
+Set0 Hs Cpu Divider          :  0
+Set0 Ecc Clock               :  166000
+Set0 Ecc Divider             :  2
+Set0 Hs Fim Clock            :  83000
+Set0 Hs Fim Divider          :  2
+Set0 System Divider          :  2
+Set1 Cpu Clock               :
+Set1 Cpu Divider             :
+Set1 Fim Write Clock         :
+Set1 Fim Write Divider       :
+Set1 Fim Read Clock          :
+Set1 Fim Read Divider        :
+Set1 Hs Cpu Clock            :  0
+Set1 Hs Cpu Divider          :  0
+Set1 Hs Ecc Clock            :  0
+Set1 Hs Ecc Divider          :  0
+Set1 Hs Fim Clock            :  0
+Set1 Hs Fim Divider          :  0
+Set1 System Divider          :  0
+Update Blocks                :  0x43
+Chaotic Blocks               :
+Die Interleave               :  0x2
+Lower Page                   :  0x0
+File 31 In User Area         :  0x0
+SSA Version                  :
+App Versions                 :  0x0L
+Top Level IPartNum           :
+Part Number                  :
+Set2 Cpu Clock               :
+Set2 Cpu Divider             :
+Set2 Fim Write Clock         :
+Set2 Fim Write Divider       :
+Set2 Fim Read Clock          :
+Set2 Fim Read Divider        :
+Set2 Hs Cpu Clock            :  0
+Set2 Hs Cpu Divider          :  0
+Set2 Hs Ecc Clock            :  0
+Set2 Hs Ecc Divider          :  0
+Set2 Hs Fim Clock            :  0
+Set2 Hs Fim Divider          :  0
+Set2 System Divider          :  0
+Set3 Cpu Clock               :
+Set3 Cpu Divider             :
+Set3 Fim Write Clock         :
+Set3 Fim Write Divider       :
+Set3 Fim Read Clock          :
+Set3 Fim Read Divider        :
+Set3 Hs Cpu Clock            :  0
+Set3 Hs Cpu Divider          :  0
+Set3 Hs Ecc Clock            :  0
+Set3 Hs Ecc Divider          :  0
+Set3 Hs Fim Clock            :  0
+Set3 Hs Fim Divider          :  0
+Set3 System Divider          :  0
+Set4 Cpu Clock               :
+Set4 Cpu Divider             :
+Set4 Fim Write Clock         :
+Set4 Fim Write Divider       :
+Set4 Fim Read Clock          :
+Set4 Fim Read Divider        :
+Set4 Hs Cpu Clock            :  0
+Set4 Hs Cpu Divider          :  0
+Set4 Hs Ecc Clock            :  0
+Set4 Hs Ecc Divider          :  0
+Set4 Hs Fim Clock            :  0
+Set4 Hs Fim Divider          :  0
+Set4 System Divider          :  0
+Set5 Cpu Clock               :
+Set5 Cpu Divider             :
+Set5 Fim Write Clock         :
+Set5 Fim Write Divider       :
+Set5 Fim Read Clock          :
+Set5 Fim Read Divider        :
+Set5 Hs Cpu Clock            :  0
+Set5 Hs Cpu Divider          :  0
+Set5 Hs Ecc Clock            :  0
+Set5 Hs Ecc Divider          :  0
+Set5 Hs Fim Clock            :  0
+Set5 Hs Fim Divider          :  0
+Set5 System Divider          :  0
+MetaBlockSize                :  32768
+Card Physical Size           :  0
+WORM Card Lock               :  0
+OTEC Version                 :  0
+Meta Page Size               :  192
+Worm Version                 :  0
+
+13:02:22: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:02:22: ####CSD Registe 2.0 Values####
+13:02:22: CSD_STRUCTURE                                 :0x1
+13:02:22: Reserv1                                       :0x0
+13:02:22: Time Access 1 TAAC                            :0xe
+13:02:22: Time Access 2 NSAC*100                        :0x0
+13:02:22: Data Transfer Rate TRAN_SPEED                 :0x32
+13:02:22: Card Command Classess CCC                     :0x5b5
+13:02:22: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:02:22: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:02:22: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:02:22: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:02:22: DSR(driver stage register)  DSR_IMP           :0x0
+13:02:22: Reserv2                                       :0x0
+13:02:22: Device Size C_SIZE                            :0xedc8
+13:02:22: Reserv3                                       :0x0
+13:02:22: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:02:22: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:02:22: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:02:22: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:02:22: Reserv4                                       :0x0
+13:02:22: Write Speed Factor R2W_FACTOR                 :0x2
+13:02:22: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:02:22: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:02:22: FILE_FORMAT_GRP                               :0x0
+13:02:22: COPY flag                                     :0x1
+13:02:22: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:02:22: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:02:22: File_Format                                   :0x0
+13:02:22: CRC                                           :0x0
+13:02:22: ####CSD Registe Values####  
+
+13:02:22: [DVTCommonLib]### CardInfo :###****CARD INFO****
+13:02:22: ProductSerialNumber = 0x23482900
+13:02:22: CardMaximumLBA      = 0x3b72400
+13:02:22: CardCapacity        = 32G
+13:02:22: Is card secure      = 0
+13:02:22: [DVTCommonLib]### CardInfo :###****CARD INFO**** 
+
+13:02:22: [GO7_globalPreTestingSettings]### Default Initialization Completed 
+
+
+13:02:22: [GO4_globalInitCard]### Switch to Specify Card Type
+13:02:24: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:02:24: Host Frequency set to 25000 KHz
+13:02:24: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:02:24: [GO18_globalSetVolt]### Set Host Voltage value.
+13:02:24: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+13:02:24: [ SetVolt(<py_sfcl.SDVoltage object at 0x06506210>, 0x0, True) , Command count = 49 ] 
+13:02:24: [GO18_globalSetVolt]### Host voltage value is set.
+13:02:24: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+13:02:24: [ SetVolt(<py_sfcl.SDVoltage object at 0x065063F0>, 0x0, False) , Command count = 50 ] 
+13:02:24: [GO18_globalSetVolt]### Host voltage value is set.
+13:02:24: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 51 ] 
+13:02:24: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+13:02:24: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x1, 0x0, 0x1, False, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 52 ] 
+13:02:24: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC1FF8000
+13:02:24: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+13:02:24: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+13:02:24: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+13:02:24: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 called 
+13:02:24: [ SwitchVolt_CMD11(True, 0x0, 0x5) , Command count = 53 ] 
+13:02:24: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 Completed
+13:02:24: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06506960>, <py_sfcl.CommandDataDefinition object at 0x06506FC0>) , Command count = 54 ] 
+13:02:24: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06506DE0>, <py_sfcl.CommandDataDefinition object at 0x06506360>) , Command count = 55 ] 
+13:02:24: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 0, 12]
+13:02:24: [ SetCardRCA(0x1, 0xD555) , Command count = 56 ] 
+13:02:24: [DVTCommonLib]### Identification :Idenfication of card completed 
+
+13:02:24: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:02:24: Host Frequency set to 25000 KHz
+13:02:24: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:02:24: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:02:24: ####CSD Registe 2.0 Values####
+13:02:24: CSD_STRUCTURE                                 :0x1
+13:02:24: Reserv1                                       :0x0
+13:02:24: Time Access 1 TAAC                            :0xe
+13:02:24: Time Access 2 NSAC*100                        :0x0
+13:02:24: Data Transfer Rate TRAN_SPEED                 :0x32
+13:02:24: Card Command Classess CCC                     :0x5b5
+13:02:24: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:02:24: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:02:24: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:02:24: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:02:24: DSR(driver stage register)  DSR_IMP           :0x0
+13:02:24: Reserv2                                       :0x0
+13:02:24: Device Size C_SIZE                            :0xedc8
+13:02:24: Reserv3                                       :0x0
+13:02:24: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:02:24: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:02:24: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:02:24: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:02:24: Reserv4                                       :0x0
+13:02:24: Write Speed Factor R2W_FACTOR                 :0x2
+13:02:24: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:02:24: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:02:24: FILE_FORMAT_GRP                               :0x0
+13:02:24: COPY flag                                     :0x1
+13:02:24: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:02:24: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:02:24: File_Format                                   :0x0
+13:02:24: CRC                                           :0x0
+13:02:24: ####CSD Registe Values####  
+
+13:02:24: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register#####
+13:02:24: [GetSCRRegisterEntry] Passed
+13:02:24: SCR_STRUCTURE Version             : SCR_VERSION_1.0
+13:02:24: SD Memory Card - Spec. Version    : SPEC VERSION 2.00 or 3.0X
+13:02:24: Data_Status_After Erases          : 0
+13:02:24: CPRM Security Support             : No Security
+13:02:24: DAT Bus widths supported          : 1 bit [DAT0] and 4 bit (DAT0-3)
+13:02:24: Spec. Version                     : Version 3.0X
+13:02:24: Extended Security Support         : Extended_Security_Not_Supported
+13:02:24: Command Support                   : COMMAND_SUPPORT
+13:02:24: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register##### 
+
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065061E0>, <py_sfcl.CommandDataDefinition object at 0x06506480>) , Command count = 57 ] 
+13:02:24: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Tran', 'READY_FOR_DATA', 'APP_CMD']
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06506C60>, <py_sfcl.CommandDataDefinition object at 0x06506840>) , Command count = 58 ] 
+13:02:24: ACmd51[ SEND_SCR ] Passed with R1 type response:[51, 0, 0, 9, 32, 18]
+13:02:24: [ SetBusWidth(0x4) , Command count = 59 ] 
+13:02:24: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:02:24: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x06506B70>, <0x200/0x200, Spc, pat:0x0>) , Command count = 60 ] 
+13:02:24: Protected Area Size 0x28000
+13:02:24: Bus Width           2
+13:02:24: Secure Mode         0
+13:02:24: Speed  Class        4
+13:02:24: Perf Move           0
+13:02:24: Au Size             9
+13:02:24: Erase Size          15
+13:02:24: Erase Timeout       1
+13:02:24: Erase offset        1
+13:02:24: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:02:24: [G02_GlobalSetBusMode]### Bus width is set to Four and Verified
+13:02:24: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API called
+13:02:24: [ CardSwitchCmd(True, [0x2, 0xF, 0xF, 0x1, 0xF, 0xF], <0x40/0x200, Spc, pat:0x0>, 0x40) , Command count = 61 ] 
+13:02:24: [DVTCommonLib]### CardSwitchCommand[INFO]:['OperatingCurrent:250 mA', 'SDR50 SWITCHED', '400mA SWITCHED']
+13:02:24: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API completed 
+
+13:02:24: [GO17_globalSetVeryHSHostFreq.py]### Set the Very High Host Frequency (e.g. lightning)
+13:02:24: Host Frequency set to 100000 KHz
+13:02:24: [GO17_globalSetVeryHSHostFreq.py]###  globalRandom value is NONE
+13:02:24: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:02:24: ####CSD Registe 2.0 Values####
+13:02:24: CSD_STRUCTURE                                 :0x1
+13:02:24: Reserv1                                       :0x0
+13:02:24: Time Access 1 TAAC                            :0xe
+13:02:24: Time Access 2 NSAC*100                        :0x0
+13:02:24: Data Transfer Rate TRAN_SPEED                 :0xb
+13:02:24: Card Command Classess CCC                     :0x5b5
+13:02:24: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:02:24: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:02:24: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:02:24: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:02:24: DSR(driver stage register)  DSR_IMP           :0x0
+13:02:24: Reserv2                                       :0x0
+13:02:24: Device Size C_SIZE                            :0xedc8
+13:02:24: Reserv3                                       :0x0
+13:02:24: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:02:24: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:02:24: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:02:24: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:02:24: Reserv4                                       :0x0
+13:02:24: Write Speed Factor R2W_FACTOR                 :0x2
+13:02:24: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:02:24: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:02:24: FILE_FORMAT_GRP                               :0x0
+13:02:24: COPY flag                                     :0x1
+13:02:24: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:02:24: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:02:24: File_Format                                   :0x0
+13:02:24: CRC                                           :0x0
+13:02:24: ####CSD Registe Values####  
+
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06506CF0>, <py_sfcl.CommandDataDefinition object at 0x06506330>) , Command count = 62 ] 
+13:02:24: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Stby', 'READY_FOR_DATA']
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06506CC0>, <py_sfcl.CommandDataDefinition object at 0x06506F90>) , Command count = 63 ] 
+13:02:24: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:02:24: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:02:24: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x06512030>, <0x200/0x200, Spc, pat:0x0>) , Command count = 64 ] 
+13:02:24: Protected Area Size 0x28000
+13:02:24: Bus Width           2
+13:02:24: Secure Mode         0
+13:02:24: Speed  Class        4
+13:02:24: Perf Move           0
+13:02:24: Au Size             9
+13:02:24: Erase Size          15
+13:02:24: Erase Timeout       1
+13:02:24: Erase offset        1
+13:02:24: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:02:24: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+13:02:24: ### Trying to clear old password: 1234 
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x064949C0>, <py_sfcl.CommandDataDefinition object at 0x06512090>) , Command count = 65 ] 
+13:02:24: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512120>, <py_sfcl.CommandDataDefinition object at 0x06512150>) , Command count = 66 ] 
+13:02:24: CMD42[ LOCK_UNLOCK ] Passed with R1 type response:[42, 0, 0, 9, 0, 12]
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065121B0>, <py_sfcl.CommandDataDefinition object at 0x065121E0>) , Command count = 67 ] 
+13:02:24: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'LOCK_UNLOCK_FAILED', 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:02:24: [DVTCommonLib]### Lock_unlock[ERROR] :Lock unlock operation failed
+13:02:24: ### Failed Clearing of password failed Expected
+
+13:02:24: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:02:24: ####CSD Registe 2.0 Values####
+13:02:24: CSD_STRUCTURE                                 :0x1
+13:02:24: Reserv1                                       :0x0
+13:02:24: Time Access 1 TAAC                            :0xe
+13:02:24: Time Access 2 NSAC*100                        :0x0
+13:02:24: Data Transfer Rate TRAN_SPEED                 :0xb
+13:02:24: Card Command Classess CCC                     :0x5b5
+13:02:24: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:02:24: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:02:24: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:02:24: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:02:24: DSR(driver stage register)  DSR_IMP           :0x0
+13:02:24: Reserv2                                       :0x0
+13:02:24: Device Size C_SIZE                            :0xedc8
+13:02:24: Reserv3                                       :0x0
+13:02:24: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:02:24: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:02:24: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:02:24: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:02:24: Reserv4                                       :0x0
+13:02:24: Write Speed Factor R2W_FACTOR                 :0x2
+13:02:24: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:02:24: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:02:24: FILE_FORMAT_GRP                               :0x0
+13:02:24: COPY flag                                     :0x1
+13:02:24: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:02:24: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:02:24: File_Format                                   :0x0
+13:02:24: CRC                                           :0x0
+13:02:24: ####CSD Registe Values####  
+
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512240>, <py_sfcl.CommandDataDefinition object at 0x06512270>) , Command count = 68 ] 
+13:02:24: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:02:24:  Trying to set new password: 1234  and lock the card
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065122D0>, <py_sfcl.CommandDataDefinition object at 0x06512300>) , Command count = 69 ] 
+13:02:24: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512390>, <py_sfcl.CommandDataDefinition object at 0x065123C0>) , Command count = 70 ] 
+13:02:24: CMD42[ LOCK_UNLOCK ] Passed with R1 type response:[42, 0, 0, 9, 0, 12]
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512420>, <py_sfcl.CommandDataDefinition object at 0x06512450>) , Command count = 71 ] 
+13:02:24: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512360>, <py_sfcl.CommandDataDefinition object at 0x065124B0>) , Command count = 72 ] 
+13:02:24: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:02:24:  Card is in Locked state 
+
+13:02:24:  Single Write from StartLba:0x0 to EndLba:0x101
+13:02:24: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :SingleWrite from StartLba: 0x0 to EndLba:0x101 with Random Pattern
+13:02:24: [ WrLbaNoData(0x0, 0x1, <0x200/0x200, Rnd>, py_sfcl.Pattern.ANY_WORD, True, False, False, False, 0x0, False, 0x0) , Command count = 73 ] 
+13:02:24: [ GetCardStatus() , Command count = 74 ] 
+13:02:24: [DVTCommonLib]### WriteWithFPGAPattern[ERROR] :SingleWrite Failed from StartLba:0x0 to EndLba:0x101 with Random Pattern
+13:02:24: [DVTCommonLib]### Exception_Details :Card is reporting illegal command
+13:02:24: Write operation failed as Card is locked,which is Expected
+
+13:02:24:  Single Read from StartLba:0x0 to EndLba:0x101
+13:02:24: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :SingleRead from StartLba: 0x0 to EndLba:0x101 with Random Pattern
+13:02:24: [ RdLbaNoData(0x0, 0x1, <0x200/0x200, Rnd>, py_sfcl.Pattern.ANY_WORD, True, False, False, False, 0x0, False, 0x0, True) , Command count = 75 ] 
+13:02:24: [ GetCardStatus() , Command count = 76 ] 
+13:02:24: [DVTCommonLib]### ReadWithFPGAPattern[ERROR] :SingleRead Failed from StartLba:0x0 to EndLba:0x101 with Random Pattern
+13:02:24: [DVTCommonLib]### Exception_Details :Card is reporting illegal command
+13:02:24:  Read operation failed as Card is locked,which is Expected
+
+13:02:24:  Erase from StartLba:0x0 to EndLba:0x101
+13:02:24: [DVTCommonLib]### Erase :Erase API Called
+13:02:24: [DVTCommonLib]### Erase :CTF Erase API called to erase from StartLba:0x0 with Blockcount:0x101
+13:02:24: [ EraseLba(0x0, 0x101) , Command count = 77 ] 
+13:02:24: [ GetCardStatus() , Command count = 78 ] 
+13:02:24:  Erase command failed as Card is locked,which is Expected
+
+13:02:24: Trying to CLEAR the password by providing old password: 1234 
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512660>, <py_sfcl.CommandDataDefinition object at 0x06512810>) , Command count = 79 ] 
+13:02:24: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CARD_IS_LOCKED', 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512840>, <py_sfcl.CommandDataDefinition object at 0x06512870>) , Command count = 80 ] 
+13:02:24: CMD42[ LOCK_UNLOCK ] Passed with R1 type response:[42, 2, 0, 9, 0, 13]
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065128D0>, <py_sfcl.CommandDataDefinition object at 0x06512900>) , Command count = 81 ] 
+13:02:24: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:02:24: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065127B0>, <py_sfcl.CommandDataDefinition object at 0x06512960>) , Command count = 82 ] 
+13:02:24: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Tran', 'READY_FOR_DATA']
+13:02:24:  Card is not in Locked state 
+
+13:02:24:  Single Write from StartLba:0x0 to EndLba:0x101
+13:02:24: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :SingleWrite from StartLba: 0x0 to EndLba:0x101 with Constant Pattern
+13:02:25: [ WrLbaNoData(0x0, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 83 ] 
+13:02:25: [ WrLbaNoData(0x1, 0x2, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 84 ] 
+13:02:25: [ WrLbaNoData(0x2, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 85 ] 
+13:02:25: [ WrLbaNoData(0x3, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 86 ] 
+13:02:25: [ WrLbaNoData(0x4, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 87 ] 
+13:02:25: [ WrLbaNoData(0x5, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 88 ] 
+13:02:25: [ WrLbaNoData(0x6, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 89 ] 
+13:02:25: [ WrLbaNoData(0x7, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 90 ] 
+13:02:25: [ WrLbaNoData(0x8, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 91 ] 
+13:02:25: [ WrLbaNoData(0x9, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 92 ] 
+13:02:25: [ WrLbaNoData(0xA, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 93 ] 
+13:02:25: [ WrLbaNoData(0xB, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 94 ] 
+13:02:25: [ WrLbaNoData(0xC, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 95 ] 
+13:02:25: [ WrLbaNoData(0xD, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 96 ] 
+13:02:25: [ WrLbaNoData(0xE, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 97 ] 
+13:02:25: [ WrLbaNoData(0xF, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 98 ] 
+13:02:25: [ WrLbaNoData(0x10, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 99 ] 
+13:02:25: [ WrLbaNoData(0x11, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 100 ] 
+13:02:25: [ WrLbaNoData(0x12, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 101 ] 
+13:02:25: [ WrLbaNoData(0x13, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 102 ] 
+13:02:25: [ WrLbaNoData(0x14, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 103 ] 
+13:02:25: [ WrLbaNoData(0x15, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 104 ] 
+13:02:25: [ WrLbaNoData(0x16, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 105 ] 
+13:02:25: [ WrLbaNoData(0x17, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 106 ] 
+13:02:25: [ WrLbaNoData(0x18, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 107 ] 
+13:02:25: [ WrLbaNoData(0x19, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 108 ] 
+13:02:25: [ WrLbaNoData(0x1A, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 109 ] 
+13:02:25: [ WrLbaNoData(0x1B, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 110 ] 
+13:02:25: [ WrLbaNoData(0x1C, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 111 ] 
+13:02:25: [ WrLbaNoData(0x1D, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 112 ] 
+13:02:25: [ WrLbaNoData(0x1E, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 113 ] 
+13:02:25: [ WrLbaNoData(0x1F, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 114 ] 
+13:02:25: [ WrLbaNoData(0x20, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 115 ] 
+13:02:25: [ WrLbaNoData(0x21, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 116 ] 
+13:02:25: [ WrLbaNoData(0x22, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 117 ] 
+13:02:25: [ WrLbaNoData(0x23, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 118 ] 
+13:02:25: [ WrLbaNoData(0x24, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 119 ] 
+13:02:25: [ WrLbaNoData(0x25, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 120 ] 
+13:02:25: [ WrLbaNoData(0x26, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 121 ] 
+13:02:25: [ WrLbaNoData(0x27, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 122 ] 
+13:02:25: [ WrLbaNoData(0x28, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 123 ] 
+13:02:25: [ WrLbaNoData(0x29, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 124 ] 
+13:02:25: [ WrLbaNoData(0x2A, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 125 ] 
+13:02:25: [ WrLbaNoData(0x2B, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 126 ] 
+13:02:25: [ WrLbaNoData(0x2C, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 127 ] 
+13:02:25: [ WrLbaNoData(0x2D, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 128 ] 
+13:02:25: [ WrLbaNoData(0x2E, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 129 ] 
+13:02:25: [ WrLbaNoData(0x2F, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 130 ] 
+13:02:25: [ WrLbaNoData(0x30, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 131 ] 
+13:02:25: [ WrLbaNoData(0x31, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 132 ] 
+13:02:25: [ WrLbaNoData(0x32, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 133 ] 
+13:02:25: [ WrLbaNoData(0x33, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 134 ] 
+13:02:25: [ WrLbaNoData(0x34, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 135 ] 
+13:02:25: [ WrLbaNoData(0x35, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 136 ] 
+13:02:25: [ WrLbaNoData(0x36, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 137 ] 
+13:02:25: [ WrLbaNoData(0x37, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 138 ] 
+13:02:25: [ WrLbaNoData(0x38, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 139 ] 
+13:02:25: [ WrLbaNoData(0x39, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 140 ] 
+13:02:25: [ WrLbaNoData(0x3A, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 141 ] 
+13:02:25: [ WrLbaNoData(0x3B, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 142 ] 
+13:02:25: [ WrLbaNoData(0x3C, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 143 ] 
+13:02:25: [ WrLbaNoData(0x3D, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 144 ] 
+13:02:25: [ WrLbaNoData(0x3E, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 145 ] 
+13:02:25: [ WrLbaNoData(0x3F, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 146 ] 
+13:02:25: [ WrLbaNoData(0x40, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 147 ] 
+13:02:25: [ WrLbaNoData(0x41, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 148 ] 
+13:02:25: [ WrLbaNoData(0x42, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 149 ] 
+13:02:25: [ WrLbaNoData(0x43, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 150 ] 
+13:02:25: [ WrLbaNoData(0x44, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 151 ] 
+13:02:25: [ WrLbaNoData(0x45, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 152 ] 
+13:02:25: [ WrLbaNoData(0x46, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 153 ] 
+13:02:25: [ WrLbaNoData(0x47, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 154 ] 
+13:02:25: [ WrLbaNoData(0x48, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 155 ] 
+13:02:25: [ WrLbaNoData(0x49, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 156 ] 
+13:02:25: [ WrLbaNoData(0x4A, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 157 ] 
+13:02:25: [ WrLbaNoData(0x4B, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 158 ] 
+13:02:25: [ WrLbaNoData(0x4C, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 159 ] 
+13:02:25: [ WrLbaNoData(0x4D, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 160 ] 
+13:02:25: [ WrLbaNoData(0x4E, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 161 ] 
+13:02:25: [ WrLbaNoData(0x4F, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 162 ] 
+13:02:25: [ WrLbaNoData(0x50, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 163 ] 
+13:02:25: [ WrLbaNoData(0x51, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 164 ] 
+13:02:25: [ WrLbaNoData(0x52, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 165 ] 
+13:02:25: [ WrLbaNoData(0x53, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 166 ] 
+13:02:25: [ WrLbaNoData(0x54, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 167 ] 
+13:02:25: [ WrLbaNoData(0x55, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 168 ] 
+13:02:25: [ WrLbaNoData(0x56, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 169 ] 
+13:02:25: [ WrLbaNoData(0x57, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 170 ] 
+13:02:25: [ WrLbaNoData(0x58, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 171 ] 
+13:02:25: [ WrLbaNoData(0x59, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 172 ] 
+13:02:25: [ WrLbaNoData(0x5A, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 173 ] 
+13:02:25: [ WrLbaNoData(0x5B, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 174 ] 
+13:02:25: [ WrLbaNoData(0x5C, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 175 ] 
+13:02:25: [ WrLbaNoData(0x5D, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 176 ] 
+13:02:25: [ WrLbaNoData(0x5E, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 177 ] 
+13:02:25: [ WrLbaNoData(0x5F, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 178 ] 
+13:02:25: [ WrLbaNoData(0x60, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 179 ] 
+13:02:25: [ WrLbaNoData(0x61, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 180 ] 
+13:02:25: [ WrLbaNoData(0x62, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 181 ] 
+13:02:25: [ WrLbaNoData(0x63, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 182 ] 
+13:02:25: [ WrLbaNoData(0x64, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 183 ] 
+13:02:25: [ WrLbaNoData(0x65, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 184 ] 
+13:02:25: [ WrLbaNoData(0x66, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 185 ] 
+13:02:25: [ WrLbaNoData(0x67, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 186 ] 
+13:02:25: [ WrLbaNoData(0x68, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 187 ] 
+13:02:25: [ WrLbaNoData(0x69, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 188 ] 
+13:02:25: [ WrLbaNoData(0x6A, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 189 ] 
+13:02:25: [ WrLbaNoData(0x6B, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 190 ] 
+13:02:25: [ WrLbaNoData(0x6C, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 191 ] 
+13:02:25: [ WrLbaNoData(0x6D, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 192 ] 
+13:02:25: [ WrLbaNoData(0x6E, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 193 ] 
+13:02:25: [ WrLbaNoData(0x6F, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 194 ] 
+13:02:25: [ WrLbaNoData(0x70, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 195 ] 
+13:02:25: [ WrLbaNoData(0x71, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 196 ] 
+13:02:25: [ WrLbaNoData(0x72, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 197 ] 
+13:02:25: [ WrLbaNoData(0x73, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 198 ] 
+13:02:25: [ WrLbaNoData(0x74, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 199 ] 
+13:02:25: [ WrLbaNoData(0x75, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 200 ] 
+13:02:25: [ WrLbaNoData(0x76, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 201 ] 
+13:02:25: [ WrLbaNoData(0x77, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 202 ] 
+13:02:25: [ WrLbaNoData(0x78, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 203 ] 
+13:02:25: [ WrLbaNoData(0x79, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 204 ] 
+13:02:25: [ WrLbaNoData(0x7A, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 205 ] 
+13:02:25: [ WrLbaNoData(0x7B, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 206 ] 
+13:02:25: [ WrLbaNoData(0x7C, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 207 ] 
+13:02:25: [ WrLbaNoData(0x7D, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 208 ] 
+13:02:26: [ WrLbaNoData(0x7E, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 209 ] 
+13:02:26: [ WrLbaNoData(0x7F, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 210 ] 
+13:02:26: [ WrLbaNoData(0x80, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 211 ] 
+13:02:26: [ WrLbaNoData(0x81, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 212 ] 
+13:02:26: [ WrLbaNoData(0x82, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 213 ] 
+13:02:26: [ WrLbaNoData(0x83, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 214 ] 
+13:02:26: [ WrLbaNoData(0x84, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 215 ] 
+13:02:26: [ WrLbaNoData(0x85, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 216 ] 
+13:02:26: [ WrLbaNoData(0x86, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 217 ] 
+13:02:26: [ WrLbaNoData(0x87, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 218 ] 
+13:02:26: [ WrLbaNoData(0x88, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 219 ] 
+13:02:26: [ WrLbaNoData(0x89, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 220 ] 
+13:02:26: [ WrLbaNoData(0x8A, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 221 ] 
+13:02:26: [ WrLbaNoData(0x8B, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 222 ] 
+13:02:26: [ WrLbaNoData(0x8C, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 223 ] 
+13:02:26: [ WrLbaNoData(0x8D, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 224 ] 
+13:02:26: [ WrLbaNoData(0x8E, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 225 ] 
+13:02:26: [ WrLbaNoData(0x8F, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 226 ] 
+13:02:26: [ WrLbaNoData(0x90, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 227 ] 
+13:02:26: [ WrLbaNoData(0x91, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 228 ] 
+13:02:26: [ WrLbaNoData(0x92, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 229 ] 
+13:02:26: [ WrLbaNoData(0x93, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 230 ] 
+13:02:26: [ WrLbaNoData(0x94, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 231 ] 
+13:02:26: [ WrLbaNoData(0x95, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 232 ] 
+13:02:26: [ WrLbaNoData(0x96, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 233 ] 
+13:02:26: [ WrLbaNoData(0x97, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 234 ] 
+13:02:26: [ WrLbaNoData(0x98, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 235 ] 
+13:02:26: [ WrLbaNoData(0x99, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 236 ] 
+13:02:26: [ WrLbaNoData(0x9A, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 237 ] 
+13:02:26: [ WrLbaNoData(0x9B, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 238 ] 
+13:02:26: [ WrLbaNoData(0x9C, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 239 ] 
+13:02:26: [ WrLbaNoData(0x9D, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 240 ] 
+13:02:26: [ WrLbaNoData(0x9E, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 241 ] 
+13:02:26: [ WrLbaNoData(0x9F, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 242 ] 
+13:02:26: [ WrLbaNoData(0xA0, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 243 ] 
+13:02:26: [ WrLbaNoData(0xA1, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 244 ] 
+13:02:26: [ WrLbaNoData(0xA2, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 245 ] 
+13:02:26: [ WrLbaNoData(0xA3, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 246 ] 
+13:02:26: [ WrLbaNoData(0xA4, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 247 ] 
+13:02:26: [ WrLbaNoData(0xA5, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 248 ] 
+13:02:26: [ WrLbaNoData(0xA6, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 249 ] 
+13:02:26: [ WrLbaNoData(0xA7, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 250 ] 
+13:02:26: [ WrLbaNoData(0xA8, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 251 ] 
+13:02:26: [ WrLbaNoData(0xA9, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 252 ] 
+13:02:26: [ WrLbaNoData(0xAA, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 253 ] 
+13:02:26: [ WrLbaNoData(0xAB, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 254 ] 
+13:02:26: [ WrLbaNoData(0xAC, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 255 ] 
+13:02:26: [ WrLbaNoData(0xAD, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 256 ] 
+13:02:26: [ WrLbaNoData(0xAE, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 257 ] 
+13:02:26: [ WrLbaNoData(0xAF, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 258 ] 
+13:02:26: [ WrLbaNoData(0xB0, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 259 ] 
+13:02:26: [ WrLbaNoData(0xB1, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 260 ] 
+13:02:26: [ WrLbaNoData(0xB2, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 261 ] 
+13:02:26: [ WrLbaNoData(0xB3, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 262 ] 
+13:02:26: [ WrLbaNoData(0xB4, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 263 ] 
+13:02:26: [ WrLbaNoData(0xB5, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 264 ] 
+13:02:26: [ WrLbaNoData(0xB6, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 265 ] 
+13:02:26: [ WrLbaNoData(0xB7, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 266 ] 
+13:02:26: [ WrLbaNoData(0xB8, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 267 ] 
+13:02:26: [ WrLbaNoData(0xB9, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 268 ] 
+13:02:26: [ WrLbaNoData(0xBA, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 269 ] 
+13:02:26: [ WrLbaNoData(0xBB, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 270 ] 
+13:02:26: [ WrLbaNoData(0xBC, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 271 ] 
+13:02:26: [ WrLbaNoData(0xBD, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 272 ] 
+13:02:26: [ WrLbaNoData(0xBE, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 273 ] 
+13:02:26: [ WrLbaNoData(0xBF, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 274 ] 
+13:02:26: [ WrLbaNoData(0xC0, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 275 ] 
+13:02:26: [ WrLbaNoData(0xC1, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 276 ] 
+13:02:26: [ WrLbaNoData(0xC2, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 277 ] 
+13:02:26: [ WrLbaNoData(0xC3, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 278 ] 
+13:02:26: [ WrLbaNoData(0xC4, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 279 ] 
+13:02:26: [ WrLbaNoData(0xC5, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 280 ] 
+13:02:26: [ WrLbaNoData(0xC6, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 281 ] 
+13:02:26: [ WrLbaNoData(0xC7, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 282 ] 
+13:02:26: [ WrLbaNoData(0xC8, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 283 ] 
+13:02:26: [ WrLbaNoData(0xC9, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 284 ] 
+13:02:26: [ WrLbaNoData(0xCA, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 285 ] 
+13:02:26: [ WrLbaNoData(0xCB, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 286 ] 
+13:02:26: [ WrLbaNoData(0xCC, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 287 ] 
+13:02:26: [ WrLbaNoData(0xCD, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 288 ] 
+13:02:26: [ WrLbaNoData(0xCE, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 289 ] 
+13:02:26: [ WrLbaNoData(0xCF, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 290 ] 
+13:02:26: [ WrLbaNoData(0xD0, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 291 ] 
+13:02:26: [ WrLbaNoData(0xD1, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 292 ] 
+13:02:26: [ WrLbaNoData(0xD2, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 293 ] 
+13:02:26: [ WrLbaNoData(0xD3, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 294 ] 
+13:02:26: [ WrLbaNoData(0xD4, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 295 ] 
+13:02:26: [ WrLbaNoData(0xD5, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 296 ] 
+13:02:26: [ WrLbaNoData(0xD6, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 297 ] 
+13:02:26: [ WrLbaNoData(0xD7, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 298 ] 
+13:02:26: [ WrLbaNoData(0xD8, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 299 ] 
+13:02:26: [ WrLbaNoData(0xD9, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 300 ] 
+13:02:26: [ WrLbaNoData(0xDA, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 301 ] 
+13:02:26: [ WrLbaNoData(0xDB, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 302 ] 
+13:02:26: [ WrLbaNoData(0xDC, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 303 ] 
+13:02:26: [ WrLbaNoData(0xDD, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 304 ] 
+13:02:26: [ WrLbaNoData(0xDE, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 305 ] 
+13:02:26: [ WrLbaNoData(0xDF, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 306 ] 
+13:02:26: [ WrLbaNoData(0xE0, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 307 ] 
+13:02:26: [ WrLbaNoData(0xE1, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 308 ] 
+13:02:26: [ WrLbaNoData(0xE2, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 309 ] 
+13:02:26: [ WrLbaNoData(0xE3, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 310 ] 
+13:02:26: [ WrLbaNoData(0xE4, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 311 ] 
+13:02:26: [ WrLbaNoData(0xE5, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 312 ] 
+13:02:26: [ WrLbaNoData(0xE6, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 313 ] 
+13:02:26: [ WrLbaNoData(0xE7, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 314 ] 
+13:02:26: [ WrLbaNoData(0xE8, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 315 ] 
+13:02:26: [ WrLbaNoData(0xE9, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 316 ] 
+13:02:26: [ WrLbaNoData(0xEA, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 317 ] 
+13:02:26: [ WrLbaNoData(0xEB, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 318 ] 
+13:02:26: [ WrLbaNoData(0xEC, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 319 ] 
+13:02:26: [ WrLbaNoData(0xED, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 320 ] 
+13:02:26: [ WrLbaNoData(0xEE, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 321 ] 
+13:02:26: [ WrLbaNoData(0xEF, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 322 ] 
+13:02:26: [ WrLbaNoData(0xF0, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 323 ] 
+13:02:26: [ WrLbaNoData(0xF1, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 324 ] 
+13:02:26: [ WrLbaNoData(0xF2, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 325 ] 
+13:02:26: [ WrLbaNoData(0xF3, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 326 ] 
+13:02:26: [ WrLbaNoData(0xF4, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 327 ] 
+13:02:26: [ WrLbaNoData(0xF5, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 328 ] 
+13:02:26: [ WrLbaNoData(0xF6, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 329 ] 
+13:02:26: [ WrLbaNoData(0xF7, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 330 ] 
+13:02:26: [ WrLbaNoData(0xF8, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 331 ] 
+13:02:26: [ WrLbaNoData(0xF9, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 332 ] 
+13:02:26: [ WrLbaNoData(0xFA, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 333 ] 
+13:02:27: [ WrLbaNoData(0xFB, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 334 ] 
+13:02:27: [ WrLbaNoData(0xFC, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 335 ] 
+13:02:27: [ WrLbaNoData(0xFD, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 336 ] 
+13:02:27: [ WrLbaNoData(0xFE, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 337 ] 
+13:02:27: [ WrLbaNoData(0xFF, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 338 ] 
+13:02:27: [ WrLbaNoData(0x100, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 339 ] 
+13:02:27: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :Done SingleWrite from StartLba: 0x0 to EndLba:0x101 with Constant Pattern 
+
+13:02:27:  Single Read from StartLba:0x0 to EndLba0x101
+13:02:27: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :SingleRead from StartLba: 0x0 to EndLba:0x101 with Constant Pattern
+13:02:27: [ RdLbaNoData(0x0, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0, True) , Command count = 340 ] 
+13:02:27: [ RdLbaNoData(0x1, 0x2, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0, True) , Command count = 341 ] 
+13:02:27: [ GetCardStatus() , Command count = 342 ] 
+13:02:33: [DVTCommonLib]### ReadWithFPGAPattern[ERROR] :SingleRead Failed from StartLba:0x1 to EndLba:0x101 with Constant Pattern
+13:02:33: Failed Running script <module 'CH2BCL_BasicCardLock' from 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\SD\CommonDVT\Chapter_2_System_features\CH2BCL_BasicCardLock.pyc'> with error AssertionError instance has no attribute 'GetErrorNumber' 
+13:02:33: ########################################
+13:02:33: ########################################
+13:02:33: Stated Running script CH21BCC_Basic_comunication_commands 
+13:02:33: ########################################
+13:02:33: [CH21BCC_Basic_comunication_commands.py]###### Basic Communication command on High and Low Voltage with Bus Width 1 & 4. 
+13:02:33: [CH21BCC_Basic_comunication_commands.py]### TEST CASE IS STARTED.
+13:02:33: [GO4_globalInitCard]### Switch to Specify Card Type
+13:02:35: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:02:35: Host Frequency set to 25000 KHz
+13:02:35: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:02:35: [GO18_globalSetVolt]### Set Host Voltage value.
+13:02:35: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+13:02:35: [ SetVolt(<py_sfcl.SDVoltage object at 0x06654240>, 0x0, True) , Command count = 343 ] 
+13:02:35: [GO18_globalSetVolt]### Host voltage value is set.
+13:02:35: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+13:02:35: [ SetVolt(<py_sfcl.SDVoltage object at 0x05E61060>, 0x0, False) , Command count = 344 ] 
+13:02:35: [GO18_globalSetVolt]### Host voltage value is set.
+13:02:35: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 345 ] 
+13:02:35: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+13:02:35: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x1, 0x0, 0x1, False, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 346 ] 
+13:02:35: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC1FF8000
+13:02:35: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+13:02:35: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+13:02:35: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+13:02:35: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 called 
+13:02:35: [ SwitchVolt_CMD11(True, 0x0, 0x5) , Command count = 347 ] 
+13:02:35: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 Completed
+13:02:35: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+13:02:35: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512C60>, <py_sfcl.CommandDataDefinition object at 0x06512C30>) , Command count = 348 ] 
+13:02:35: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+13:02:35: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512C90>, <py_sfcl.CommandDataDefinition object at 0x06512BD0>) , Command count = 349 ] 
+13:02:35: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 0, 12]
+13:02:35: [ SetCardRCA(0x1, 0xD555) , Command count = 350 ] 
+13:02:35: [DVTCommonLib]### Identification :Idenfication of card completed 
+
+13:02:35: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:02:35: Host Frequency set to 25000 KHz
+13:02:35: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:02:35: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:02:35: ####CSD Registe 2.0 Values####
+13:02:35: CSD_STRUCTURE                                 :0x1
+13:02:35: Reserv1                                       :0x0
+13:02:35: Time Access 1 TAAC                            :0xe
+13:02:35: Time Access 2 NSAC*100                        :0x0
+13:02:35: Data Transfer Rate TRAN_SPEED                 :0x32
+13:02:35: Card Command Classess CCC                     :0x5b5
+13:02:35: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:02:35: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:02:35: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:02:35: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:02:35: DSR(driver stage register)  DSR_IMP           :0x0
+13:02:35: Reserv2                                       :0x0
+13:02:35: Device Size C_SIZE                            :0xedc8
+13:02:35: Reserv3                                       :0x0
+13:02:35: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:02:35: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:02:35: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:02:35: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:02:35: Reserv4                                       :0x0
+13:02:35: Write Speed Factor R2W_FACTOR                 :0x2
+13:02:35: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:02:35: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:02:35: FILE_FORMAT_GRP                               :0x0
+13:02:35: COPY flag                                     :0x1
+13:02:35: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:02:35: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:02:35: File_Format                                   :0x0
+13:02:35: CRC                                           :0x0
+13:02:35: ####CSD Registe Values####  
+
+13:02:35: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register#####
+13:02:35: [GetSCRRegisterEntry] Passed
+13:02:35: SCR_STRUCTURE Version             : SCR_VERSION_1.0
+13:02:35: SD Memory Card - Spec. Version    : SPEC VERSION 2.00 or 3.0X
+13:02:35: Data_Status_After Erases          : 0
+13:02:35: CPRM Security Support             : No Security
+13:02:35: DAT Bus widths supported          : 1 bit [DAT0] and 4 bit (DAT0-3)
+13:02:35: Spec. Version                     : Version 3.0X
+13:02:35: Extended Security Support         : Extended_Security_Not_Supported
+13:02:35: Command Support                   : COMMAND_SUPPORT
+13:02:35: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register##### 
+
+13:02:35: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512CF0>, <py_sfcl.CommandDataDefinition object at 0x066542A0>) , Command count = 351 ] 
+13:02:35: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Tran', 'READY_FOR_DATA', 'APP_CMD']
+13:02:35: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512D20>, <py_sfcl.CommandDataDefinition object at 0x066540F0>) , Command count = 352 ] 
+13:02:35: ACmd51[ SEND_SCR ] Passed with R1 type response:[51, 0, 0, 9, 32, 18]
+13:02:35: [ SetBusWidth(0x4) , Command count = 353 ] 
+13:02:35: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:02:35: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x06654150>, <0x200/0x200, Spc, pat:0x0>) , Command count = 354 ] 
+13:02:35: Protected Area Size 0x28000
+13:02:35: Bus Width           2
+13:02:35: Secure Mode         0
+13:02:35: Speed  Class        4
+13:02:35: Perf Move           0
+13:02:35: Au Size             9
+13:02:35: Erase Size          15
+13:02:35: Erase Timeout       1
+13:02:35: Erase offset        1
+13:02:35: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:02:35: [G02_GlobalSetBusMode]### Bus width is set to Four and Verified
+13:02:35: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API called
+13:02:35: [ CardSwitchCmd(True, [0x2, 0xF, 0xF, 0x1, 0xF, 0xF], <0x40/0x200, Spc, pat:0x0>, 0x40) , Command count = 355 ] 
+13:02:35: [DVTCommonLib]### CardSwitchCommand[INFO]:['OperatingCurrent:250 mA', 'SDR50 SWITCHED', '400mA SWITCHED']
+13:02:35: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API completed 
+
+13:02:35: [GO17_globalSetVeryHSHostFreq.py]### Set the Very High Host Frequency (e.g. lightning)
+13:02:35: Host Frequency set to 100000 KHz
+13:02:35: [GO17_globalSetVeryHSHostFreq.py]###  globalRandom value is NONE
+13:02:35: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:02:35: ####CSD Registe 2.0 Values####
+13:02:35: CSD_STRUCTURE                                 :0x1
+13:02:35: Reserv1                                       :0x0
+13:02:35: Time Access 1 TAAC                            :0xe
+13:02:35: Time Access 2 NSAC*100                        :0x0
+13:02:35: Data Transfer Rate TRAN_SPEED                 :0xb
+13:02:35: Card Command Classess CCC                     :0x5b5
+13:02:35: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:02:35: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:02:35: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:02:35: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:02:35: DSR(driver stage register)  DSR_IMP           :0x0
+13:02:35: Reserv2                                       :0x0
+13:02:35: Device Size C_SIZE                            :0xedc8
+13:02:35: Reserv3                                       :0x0
+13:02:35: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:02:35: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:02:35: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:02:35: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:02:35: Reserv4                                       :0x0
+13:02:35: Write Speed Factor R2W_FACTOR                 :0x2
+13:02:35: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:02:35: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:02:35: FILE_FORMAT_GRP                               :0x0
+13:02:35: COPY flag                                     :0x1
+13:02:35: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:02:35: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:02:35: File_Format                                   :0x0
+13:02:35: CRC                                           :0x0
+13:02:35: ####CSD Registe Values####  
+
+13:02:35: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512DE0>, <py_sfcl.CommandDataDefinition object at 0x06512DB0>) , Command count = 356 ] 
+13:02:35: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Stby', 'READY_FOR_DATA']
+13:02:35: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06512E10>, <py_sfcl.CommandDataDefinition object at 0x06654180>) , Command count = 357 ] 
+13:02:35: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:02:35: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+13:02:35: [ SetBusWidth(0x1) , Command count = 358 ] 
+13:02:36: [ CardInit() , Command count = 359 ] 
+13:02:36: [DVTCommonLib]### initCard[INFO] :completed intilization of card 
+
+13:02:36: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x05E7EF00>, <py_sfcl.CommandDataDefinition object at 0x06512EA0>) , Command count = 360 ] 
+13:02:36: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:02:36: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :SingleWrite from StartLba: 0x0 to EndLba:0x101 with Constant Pattern
+13:02:36: [ WrLbaNoData(0x0, 0x1, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 361 ] 
+13:02:36: [ WrLbaNoData(0x1, 0x2, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0) , Command count = 362 ] 
+13:02:36: [ GetCardStatus() , Command count = 363 ] 
+13:02:36: [DVTCommonLib]### WriteWithFPGAPattern[ERROR] :SingleWrite Failed from StartLba:0x1 to EndLba:0x101 with Constant Pattern
+13:02:36: [DVTCommonLib]### Exception_Details :Exception raised!!!, Error Number is 13 and Error Message is 
+CardCommandError:                                  
+card access failed on protocol=sd: 
+   Error 0xDL (13) executing command 'WrLbaNoData'
+   Description : Sector messaligned error
+   Error Layer : UNKNOWN
+   SW Error Location : UNKNOWN - UNKNOWN : 0
+   Arguments: ('(0x1, 0x2, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0)')
+   Extended error information:
+      Status         : 0xD00
+      Is busy?       : Yes
+
+13:02:36: Failed Running script <module 'CH21BCC_Basic_comunication_commands' from 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\SD\CommonDVT\Chapter_2_System_features\CH21BCC_Basic_comunication_commands.pyc'> with error 
+CardCommandError:                                  
+card access failed on protocol=sd: 
+   Error 0xDL (13) executing command 'WrLbaNoData'
+   Description : Sector messaligned error
+   Error Layer : UNKNOWN
+   SW Error Location : UNKNOWN - UNKNOWN : 0
+   Arguments: ('(0x1, 0x2, <0x400/0x200, Arb>, py_sfcl.Pattern.CONST, True, False, False, False, 0x0, False, 0x0)')
+   Extended error information:
+      Status         : 0xD00
+      Is busy?       : Yes
+ 
+13:02:36: ########################################
+13:02:36: ########################################
+13:02:36: Stated Running script CH0202_Variablefrequencys 
+13:02:36: ########################################
+13:02:36: [CH0202_Variablefrequencys]  Running Variablefreq Test 
+13:02:36: [GO4_globalInitCard]### Switch to Specify Card Type
+13:02:38: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:02:38: Host Frequency set to 25000 KHz
+13:02:38: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:02:38: [GO18_globalSetVolt]### Set Host Voltage value.
+13:02:38: [GO18_globalSetVolt]### maxVoltage=3.8V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Flash (VDDF) 
+13:02:38: [ SetVolt(<py_sfcl.SDVoltage object at 0x06654720>, 0x0, True) , Command count = 364 ] 
+13:02:38: [GO18_globalSetVolt]### Host voltage value is set.
+13:02:38: [GO18_globalSetVolt]### maxVoltage=3300 V, maxCurrent=250mA, A2DRate=62.5 Hz, PowerSupplier=Host (VDDH) 
+13:02:38: [ SetVolt(<py_sfcl.SDVoltage object at 0x05E6F510>, 0x0, False) , Command count = 365 ] 
+13:02:38: [GO18_globalSetVolt]### Host voltage value is set.
+13:02:38: [ CardSetTimeOut(0x1F4, 0xFA, 0x64) , Command count = 366 ] 
+13:02:38: [DVTCommonLib]### Reset the card with OCR value : 0x41FF8000
+13:02:38: [ CardReset(py_sfcl.CARD_MODE.SD, 0x41FF8000, 0x1, True, <0x200/0x200, Spc, pat:0x0>, 0x1, 0x0, 0x1, False, True, 0x1, 0x1, 0xAA, 0x0) , Command count = 367 ] 
+13:02:38: [DVTCommonLib]### Reset[INFO] :Response of CardReset : 0xC1FF8000
+13:02:38: [DVTCommonLib]### Reset[INFO]: VOLA from card : 0x1
+13:02:38: [DVTCommonLib]### Reset[INFO]: CMD Pattern from card : 0xAA
+13:02:38: [DVTCommonLib]### Reset[INFO]: Reserved bits from card : 0x0
+13:02:38: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 called 
+13:02:38: [ SwitchVolt_CMD11(True, 0x0, 0x5) , Command count = 368 ] 
+13:02:38: [DVTCommonLib]### SwitchVolt_CMD11 :SwitchVolt_CMD11 Completed
+13:02:38: [DVTCommonLib]### Identification :Idenfication of card(CMD2 and CMD3)
+13:02:38: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06517090>, <py_sfcl.CommandDataDefinition object at 0x06512FC0>) , Command count = 369 ] 
+13:02:38: CMD2[ ALL_SEND_CID ] Passed with R2 type response:[63, 3, 83, 68, 65, 71, 71, 67, 68, 128, 35, 72, 41, 0, 0, 11]
+13:02:38: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x065170C0>, <py_sfcl.CommandDataDefinition object at 0x066549F0>) , Command count = 370 ] 
+13:02:38: CMD3[ SET_RELATIVE_ADDRESS ] Passed with R6 type response:[3, 213, 85, 5, 0, 12]
+13:02:38: [ SetCardRCA(0x1, 0xD555) , Command count = 371 ] 
+13:02:38: [DVTCommonLib]### Identification :Idenfication of card completed 
+
+13:02:38: [GO12_globalSetLSHostFreq.py]### Set the Host Frequency in Low Speed mode.
+13:02:38: Host Frequency set to 25000 KHz
+13:02:38: [GO12_globalSetLSHostFreq.py]###  globalRandom value is NONE
+13:02:38: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 50, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:02:38: ####CSD Registe 2.0 Values####
+13:02:38: CSD_STRUCTURE                                 :0x1
+13:02:38: Reserv1                                       :0x0
+13:02:38: Time Access 1 TAAC                            :0xe
+13:02:38: Time Access 2 NSAC*100                        :0x0
+13:02:38: Data Transfer Rate TRAN_SPEED                 :0x32
+13:02:38: Card Command Classess CCC                     :0x5b5
+13:02:38: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:02:38: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:02:38: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:02:38: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:02:38: DSR(driver stage register)  DSR_IMP           :0x0
+13:02:38: Reserv2                                       :0x0
+13:02:38: Device Size C_SIZE                            :0xedc8
+13:02:38: Reserv3                                       :0x0
+13:02:38: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:02:38: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:02:38: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:02:38: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:02:38: Reserv4                                       :0x0
+13:02:38: Write Speed Factor R2W_FACTOR                 :0x2
+13:02:38: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:02:38: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:02:38: FILE_FORMAT_GRP                               :0x0
+13:02:38: COPY flag                                     :0x1
+13:02:38: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:02:38: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:02:38: File_Format                                   :0x0
+13:02:38: CRC                                           :0x0
+13:02:38: ####CSD Registe Values####  
+
+13:02:38: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register#####
+13:02:39: [GetSCRRegisterEntry] Passed
+13:02:39: SCR_STRUCTURE Version             : SCR_VERSION_1.0
+13:02:39: SD Memory Card - Spec. Version    : SPEC VERSION 2.00 or 3.0X
+13:02:39: Data_Status_After Erases          : 0
+13:02:39: CPRM Security Support             : No Security
+13:02:39: DAT Bus widths supported          : 1 bit [DAT0] and 4 bit (DAT0-3)
+13:02:39: Spec. Version                     : Version 3.0X
+13:02:39: Extended Security Support         : Extended_Security_Not_Supported
+13:02:39: Command Support                   : COMMAND_SUPPORT
+13:02:39: [DVTCommonLib]### GET_SCR_Reg_Values :###SCR Register##### 
+
+13:02:39: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06517120>, <py_sfcl.CommandDataDefinition object at 0x06654B10>) , Command count = 372 ] 
+13:02:39: CMD55[ APP_CMD ] Passed with R1 type response:[55, 'CURRENT_STATE:Tran', 'READY_FOR_DATA', 'APP_CMD']
+13:02:39: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06517150>, <py_sfcl.CommandDataDefinition object at 0x06654840>) , Command count = 373 ] 
+13:02:39: ACmd51[ SEND_SCR ] Passed with R1 type response:[51, 0, 0, 9, 32, 18]
+13:02:39: [ SetBusWidth(0x4) , Command count = 374 ] 
+13:02:39: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:02:39: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x06654630>, <0x200/0x200, Spc, pat:0x0>) , Command count = 375 ] 
+13:02:39: Protected Area Size 0x28000
+13:02:39: Bus Width           2
+13:02:39: Secure Mode         0
+13:02:39: Speed  Class        4
+13:02:39: Perf Move           0
+13:02:39: Au Size             9
+13:02:39: Erase Size          15
+13:02:39: Erase Timeout       1
+13:02:39: Erase offset        1
+13:02:39: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:02:39: [G02_GlobalSetBusMode]### Bus width is set to Four and Verified
+13:02:39: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API called
+13:02:39: [ CardSwitchCmd(True, [0x2, 0xF, 0xF, 0x1, 0xF, 0xF], <0x40/0x200, Spc, pat:0x0>, 0x40) , Command count = 376 ] 
+13:02:39: [DVTCommonLib]### CardSwitchCommand[INFO]:['OperatingCurrent:250 mA', 'SDR50 SWITCHED', '400mA SWITCHED']
+13:02:39: [DVTCommonLib]### CardSwitchCommand[INFO]:Swithing Speed class API completed 
+
+13:02:39: [GO17_globalSetVeryHSHostFreq.py]### Set the Very High Host Frequency (e.g. lightning)
+13:02:39: Host Frequency set to 100000 KHz
+13:02:39: [GO17_globalSetVeryHSHostFreq.py]###  globalRandom value is NONE
+13:02:39: [GET_CSD] Passed and returns CSD 16 byte buffer: [64, 14, 0, 11, 91, 89, 0, 0, 237, 200, 127, 128, 10, 64, 64, 0]
+13:02:39: ####CSD Registe 2.0 Values####
+13:02:39: CSD_STRUCTURE                                 :0x1
+13:02:39: Reserv1                                       :0x0
+13:02:39: Time Access 1 TAAC                            :0xe
+13:02:39: Time Access 2 NSAC*100                        :0x0
+13:02:39: Data Transfer Rate TRAN_SPEED                 :0xb
+13:02:39: Card Command Classess CCC                     :0x5b5
+13:02:39: Max Read Data Block Length  READ_BL_LEN       :0x9
+13:02:39: Partial Blocks for Read READ_BL_PARTIAL       :0x0
+13:02:39: Write Block Misalignment WRITE_BLK_MISALIGN   :0x0
+13:02:39: Read Block Misalignment READ_BLK_MISALIGN     :0x0
+13:02:39: DSR(driver stage register)  DSR_IMP           :0x0
+13:02:39: Reserv2                                       :0x0
+13:02:39: Device Size C_SIZE                            :0xedc8
+13:02:39: Reserv3                                       :0x0
+13:02:39: Erase Single Block Enable ERASE_BLK_EN        :0x1
+13:02:39: Erase Sector Size SECTOR_SIZE                 :0x7f
+13:02:39: Write Protect Group Size WP_GRP_SIZE          :0x0
+13:02:39: Write Protect Group Enable  WP_GRP_ENABLE     :0x0
+13:02:39: Reserv4                                       :0x0
+13:02:39: Write Speed Factor R2W_FACTOR                 :0x2
+13:02:39: Max. Write Data Block Length WRITE_BL_LEN     :0x9
+13:02:39: Partial Blocks For Write  WRITE_BL_PARTIAL    :0x0
+13:02:39: FILE_FORMAT_GRP                               :0x0
+13:02:39: COPY flag                                     :0x1
+13:02:39: Permanent Write Protection PERM_WRITE_PROTECT :0x0
+13:02:39: Temporary Write Protection TMP_WRITE_PROTECT  :0x0
+13:02:39: File_Format                                   :0x0
+13:02:39: CRC                                           :0x0
+13:02:39: ####CSD Registe Values####  
+
+13:02:39: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06517210>, <py_sfcl.CommandDataDefinition object at 0x06654480>) , Command count = 377 ] 
+13:02:39: CMD13[ SEND_STATUS ] Passed with R1 type response:[13, 'CURRENT_STATE:Stby', 'READY_FOR_DATA']
+13:02:39: [ SendBasicCommand(<py_sfcl.CommandDefinition object at 0x06517240>, <py_sfcl.CommandDataDefinition object at 0x06654570>) , Command count = 378 ] 
+13:02:39: CMD7[ SEL_DESELECT_CARD ] Passed with R1 type response:[7, 0, 0, 7, 0, 14]
+13:02:39: [GO4_globalInitCard]### Switch to Specify Card Type Completed 
+
+
+13:02:39: [DVTCommonLib]### SetBusWidth :Set the Bus width to 4 
+
+13:02:39: [ SetBusWidth(0x4) , Command count = 379 ] 
+13:02:39: [DVTCommonLib]### GetSDStatus :######SD Status#######
+13:02:39: [ CardGetStdStructure(<py_sfcl.STD_STRUCT object at 0x066545D0>, <0x200/0x200, Spc, pat:0x0>) , Command count = 380 ] 
+13:02:39: Protected Area Size 0x28000
+13:02:39: Bus Width           2
+13:02:39: Secure Mode         0
+13:02:39: Speed  Class        4
+13:02:39: Perf Move           0
+13:02:39: Au Size             9
+13:02:39: Erase Size          15
+13:02:39: Erase Timeout       1
+13:02:39: Erase offset        1
+13:02:39: [DVTCommonLib]### GetSDStatus :######SD Status#######
+
+13:02:39: [CH0202_Variablefrequencys]###[INFO] Bus width is Four as expected 
+
+13:02:39: [CH0202_Variablefrequencys] call block freq_check 80 times 
+
+13:02:39: [CH0202_Variablefrequencys] Loop times 0
+13:02:39: [CH0202_Variablefrequencys] Setting Host Frequency in Hz:76000000
+13:02:39: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x22503BE to EndLba:0x22504BE with Increment Pattern
+13:02:39: [ WrLbaNoData(0x22503BE, 0x100, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0) , Command count = 381 ] 
+13:02:39: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :Done MultipleWrite from StartLba: 0x22503BE to EndLba:0x22504BE with Increment Pattern 
+
+13:02:39: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :MultipleRead to the card at StartLba:0x22503BE to EndLba:0x22504BE with Increment Pattern
+13:02:39: [ RdLbaNoData(0x22503BE, 0x100, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0, True) , Command count = 382 ] 
+13:02:39: [DVTCommonLib]### ReadWithFPGAPattern[INFO] :Done MultipleRead from StartLba: 0x22503BE to EndLba:0x22504BE with Increment Pattern 
+
+13:02:39: [CH0202_Variablefrequencys] Loop times 1
+13:02:39: [CH0202_Variablefrequencys] Setting Host Frequency in Hz:76000000
+13:02:39: [DVTCommonLib]### WriteWithFPGAPattern[INFO] :MultipleWrite to the card at StartLba:0x2502613 to EndLba:0x2502713 with Increment Pattern
+13:02:50: [ WrLbaNoData(0x2502613, 0x100, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0) , Command count = 383 ] 
+13:02:50: [ GetCardStatus() , Command count = 384 ] 
+13:02:50: [DVTCommonLib]### WriteWithFPGAPattern[ERROR] :MultipleWrite Failed from StartLba:0x2502613 to EndLba:0x2502713 with Increment Pattern
+13:02:50: [DVTCommonLib]### Exception_Details :Exception raised!!!, Error Number is 37 and Error Message is 
+CardCommandError:                                  
+card access failed on protocol=sd: 
+   Error 0x25L (37) executing command 'WrLbaNoData'
+   Description : Time out waiting for host response
+   Error Layer : UNKNOWN
+   SW Error Location : UNKNOWN - UNKNOWN : 0
+   Arguments: ('(0x2502613, 0x100, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0)')
+   Extended error information:
+      Status         : 0xD00
+      Is busy?       : Yes
+
+13:02:50: Failed Running script <module 'CH0202_Variablefrequencys' from 'C:\Program Files\SanDisk\SDDVT_CQ_Python_Package\SDDVT\SD\CommonDVT\Chapter_2_System_features\CH0202_Variablefrequencys.pyc'> with error 
+CardCommandError:                                  
+card access failed on protocol=sd: 
+   Error 0x25L (37) executing command 'WrLbaNoData'
+   Description : Time out waiting for host response
+   Error Layer : UNKNOWN
+   SW Error Location : UNKNOWN - UNKNOWN : 0
+   Arguments: ('(0x2502613, 0x100, <0x400/0x200, Arb>, py_sfcl.Pattern.INCREMENTAL, True, False, False, False, 0x0, False, 0x0)')
+   Extended error information:
+      Status         : 0xD00
+      Is busy?       : Yes
+ 
+13:02:50: ########################################
+13:02:50: ########################################
+13:02:50: The Script <class 'CH0204_CallAllScripts.Chapter2_Call_ALL'> has 3 error on running 
+13:02:50: ########################################
+
+2016-11-28 13:02:50: 
+
+Elapsed time 00:00:49.
+
+
+   ######     ##    #####   #####  
+    ##  ##   ####  ##    # ##    # 
+    ##  ##  ##  ## ##      ##      
+    #####   ##  ##  #####   #####  
+    ##      ######      ##      ## 
+    ##      ##  ## #    ## #    ## 
+   ####     ##  ##  #####   #####
+
