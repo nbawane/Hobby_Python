@@ -1,0 +1,7 @@
+[section1]
+char1 = 1
+long  = 1
+
+[section2]
+clob = 1
+blob  = 1
