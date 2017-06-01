@@ -1,5 +1,8 @@
 from bs4 import BeautifulSoup as bs
 import urllib2
+
+hrefs = []
+
 search_query = 'index+of+originals'
 google_search_url = 'http://www.google.co.in/search?q='
 full_search_url = google_search_url+search_query
@@ -11,4 +14,8 @@ soup = bs(webobj,'lxml')
 print "type soup %s"%type(soup)
 alla = soup.find_all('a')
 for linkattributes in alla:
-	print linkattributes
+	hrefs.append(linkattributes.get('href'))
+
+for links in hrefs:
+	if 'dl' in links:
+		print links

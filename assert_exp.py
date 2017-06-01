@@ -1,3 +1,4 @@
-stat = {'PDMS':"sup",'PSUS':'nsup','POFS':'nsup'}
-assert ((stat['PDMS']=='sup' or stat['PSUS']=='sup') and (stat['POFS']=='nsup'))
-print " abc \n%s"%stat
+def to_accpet_string(Notification):
+	assert ((Notification == 'Enable') or (Notification == 'Disable')), 'Arguments must be Enable or Disable'
+
+to_accpet_string('Enablea')
