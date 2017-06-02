@@ -6,6 +6,8 @@ class google:
 		self.season_no = None
 		self.series_name = None
 		self.no_of_episodes = None
+
+	def search(self):
 hrefs = []
 
 search_query = 'index+of+originals'

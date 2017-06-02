@@ -1,9 +1,15 @@
+
 import random
+import logger.logger as logger
+
+log_file = r'C:\Results\regionlog.txt'
+log = logger.log(log_file)
+
 cardMaxLba = 995670	#blocks
 chunksize = random.randrange(8, 100, 8)  # chunk size in terms of blocks
-print "chunk size %s"%chunksize
+log.Info("chunk size %s"%chunksize)
 regions = random.randint(4, 10)
-print "regions : %s"%regions
+log.Info("regions : %s"%regions)
 allign_to_chunksize = cardMaxLba - (cardMaxLba % chunksize)
 allign_to_regions = allign_to_chunksize - (allign_to_chunksize % regions)
 Total_blocks = allign_to_regions
@@ -15,14 +21,22 @@ queue_depth = 32
 count = 0
 blockcount = 0
 current_region = 0
-StartLbalist = [(Total_blocks * i) / regions for i in range(regions)]
-while blockcount < Total_blocks:
 
-	TaskId = count%queue_depth
-	current_region = count%regions
-	StartLba = StartLbalist[current_region]
-	print "write at :: TaskID : %s , current_reg : %s , StartLba : %s"%(TaskId,current_region,StartLba)
-	StartLbalist[current_region] = StartLbalist[current_region]+chunksize
-	blockcount = blockcount + chunksize
-	count += 1
-	print"count : %s"%count
+TaskIdList=[x for x in range(queue_depth)]
+StartLbalist=[]*queue_depth
+
+StartLbas = [(Total_blocks * i) / regions for i in range(regions)]
+log.Info('StartLbas %s'%StartLbas)
+while blockcount < Total_blocks:
+	log.Info('Queing the task')
+	for loop in range(queue_depth):
+		current_region = count%regions
+		StartLbalist.append(StartLbas[current_region])
+		StartLbalist[current_region] = StartLbalist[current_region]+chunksize
+		blockcount = blockcount + chunksize
+		count += 1
+		log.Info("count : %s"%count)
+	log.Info("write at :: TaskID : %s \ncurrent_reg : %s \nStartLba : %s" % (TaskIdList, current_region, StartLbalist))
+	log.Info('Executing the task')
+	for task in TaskIdList:
+		log.Info('Execting :: task : %s , StartLba : %s'%(TaskIdList[task], StartLbalist[task]))
