@@ -32,7 +32,7 @@ while blockcount < Total_blocks:
 	for loop in range(queue_depth):
 		current_region = count%regions
 		StartLbalist.append(StartLbas[current_region])
-		StartLbalist[current_region] = StartLbalist[current_region]+chunksize
+		StartLbalist[current_region] = StartLbalist[current_region]+chunksize	#to update the value with the chunk size for next iteration
 		blockcount = blockcount + chunksize
 		count += 1
 		log.Info("count : %s"%count)
