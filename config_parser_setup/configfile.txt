@@ -1,7 +1,12 @@
-[section1]
-char1 = 1
-long  = 1
+[san_configparser_1]
+char1 =1
+long =1
+#int=1
+intlong=1
 
-[section2]
-clob = 1
-blob  = 1
+[san_configparser_2]
+clob=1
+blob=1
+mylob=1
+zetadope=1
+terafolks=1
