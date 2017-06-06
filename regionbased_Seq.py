@@ -21,22 +21,22 @@ queue_depth = 32
 count = 0
 blockcount = 0
 current_region = 0
-
+regionDiff = Total_blocks/regions
 TaskIdList=[x for x in range(queue_depth)]
-StartLbalist=[]*queue_depth
-
+StartLbalist=[0]*queue_depth
 StartLbas = [(Total_blocks * i) / regions for i in range(regions)]
-log.Info('StartLbas %s'%StartLbas)
+#log.Info('StartLbas %s'%StartLbas)
+print regionDiff
 while blockcount < Total_blocks:
 	log.Info('Queing the task')
 	for loop in range(queue_depth):
 		current_region = count%regions
-		StartLbalist.append(StartLbas[current_region])
-		StartLbalist[current_region] = StartLbalist[current_region]+chunksize	#to update the value with the chunk size for next iteration
+		StartLbas[current_region] = StartLbas[current_region]+chunksize
+		StartLbalist[count % queue_depth] = StartLbas[current_region]-chunksize
 		blockcount = blockcount + chunksize
 		count += 1
 		log.Info("count : %s"%count)
-	log.Info("write at :: TaskID : %s \ncurrent_reg : %s \nStartLba : %s" % (TaskIdList, current_region, StartLbalist))
+	log.Info("write at :: TaskID : %s\nStartLba : %s\n" % (TaskIdList, StartLbalist))
 	log.Info('Executing the task')
 	for task in TaskIdList:
 		log.Info('Execting :: task : %s , StartLba : %s'%(TaskIdList[task], StartLbalist[task]))
