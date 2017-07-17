@@ -28,7 +28,7 @@ StartLbas = [(Total_blocks * i) / regions for i in range(regions)]
 #log.Info('StartLbas %s'%StartLbas)
 print regionDiff
 while blockcount < Total_blocks:
-	log.Info('Queing the task')
+	log.Info('Queuing the task')
 	for loop in range(queue_depth):
 		current_region = count%regions
 		StartLbas[current_region] = StartLbas[current_region]+chunksize
@@ -39,4 +39,4 @@ while blockcount < Total_blocks:
 	log.Info("write at :: TaskID : %s\nStartLba : %s\n" % (TaskIdList, StartLbalist))
 	log.Info('Executing the task')
 	for task in TaskIdList:
-		log.Info('Execting :: task : %s , StartLba : %s'%(TaskIdList[task], StartLbalist[task]))
+		log.Info('Executing :: task : %s , StartLba : %s'%(TaskIdList[task], StartLbalist[task]))
