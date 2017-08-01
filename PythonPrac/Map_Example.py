@@ -203,6 +203,8 @@ def CheckError(ErrorString):
 
 get_error_num = list(map(CheckError,error_name))
 """
-map implementation : map(function name, sequence needed to be operated)
+map implementation : map()
 """
 print get_error_num
+
+import traceback
