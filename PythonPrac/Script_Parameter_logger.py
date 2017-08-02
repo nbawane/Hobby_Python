@@ -1,4 +1,5 @@
 import xlwt
+import re
 
 
 class XlsOpt:
@@ -30,12 +31,21 @@ class FileOpt:
 		self.directioncol	  = 5
 		self.prioritycol      = 6
 		self.scriptname       = None
+		self.scriptnamestartrow = 0
+		self.scriptnameendrow = 0
+		self.scriptnameflag = 0
+		self.iterationnumstartrow = 0
+		self.intrationnumendrow = 0
+		self.iterationnumflag = 0
+
 	def parser(self):
 		self.rownum += 1
 		for line in self.fd:
 			if 'Started' in line:
-				self.scriptname = (line.rstrip()).split(' ')[-1]
-				self.excelopt.write_at_location(self.rownum,self.scriptnamecolumn,self.scriptname)
+				self.write_script_name_merge_rows(line)
+
+			if 'ITERATION' in line:
+				self.write_iteration_name_merge_rows(line)
 
 			if ('CQTaskInformation' in line) or ('CQStartBlockAddr' in line):
 				taskInformation = line[line.rfind('[')+1:line.rfind(']')]
@@ -77,7 +87,21 @@ class FileOpt:
 		for column,key in enumerate(header):
 			self.excelopt.write_at_location(0,column,key)
 
+	def write_script_name_merge_rows(self, line):
 
+		if self.scriptnameflag == 0:
+			self.scriptnamestartrow = self.rownum
+		if self.scriptnameflag == 1:
+			self.scriptnameendrow = self.rownum-1
+			self.excelopt.sheet.write_merge(self.scriptnamestartrow,self.scriptnameendrow,self.scriptnamecolumn,self.scriptnamecolumn,self.scriptname)
+			self.scriptnamestartrow = self.scriptnameendrow+1
+		self.scriptnameflag = 1
+		self.scriptname = (line.rstrip()).split(' ')[-1]
+
+	def write_iteration_name_merge_rows(self,line):
+		self.iterationnum = re.search('(?<=ITERATION )[0-9]', line)
+		self.iterationnum = self.iterationnum.group()
+		self.excelopt.write_at_location(self.rownum, self.iterationnumcol, int(self.iterationnum))
 
 
 if __name__ == '__main__':
