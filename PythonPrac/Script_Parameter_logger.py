@@ -1,6 +1,8 @@
 import xlwt
 import re
-
+'''
+To Do 	  : to give log files as input to the script
+'''
 
 class XlsOpt:
 	def __init__(self):
@@ -30,12 +32,14 @@ class FileOpt:
 		self.lengthcol		  = 4
 		self.directioncol	  = 5
 		self.prioritycol      = 6
-		self.scriptname       = None
+		# self.scriptname       = None
 		self.scriptnamestartrow = 0
 		self.scriptnameendrow = 0
+		self.scriptnamelist = []
 		self.scriptnameflag = 0
+		self.iterationnumlist = []
 		self.iterationnumstartrow = 0
-		self.intrationnumendrow = 0
+		self.iterationnumendrow = 0
 		self.iterationnumflag = 0
 
 	def parser(self):
@@ -54,8 +58,12 @@ class FileOpt:
 				self.glob_dict.update(self.info_dict)
 				if 'CQStartBlockAddr' in line:
 					print self.glob_dict
-					self.rownum += 1
 					self.log_data(self.rownum)
+					self.rownum += 1
+		else:
+			self.write_script_name_merge_rows('EOF')
+			self.write_iteration_name_merge_rows('EOF')
+			self.excelopt.save_file()
 
 					# print self.glob_dict['TaskID'],self.glob_dict['Start Block Address']
 
@@ -88,20 +96,34 @@ class FileOpt:
 			self.excelopt.write_at_location(0,column,key)
 
 	def write_script_name_merge_rows(self, line):
-
+		if line is 'EOF':
+			pass
+		else:
+			self.scriptnamelist.append((line.rstrip()).split(' ')[-1])
 		if self.scriptnameflag == 0:
 			self.scriptnamestartrow = self.rownum
 		if self.scriptnameflag == 1:
 			self.scriptnameendrow = self.rownum-1
-			self.excelopt.sheet.write_merge(self.scriptnamestartrow,self.scriptnameendrow,self.scriptnamecolumn,self.scriptnamecolumn,self.scriptname)
+			self.excelopt.sheet.write_merge(self.scriptnamestartrow,self.scriptnameendrow,self.scriptnamecolumn,self.scriptnamecolumn,self.scriptnamelist[0])
+			del self.scriptnamelist[0]
 			self.scriptnamestartrow = self.scriptnameendrow+1
 		self.scriptnameflag = 1
-		self.scriptname = (line.rstrip()).split(' ')[-1]
+
 
 	def write_iteration_name_merge_rows(self,line):
-		self.iterationnum = re.search('(?<=ITERATION )[0-9]', line)
-		self.iterationnum = self.iterationnum.group()
-		self.excelopt.write_at_location(self.rownum, self.iterationnumcol, int(self.iterationnum))
+		if line is 'EOF':
+			pass
+		else:
+			self.iterationnum = re.search('(?<=ITERATION )[0-9]', line)
+			self.iterationnumlist.append(self.iterationnum.group())
+		if self.iterationnumflag == 0:
+			self.iterationnumstartrow = self.rownum
+		if self.iterationnumflag == 1:
+			self.iterationnumendrow = self.rownum-1
+			self.excelopt.sheet.write_merge(self.iterationnumstartrow,self.iterationnumendrow,self.iterationnumcol,self.iterationnumcol,int(self.iterationnumlist[0]))
+			del self.iterationnumlist[0]
+			self.iterationnumstartrow = self.iterationnumendrow+1
+		self.iterationnumflag =1
 
 
 if __name__ == '__main__':
