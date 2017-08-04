@@ -1,0 +1,1 @@
+{{ referrer.full_name|safe }} invited you to join Zulip
