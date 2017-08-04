@@ -1,5 +1,7 @@
 import xlwt
 import re
+from os import listdir,path
+
 '''
 To Do 	  : to give log files as input to the script
 '''
@@ -9,22 +11,24 @@ class XlsOpt:
 		self.wb 	= xlwt.Workbook()
 		self.sheet 	= self.wb.add_sheet("Sheet1")
 
+
 	def write_at_location(self, row, column, data):
 		self.sheet.write(row, column, data)
 
-	def save_file(self):
+	def save_file(self,xlsname):
 		'''To do : need to provide name flexibility'''
-		self.wb.save("test111.xls")
+		xlsname = xlsname+'.xls'
+		self.wb.save(xlsname)
 
 
 class FileOpt:
 	def __init__(self):
-		self.logpath    = "C:\Results\CA11_CQVolParallelism_CallAll_20170801_174508_8476.log"
-		self.fd         = open(self.logpath)
+		self.logfolder  = "C:\Results\cq_test"
+		self.log		= listdir(self.logfolder)
 		self.glob_dict  = {'Start Block Address':None, 'Priority':None, 'Direction':None, 'TaskID':None, 'NumBlocks':None}
 		self.excelopt   = XlsOpt()
-		self.rownum     = 0
 		self.write_header()
+		self.rownum     = 0
 		self.scriptnamecolumn = 0
 		self.iterationnumcol  = 1
 		self.taskidcol		  = 2
@@ -32,7 +36,6 @@ class FileOpt:
 		self.lengthcol		  = 4
 		self.directioncol	  = 5
 		self.prioritycol      = 6
-		# self.scriptname       = None
 		self.scriptnamestartrow = 0
 		self.scriptnameendrow = 0
 		self.scriptnamelist = []
@@ -43,37 +46,46 @@ class FileOpt:
 		self.iterationnumflag = 0
 
 	def parser(self):
-		self.rownum += 1
-		for line in self.fd:
-			if 'Started' in line:
-				self.write_script_name_merge_rows(line)
 
-			if 'ITERATION' in line:
-				self.write_iteration_name_merge_rows(line)
 
-			if ('CQTaskInformation' in line) or ('CQStartBlockAddr' in line):
-				taskInformation = line[line.rfind('[')+1:line.rfind(']')]
-				tasksplit = taskInformation.split(',')
-				self.info_dict = {(i.split(':')[0]).strip(' '):(i.split(':')[1]) for i in tasksplit}
-				self.glob_dict.update(self.info_dict)
-				if 'CQStartBlockAddr' in line:
-					print self.glob_dict
-					self.log_data(self.rownum)
-					self.rownum += 1
-		else:
-			self.write_script_name_merge_rows('EOF')
-			self.write_iteration_name_merge_rows('EOF')
-			self.excelopt.save_file()
+		for file in self.log:
+			self.__init__()
+			self.rownum += 1  # incremented because of header
+			print "processing file : %s"%file
+			self.xlsname = str(file.split('.')[0])
+			file = path.join(self.logfolder,file)
+			with open(file) as fd:
+				for line in fd:
+					if 'Started' in line:
+						self.write_script_name_merge_rows(line)
 
-					# print self.glob_dict['TaskID'],self.glob_dict['Start Block Address']
+					if 'ITERATION' in line:
+						self.write_iteration_name_merge_rows(line)
 
+					if ('CQTaskInformation' in line) or ('CQStartBlockAddr' in line):
+						taskInformation = line[line.rfind('[')+1:line.rfind(']')]
+						tasksplit = taskInformation.split(',')
+						self.info_dict = {(i.split(':')[0]).strip(' '):(i.split(':')[1]) for i in tasksplit}
+						self.glob_dict.update(self.info_dict)
+						if 'CQStartBlockAddr' in line:
+							# print self.glob_dict
+							self.log_data(self.rownum)
+							self.rownum += 1
+				else:
+					self.write_script_name_merge_rows('EOF')
+					self.write_iteration_name_merge_rows('EOF')
+					self.excelopt.save_file(self.xlsname)
+
+						# print self.glob_dict['TaskID'],self.glob_dict['Start Block Address']
+			print "Done with : %s"%file
+			self.rownum = 0
 	def log_data(self,row):
 		self.write_task_id(row, self.glob_dict['TaskID'])
 		self.write_addr(row, self.glob_dict['Start Block Address'])
 		self.write_length(row,self.glob_dict['NumBlocks'])
 		self.write_direction(row, self.glob_dict['Direction'])
 		self.write_priority(row, self.glob_dict['Priority'])
-		self.excelopt.save_file()
+		self.excelopt.save_file(self.xlsname)
 
 	def write_task_id(self, row ,task_id):
 		self.excelopt.write_at_location(row,self.taskidcol,int(task_id))
@@ -85,10 +97,18 @@ class FileOpt:
 		self.excelopt.write_at_location(row, self.lengthcol, int(length))
 
 	def write_direction(self, row, direction):
-		self.excelopt.write_at_location(row, self.directioncol, int(direction))
+		if int(direction):
+			dirc = 'Read'
+		else:
+			dirc = 'Write'
+		self.excelopt.write_at_location(row, self.directioncol, dirc)
 
 	def write_priority(self,row, priority):
-		self.excelopt.write_at_location(row, self.prioritycol, int(priority))
+		if int(priority):
+			pri = 'High'
+		else:
+			pri = 'Low'
+		self.excelopt.write_at_location(row, self.prioritycol, pri)
 
 	def write_header(self):
 		header = ['Script_Name','ITERATION','TaskID','Start Block Address','NumBlocks', 'Direction','Priority']
