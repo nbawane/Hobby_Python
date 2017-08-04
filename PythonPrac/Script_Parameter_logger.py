@@ -3,7 +3,7 @@ import re
 from os import listdir,path
 
 '''
-To Do 	  : to give log files as input to the script
+To Do 	  : handle If script is failed 
 '''
 
 class XlsOpt:
