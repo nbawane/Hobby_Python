@@ -3,7 +3,7 @@ import re
 from os import listdir, path
 
 '''
-To Do 	  : handle If script is failed 
+To Do 	  : handle If script is failed in log
 '''
 
 
@@ -16,14 +16,14 @@ class XlsOpt:
 		self.sheet.write(row, column, data)
 
 	def save_file(self, xlsname):
-		'''To do : need to provide name flexibility'''
+		#op xls name will be same as input text file name
 		xlsname = xlsname + '.xls'
 		self.wb.save(xlsname)
 
 
 class FileOpt:
 	def __init__(self):
-		self.logfolder = "C:\Results\cq_test"
+		self.logfolder = "C:\Results\cq_test"	#log folder with the desired logs to be parsed
 		self.log = listdir(self.logfolder)
 		self.glob_dict = {'Start Block Address': None, 'Priority': None, 'Direction': None, 'TaskID': None,
 						  'NumBlocks': None}
