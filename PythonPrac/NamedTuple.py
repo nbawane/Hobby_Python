@@ -10,3 +10,4 @@ print 'cache %s'%ins1.Cache
 #cache Disable
 print 'CQ %s'%ins1.CQ
 #CQ Enable
+print 'maint %s'%ins1.maint
