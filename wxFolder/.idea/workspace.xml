@@ -10,91 +10,104 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="wxFolder" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="threadingGUI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threadingGUI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grid.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grid.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="52" column="11" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_controls.py" pinned="false" current-in-tab="true">
-        <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/_controls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1157">
-              <caret line="1143" column="26" lean-forward="false" selection-start-line="1143" selection-start-column="26" selection-end-line="1143" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grid.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/grid.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eg1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eg1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1827">
-              <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_jb_pytest_runner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publisherbase.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/lib/pubsub/core/publisherbase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2646">
-              <caret line="126" column="8" lean-forward="false" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_core.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/_core.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="13046" column="6" lean-forward="false" selection-start-line="13046" selection-start-column="6" selection-end-line="13046" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5237789">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="eg1.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/eg1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="111">
+                  <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_core.py" pinned="false" current-in-tab="false">
+            <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/_core.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="182">
+                  <caret line="14453" column="8" lean-forward="false" selection-start-line="14453" selection-start-column="8" selection-end-line="14453" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_controls.py" pinned="false" current-in-tab="false">
+            <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/_controls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="177">
+                  <caret line="1193" column="0" lean-forward="false" selection-start-line="1193" selection-start-column="0" selection-end-line="1193" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="My_Filter_Widget.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/My_Filter_Widget.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="418">
+                  <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="scrolledpanel.py" pinned="false" current-in-tab="false">
+            <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/lib/scrolledpanel.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="704">
+                  <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_windows.py" pinned="false" current-in-tab="false">
+            <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/_windows.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="20108">
+                  <caret line="915" column="19" lean-forward="false" selection-start-line="915" selection-start-column="19" selection-end-line="915" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="eg1.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/eg1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="44">
+                  <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="eg2.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/eg2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="462">
+                  <caret line="39" column="0" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="39" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,6 +123,7 @@
       <find>hidecol</find>
       <find>setcols</find>
       <find>run</find>
+      <find>test</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -126,9 +140,15 @@
         <option value="$PROJECT_DIR$/csvfile.py" />
         <option value="$PROJECT_DIR$/pandas_example.py" />
         <option value="$PROJECT_DIR$/remove_adjesent_duplicate.py" />
-        <option value="$PROJECT_DIR$/grid.py" />
         <option value="$PROJECT_DIR$/threadingGUI.py" />
+        <option value="$PROJECT_DIR$/Modify_inbiult_widget.py" />
+        <option value="$PROJECT_DIR$/grid.py" />
+        <option value="$PROJECT_DIR$/gridcellchoiceeditor.py" />
+        <option value="$PROJECT_DIR$/nestedpanel.py" />
+        <option value="$PROJECT_DIR$/My_ComboCtrlBox.py" />
         <option value="$PROJECT_DIR$/eg1.py" />
+        <option value="$PROJECT_DIR$/eg2.py" />
+        <option value="$PROJECT_DIR$/My_Filter_Widget.py" />
       </list>
     </option>
   </component>
@@ -154,6 +174,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,17 +189,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
-    <property name="last_opened_file_path" value="C:/GoLogicInterpreter/Code" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DesignProblemCourse" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings is-module-sdk="true">
+      <console-settings module-name="wxFolder" is-module-sdk="true">
         <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="wxFolder" />
       </console-settings>
     </option>
   </component>
@@ -194,8 +216,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.eg1">
-    <configuration default="false" name="pandas_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.My_Filter_Widget">
+    <configuration default="false" name="My_ComboCtrlBox" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -207,13 +229,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="wxFolder" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My_ComboCtrlBox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="remove_adjesent_duplicate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="nestedpanel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -225,7 +247,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="wxFolder" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/remove_adjesent_duplicate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nestedpanel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,7 +271,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="grid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="eg2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -261,26 +283,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="wxFolder" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grid.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eg2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in threadingGUI.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="My_Filter_Widget" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="wxFolder" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/threadingGUI.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My_Filter_Widget.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -349,19 +373,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.pandas_example" />
-      <item index="1" class="java.lang.String" itemvalue="Python.remove_adjesent_duplicate" />
+      <item index="0" class="java.lang.String" itemvalue="Python.My_ComboCtrlBox" />
+      <item index="1" class="java.lang.String" itemvalue="Python.nestedpanel" />
       <item index="2" class="java.lang.String" itemvalue="Python.eg1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.grid" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in threadingGUI.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.eg2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.My_Filter_Widget" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.eg1" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in threadingGUI.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.grid" />
-        <item index="3" class="java.lang.String" itemvalue="Python.remove_adjesent_duplicate" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pandas_example" />
+        <item index="0" class="java.lang.String" itemvalue="Python.My_Filter_Widget" />
+        <item index="1" class="java.lang.String" itemvalue="Python.eg1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.eg2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.My_ComboCtrlBox" />
+        <item index="4" class="java.lang.String" itemvalue="Python.nestedpanel" />
       </list>
     </recent_temporary>
   </component>
@@ -382,23 +406,26 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_backgroundcolor_TestFrame - 2017.08.28 at 17h 19m 54s.xml">
-      <configuration name="py.test for backgroundcolor.TestFrame" configurationId="tests" />
+    <history-entry file="py_test_for_Modify_inbiult_widget_TestPanel - 2017.09.08 at 11h 58m 42s.xml">
+      <configuration name="py.test for Modify_inbiult_widget.TestPanel" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_backgroundcolor_TestFrame___init__ - 2017.08.28 at 01h 07m 20s.xml">
-      <configuration name="py.test for backgroundcolor.TestFrame.__init__" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_backgroundcolor_TestFrame___init__ - 2017.08.28 at 01h 07m 29s.xml">
-      <configuration name="py.test for backgroundcolor.TestFrame.__init__" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_backgroundcolor_TestFrame___init__ - 2017.08.28 at 12h 17m 18s.xml">
-      <configuration name="py.test for backgroundcolor.TestFrame.__init__" configurationId="tests" />
+    <history-entry file="py_test_for_Modify_inbiult_widget_TestPanel - 2017.09.08 at 11h 59m 53s.xml">
+      <configuration name="py.test for Modify_inbiult_widget.TestPanel" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_for_rowcol_TestPanel___init__ - 2017.08.23 at 15h 41m 27s.xml">
       <configuration name="py.test for rowcol.TestPanel.__init__" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_for_rowcol_TestPanel___init__ - 2017.08.23 at 15h 41m 45s.xml">
       <configuration name="py.test for rowcol.TestPanel.__init__" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_Modify_inbiult_widget_py - 2017.09.08 at 11h 55m 00s.xml">
+      <configuration name="py.test in Modify_inbiult_widget.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_Modify_inbiult_widget_py - 2017.09.08 at 12h 50m 20s.xml">
+      <configuration name="py.test in Modify_inbiult_widget.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_Modify_inbiult_widget_py - 2017.09.08 at 12h 51m 31s.xml">
+      <configuration name="py.test in Modify_inbiult_widget.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_backgroundcolor_py - 2017.08.28 at 17h 54m 49s.xml">
       <configuration name="py.test in backgroundcolor.py" configurationId="tests" />
@@ -410,21 +437,30 @@
       <configuration name="py.test in threadingGUI.py" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="1" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5861183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1285347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3655914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25578406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33653846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38844085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46505377" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18951613" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28470436" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3360215" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38844085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -433,6 +469,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46505377" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09677419" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3360215" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1285347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28470436" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38844085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -460,43 +516,17 @@
           <line>2732</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/eg1.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/wx/grid.pyi" />
-    <entry file="file://$PROJECT_DIR$/rowcol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tetris_GUI_Example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#32#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-762174762/wx/_core/Frame.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-762174762/wx/_core/TopLevelWindow.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-762174762/wx/_core/Window.py" />
-    <entry file="file://C:/Python27/Lib/site-packages/wx/__init__.py" />
-    <entry file="file://C:/Python27/Lib/site-packages/wx/core.py" />
-    <entry file="file://$PROJECT_DIR$/grid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/wx/grid.pyi" />
     <entry file="file://$PROJECT_DIR$/rowcol.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1533">
@@ -674,65 +704,136 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2646">
           <caret line="126" column="8" lean-forward="false" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadingGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="231">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/_gdi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109326">
+          <caret line="5207" column="8" lean-forward="false" selection-start-line="5207" selection-start-column="8" selection-end-line="5207" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gridcellchoiceeditor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4977">
+          <caret line="238" column="23" lean-forward="false" selection-start-line="238" selection-start-column="23" selection-end-line="238" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nestedpanel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/grid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="29736">
+          <caret line="1417" column="41" lean-forward="false" selection-start-line="1417" selection-start-column="41" selection-end-line="1417" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/combo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="93" column="14" lean-forward="false" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_ComboCtrlBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="67" column="41" lean-forward="false" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modify_inbiult_widget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="392" column="21" lean-forward="false" selection-start-line="392" selection-start-column="21" selection-end-line="392" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/_windows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20108">
+          <caret line="915" column="19" lean-forward="false" selection-start-line="915" selection-start-column="19" selection-end-line="915" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grid.py">
+    <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/lib/scrolledpanel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="52" column="11" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadingGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/_core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="13046" column="6" lean-forward="false" selection-start-line="13046" selection-start-column="6" selection-end-line="13046" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eg1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1827">
-          <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+        <state relative-caret-position="704">
+          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/_controls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1157">
-          <caret line="1143" column="26" lean-forward="false" selection-start-line="1143" selection-start-column="26" selection-end-line="1143" selection-end-column="26" />
+        <state relative-caret-position="177">
+          <caret line="1193" column="0" lean-forward="false" selection-start-line="1193" selection-start-column="0" selection-end-line="1193" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eg2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/wx-2.9.3-msw/wx/_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14453" column="8" lean-forward="false" selection-start-line="14453" selection-start-column="8" selection-end-line="14453" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Filter_Widget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eg1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -48,7 +48,7 @@ class MyForm(wx.Frame):
 
             self.grid.SetColSize(2,200)
             quo,rem = divmod(self.count,1)
-
+            wx.CheckListBox()
 if __name__ == "__main__":
     wx.ComboBox()
     app = wx.App()

@@ -82,5 +82,6 @@ class MyForm(wx.Frame):
 # Run the program
 if __name__ == "__main__":
 	app = wx.PySimpleApp()
+	wx.ComboCtrl()
 	frame = MyForm().Show()
 	app.MainLoop()

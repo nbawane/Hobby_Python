@@ -1,102 +1,103 @@
-#!/usr/bin/python
-
-# burning.py
-
 import wx
+import wx.lib.scrolledpanel as scrolled
 
+class MyFrame(wx.Frame):
+    def __init__(self, parent):
+        wx.Frame.__init__(self, parent, -1, "CheckBox Dialog",size=(400,250))
+        self.panel = wx.Panel(self)
+        sizer = wx.BoxSizer(wx.VERTICAL)
+        self.log = wx.TextCtrl(self.panel, wx.ID_ANY, size=(350,150),style = wx.TE_MULTILINE|wx.TE_READONLY|wx.VSCROLL)
+        self.button = wx.Button(self.panel, label="Choose Colours")
+        sizer.Add(self.log, 0, wx.EXPAND | wx.ALL, 10)
+        sizer.Add(self.button, 0, wx.EXPAND | wx.ALL, 10)
+        self.panel.SetSizer(sizer)
+        self.Bind(wx.EVT_BUTTON, self.OnButton)
+        self.panel.options = ['Red','Green','Black','White','Orange','Blue','Yellow']
+        self.panel.selected = [0,0,0,0,0,0,0]
 
-class Widget(wx.Panel):
-	def __init__(self, parent, id):
-		wx.Panel.__init__(self, parent, id, size=(-1, 30), style=wx.SUNKEN_BORDER)
+    def OnButton(self,event):
+        dlg = ShowOptions(parent = self.panel)
+        dlg.ShowModal()
+        if dlg.result:
+            result_text = 'Selected: '
+            for item in range(len(dlg.result)):
+                if dlg.result[item]:
+                    result_text += self.panel.options[item]+' '
+            self.log.AppendText(result_text+'\n\n')
+            self.panel.selected = dlg.result
+        else:
+            self.log.AppendText("No selection made\n\n")
+        dlg.Destroy()
 
-		self.parent = parent
-		self.font = wx.Font(9, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL,
-							wx.FONTWEIGHT_NORMAL, False, 'Courier 10 Pitch')
+class ShowOptions(wx.Dialog):
+    def __init__(self, parent):
+        self.options = parent.options
+        self.selected = parent.selected
+        o_str = ''
+        for item in self.options:
+            o_str = o_str+item+','
+        wx.Dialog.__init__(self, parent, wx.ID_ANY, "CheckBoxes", size= (400,250))
+        self.top_panel = wx.Panel(self,wx.ID_ANY)
+        self.avail_options = wx.TextCtrl(self.top_panel, wx.ID_ANY, o_str,style = wx.TE_READONLY)
+        self.bot_panel = wx.Panel(self,wx.ID_ANY)
+        self.scr_panel = scrolled.ScrolledPanel(self,wx.ID_ANY)
+        top_sizer = wx.BoxSizer(wx.VERTICAL)
+        scr_sizer = wx.BoxSizer(wx.VERTICAL)
+        bot_sizer = wx.BoxSizer(wx.VERTICAL)
+        self.items = []
+        for item in range(len(self.options)):
+            self.item = wx.CheckBox(self.scr_panel,-1,self.options[item])
+            self.item.SetValue(self.selected[item])
+            self.items.append(self.item)
+            self.item.Bind(wx.EVT_CHECKBOX, self.Select)
+        self.saveButton =wx.Button(self.bot_panel, label="Save")
+        self.closeButton =wx.Button(self.bot_panel, label="Cancel")
+        self.saveButton.Bind(wx.EVT_BUTTON, self.SaveOpt)
+        self.closeButton.Bind(wx.EVT_BUTTON, self.OnQuit)
+        self.Bind(wx.EVT_CLOSE, self.OnQuit)
 
-		self.Bind(wx.EVT_PAINT, self.OnPaint)
-		self.Bind(wx.EVT_SIZE, self.OnSize)
+        top_sizer.Add(self.avail_options,0,flag=wx.EXPAND)
+        for item in self.items:
+            scr_sizer.Add(item,0)
+        bot_sizer.Add(self.saveButton,0,flag=wx.CENTER)
+        bot_sizer.Add(self.closeButton,0,flag=wx.CENTER)
+        self.scr_panel.SetupScrolling()
 
-	def OnPaint(self, event):
+        self.top_panel.SetSizer(top_sizer)
+        self.scr_panel.SetSizer(scr_sizer)
+        self.bot_panel.SetSizer(bot_sizer)
 
-		num = range(75, 700, 75)
-		dc = wx.PaintDC(self)
-		dc.SetFont(self.font)
-		w, h = self.GetSize()
+        mainsizer = wx.BoxSizer(wx.VERTICAL)
+        mainsizer.Add(self.top_panel,0,flag=wx.EXPAND)
+        mainsizer.Add(self.scr_panel,1,flag=wx.EXPAND)
+        mainsizer.Add(self.bot_panel,0,flag=wx.EXPAND)
+        self.SetSizer(mainsizer)
+        self.Select(None)
+        self.Show()
 
-		self.cw = self.parent.GetParent().cw
+    def Select(self, event):
+        selection = []
+        for item in self.items:
+            x = item.GetValue()
+            selection.append(x)
+        selected_text = ''
+        for item in range(len(selection)):
+            if selection[item]:
+                    selected_text += self.options[item]+' '
+            self.avail_options.SetValue(selected_text)
 
-		step = int(round(w / 10.0))
+    def OnQuit(self, event):
+        self.result = None
+        self.Destroy()
 
-		j = 0
-
-		till = (w / 750.0) * self.cw
-		full = (w / 750.0) * 700
-
-		if self.cw >= 700:
-			dc.SetPen(wx.Pen('#FFFFB8'))
-			dc.SetBrush(wx.Brush('#FFFFB8'))
-			dc.DrawRectangle(0, 0, full, 30)
-			dc.SetPen(wx.Pen('#ffafaf'))
-			dc.SetBrush(wx.Brush('#ffafaf'))
-			dc.DrawRectangle(full, 0, till - full, 30)
-		else:
-			dc.SetPen(wx.Pen('#FFFFB8'))
-			dc.SetBrush(wx.Brush('#FFFFB8'))
-			dc.DrawRectangle(0, 0, till, 30)
-
-		dc.SetPen(wx.Pen('#5C5142'))
-
-		for i in range(step, 10 * step, step):
-			dc.DrawLine(i, 0, i, 6)
-			width, height = dc.GetTextExtent(str(num[j]))
-			dc.DrawText(str(num[j]), i - width / 2, 8)
-			j = j + 1
-
-	def OnSize(self, event):
-		self.Refresh()
-
-
-class Burning(wx.Frame):
-	def __init__(self, parent, id, title):
-		wx.Frame.__init__(self, parent, id, title, size=(330, 200))
-
-		self.cw = 75
-
-		panel = wx.Panel(self, -1)
-		CenterPanel = wx.Panel(panel, -1)
-		self.sld = wx.Slider(CenterPanel, -1, 75, 0, 750, (-1, -1),
-							 (150, -1), wx.SL_LABELS)
-
-		vbox = wx.BoxSizer(wx.VERTICAL)
-		hbox = wx.BoxSizer(wx.HORIZONTAL)
-		hbox2 = wx.BoxSizer(wx.HORIZONTAL)
-		hbox3 = wx.BoxSizer(wx.HORIZONTAL)
-
-		self.wid = Widget(panel, -1)
-		hbox.Add(self.wid, 1, wx.EXPAND)
-
-		hbox2.Add(CenterPanel, 1, wx.EXPAND)
-		hbox3.Add(self.sld, 0, wx.TOP, 35)
-
-		CenterPanel.SetSizer(hbox3)
-
-		vbox.Add(hbox2, 1, wx.EXPAND)
-		vbox.Add(hbox, 0, wx.EXPAND)
-
-		self.Bind(wx.EVT_SCROLL, self.OnScroll)
-
-		panel.SetSizer(vbox)
-
-		self.sld.SetFocus()
-
-		self.Centre()
-		self.Show(True)
-
-	def OnScroll(self, event):
-		self.cw = self.sld.GetValue()
-		self.wid.Refresh()
-
+    def SaveOpt(self, event):
+        self.result = []
+        for item in self.items:
+            x = item.GetValue()
+            self.result.append(x)
+        self.Destroy()
 
 app = wx.App()
-Burning(None, -1, 'Burning widget')
+frame = MyFrame(None)
+frame.Show()
 app.MainLoop()
