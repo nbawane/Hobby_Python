@@ -2,8 +2,8 @@ import time
 import wx
 
 from threading import Thread
-from wx.lib.pubsub import Publisher
-
+from wx.lib.pubsub import setuparg1
+from wx.lib.pubsub import
 
 ########################################################################
 class TestThread(Thread):
@@ -23,7 +23,7 @@ class TestThread(Thread):
 			time.sleep(10)
 			wx.CallAfter(self.postTime, i)
 		time.sleep(5)
-		wx.CallAfter(Publisher().sendMessage, "update", "Thread finished!")
+		wx.CallAfter(pub.sendMessage, "update", "Thread finished!")
 
 	# ----------------------------------------------------------------------
 	def postTime(self, amt):
@@ -31,7 +31,7 @@ class TestThread(Thread):
 		Send time to GUI
 		"""
 		amtOfTime = (amt + 1) * 10
-		Publisher().sendMessage("update", amtOfTime)
+		pub.sendMessage("update", amtOfTime)
 
 
 ########################################################################
@@ -53,7 +53,7 @@ class MyForm(wx.Frame):
 		panel.SetSizer(sizer)
 
 		# create a pubsub receiver
-		Publisher().subscribe(self.updateDisplay, "update")
+		pub.subscribe(self.updateDisplay, "update")
 
 	# ----------------------------------------------------------------------
 	def onButton(self, event):

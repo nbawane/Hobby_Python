@@ -1,0 +1,10 @@
+('C:\\Hobby_codes\\Hobby_codes\\PythonPrac\\build\\Function_arguments_bit_pattern\\pyreadline-2.0-py2.7-win32.egg',
+ None,
+ set(['*.py', '*.pyc', '*.pyd', '*.pyo', '*.so', 'EGG-INFO']),
+ 'DATA',
+ [('pyreadline-2.0-py2.7.egg-info',
+   'C:\\Hobby_codes\\Hobby_codes\\PythonPrac\\build\\Function_arguments_bit_pattern\\pyreadline-2.0-py2.7-win32.egg\\pyreadline-2.0-py2.7.egg-info',
+   'DATA'),
+  ('pyreadline\\configuration\\pyreadlineconfig.ini',
+   'C:\\Hobby_codes\\Hobby_codes\\PythonPrac\\build\\Function_arguments_bit_pattern\\pyreadline-2.0-py2.7-win32.egg\\pyreadline\\configuration\\pyreadlineconfig.ini',
+   'DATA')])

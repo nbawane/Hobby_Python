@@ -1,20 +1,19 @@
 import wx
 import wx.grid as gridlib
-import time
+
 
 class MyForm(wx.Frame):
-    def __init__(self,app):
+    def __init__(self):
         ##
         # constructor to create the basic frame
         wx.Frame.__init__(self, None, wx.ID_ANY, "Tool")
 
-        # Add a panel so it looks the correct on all platforms
-        self.app = app
+        self.gridevent = gridlib.GridEvent()
         panel = wx.Panel(self, wx.ID_ANY)
         self.grid = gridlib.Grid(panel)
-        rows = 4
-        column = 1000
-        self.grid.CreateGrid(column, rows)
+        column = 4
+        row = 1000
+        self.grid.CreateGrid(row, column)
         self.count = 0
         self.button = wx.Button(panel, label="Test")
 
@@ -25,32 +24,38 @@ class MyForm(wx.Frame):
         self.grid.SetColLabelValue(1, "CMD")
         self.grid.SetColLabelValue(2, "Address")
         self.grid.SetColLabelValue(3, "Data")
+        self.Bind(gridlib.EVT_GRID_CELL_RIGHT_CLICK,self.onrightclick)
+        # self.grid.ShowRow()
 
         # Few More operations to calculate CMD,Timestamp field
-        # self.display = wx.ComboBox(self, -1)
-        # self.Show()
+
         sizer = wx.BoxSizer(wx.VERTICAL)
         sizer.Add(self.grid, 1, wx.EXPAND)
         # sizer.Add(self.display,0,wx.EXPAND)
         panel.SetSizer(sizer)
-        self.Show()
-        for i in range(10):
+        for i in range(100):
             self.count += 1
             self.grid.SetCellValue(self.count,1,'CMD4')
             self.grid.SetCellValue(self.count,0,str(self.count))
             self.grid.SetCellValue(self.count, 2, "Extracted Address")
             self.grid.SetCellValue(self.count, 3, "Extracted Data")
-            time.sleep(0.5)
             if self.count%2==0:
-                self.grid.HideCol(1)
-            else:
-                self.grid.ShowCol(1)
+                self.grid.HideRow(self.count)
 
-            self.grid.SetColSize(2,200)
-            quo,rem = divmod(self.count,1)
-            wx.CheckListBox()
+            self.grid.DeleteRows()
+    def onrightclick(self,evt):
+        print "OnLabelRightDClick: (%d,%d) %s\n" % (evt.GetRow(),
+                                                    evt.GetCol(),
+                                                    evt.GetPosition())
+        col,row = evt.GetRow(),evt.GetCol()
+        print 'printing event',evt
+        print "%d,%d"%(col,row)
+        print self.grid.GetCellValue(col,row)
+        self.grid.SetCellBackgroundColour()
+
 if __name__ == "__main__":
-    wx.ComboBox()
+
     app = wx.App()
-    frame = MyForm(app)
+    frame = MyForm()
+    frame.Show()
     app.MainLoop()

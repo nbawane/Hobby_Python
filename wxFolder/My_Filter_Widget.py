@@ -1,38 +1,52 @@
 import wx
 
-class FilterWidget(wx.Frame):
-	def __init__(self,parent = None):
-		wx.Frame.__init__(self,parent,-1,"Filter",size=(300,200))
+class ColumnSelect(wx.Frame):
+	def __init__(self):
+		parent = None
+		self.columns = {'Timestamp(ns)': 0,
+		 'Chip': 1,
+		 'Event': 2,
+		 'AddrMap': 3,
+		 'Ready/Busy(ns)': 4,
+		 'CMD': 5,
+		 'Address': 6,
+		 'Data': 7,
+		 'DataSize(Bytes)': 8}
 
-		self.top_panel = wx.Panel(self)
-		self.bot_panel = wx.Panel(self, wx.ID_ANY)
+		wx.Frame.__init__(self,parent, -1, 'Column Select', size=(300, 200))
+		self.panel = wx.Panel(self)
 		sizer = wx.BoxSizer(wx.VERTICAL)
-		bottom_sizer = wx.BoxSizer(wx.VERTICAL)
-		choices = ['block','die','plane','chip','block','die','plane','chip','block','die','plane','chip','block','die','plane','chip','block','die','plane','chip']
-		self.checklistbox = wx.CheckListBox(self.top_panel,-1,choices=choices,size=(200,100))
-		sizer.Add(self.checklistbox,0, wx.EXPAND | wx.ALL, 10)
-		self.Bind(wx.EVT_CHECKLISTBOX,self.EvtCheckListBox,self.checklistbox)
 
-		self.applyfilter = wx.Button(self.bot_panel,-1,label = 'Apply')
-		self.Bind(wx.EVT_BUTTON,self.onApplyFilter,self.applyfilter)
-		bottom_sizer.Add(self.applyfilter	,1,wx.EXPAND | wx.ALL, 10)
+		controlsizer = wx.BoxSizer(wx.VERTICAL)
+		checkboxsizer = wx.BoxSizer(wx.VERTICAL)
 
-		self.top_panel.SetSizer(sizer)
-		self.bot_panel.SetSizer(bottom_sizer)
+		textone = wx.StaticText(self,label='Select Columns to hide')
+		checkboxsizer.Add(textone)
+		checkboxsizer.AddSpacer(10)
+		for column_name in self.columns.keys():
+			checkboxobj = wx.CheckBox(self,label=column_name)
+			checkboxsizer.Add(checkboxobj)
+			checkboxobj.Bind(wx.EVT_CHECKBOX,self.onSelect)
 
-		mainsizer = wx.BoxSizer(wx.VERTICAL)
-		mainsizer.Add(self.top_panel,0,wx.EXPAND)
-		mainsizer.Add(self.bot_panel,0,wx.EXPAND)
+		applybutton = wx.Button(self,label='apply')
 
-		self.SetSizer(mainsizer)
-		self.Show()
+		controlsizer.Add(applybutton)
 
-	def EvtCheckListBox(self, event):
-		index = event.GetSelection()
-		label = self.checklistbox.GetString(index)
-		self.checklistbox.SetSelection(index)  # so that (un)checking also selects (moves the highlight)
+		sizer.Add(self.panel)
 
-	def onApplyFilter(self,event):
-		pass
+		sizer.Add(checkboxsizer)
+		sizer.AddSpacer(10)
+		sizer.Add(controlsizer)
 
+		self.SetSizer(sizer)
+
+	def onSelect(self,event):
+		obj = event.GetEventObject()
+		print obj.GetLabel()
+		wx.PyCommandEvent()
+
+app = wx.App()
+frame = ColumnSelect()
+frame.Show()
+app.MainLoop()
 

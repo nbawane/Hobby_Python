@@ -11,14 +11,14 @@ class log:
 		self.init_logger()
 
 	def init_logger(self):
-		print 'logger initiated'
+		# print 'logger initiated'
 		if path.exists(self.Log_file):
 			remove(self.Log_file)
-		logging.basicConfig(format='%(asctime)s %(message)s',filename=self.Log_file,level=logging.DEBUG)
+		logging.basicConfig(format='%(message)s',filename=self.Log_file,level=logging.DEBUG)
 
-	def Info(self,str):
-		logging.info(str)
-		print str
+	def Info(self,stri):
+		logging.info(stri)
+		print (stri)
 
 
 
