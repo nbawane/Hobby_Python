@@ -205,6 +205,6 @@ get_error_num = list(map(CheckError,error_name))
 """
 map implementation : map()
 """
-print get_error_num
+print() get_error_num)
 
 import traceback

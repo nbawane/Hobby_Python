@@ -1,12 +1,15 @@
-#decorators
+def smart_divide(func):
+   def inner(a,b):
+      print("I am going to divide",a,"and",b)
+      if b == 0:
+         print("Whoops! cannot divide")
+         return
 
-def brokerage(amount):
-	result = amount *0.3
-	return result	
+      return func(a,b)
+   return inner
 
-@brokerage	
-def buy_house(amount):
-	
-	return amount
-	
-print "brokerage ",buy_house(100000)
+@smart_divide
+def divide(a,b):
+    return a/b
+
+divide(1,0)

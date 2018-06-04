@@ -1,6 +1,6 @@
 def kwargs_try(**kwargs):
     for key in kwargs:
-        print "Key [%s] : value [%s] "%(key,kwargs[key])
+        print( "Key [%s] : value [%s] "%(key,kwargs[key]))
 
 #this feature can be used as a dictionary
 

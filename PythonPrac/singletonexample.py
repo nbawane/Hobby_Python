@@ -1,3 +1,11 @@
+'''
+steps:
+1.pass a class to singleton method
+2.singleton method will return function address
+3.that function will get called and add the instance in dictionary
+4. and return the instance
+'''
+
 def singleton(cls):
     instances = {}
     def getinstance():
