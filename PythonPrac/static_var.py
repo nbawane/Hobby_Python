@@ -8,7 +8,10 @@ class name:
 
 a = name(123)
 a.count +=10
-print a.count
-print name.count
+print (a.count)
+print (name.count)
 name.count += 9
-print name.count
+print (name.count)
+print(a.count)
+b= name(12)
+print(b.count)

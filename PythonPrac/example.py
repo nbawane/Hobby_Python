@@ -1,6 +1,3 @@
-def main():
-	print "function : ",di()[1]
-def retdic():
-	di = {1:"adf",8:"aseww",4:"ppop"}
-	return di
-main()	
+a = [1,2,3,4]
+
+print(list(filter(lambda x:x%2==0,a)))
